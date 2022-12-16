@@ -1,3 +1,8 @@
+# Custom, added by jaguilar
+data/
+test/
+
+# Python gitignore template provided by Github
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
