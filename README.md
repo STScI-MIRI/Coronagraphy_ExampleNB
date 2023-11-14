@@ -7,6 +7,8 @@ Several notebooks demonstrating how to use the pipeline for different use cases 
 
 ## Older pipeline notebooks
 
+These have been moved to the folder [old_pipeline_demos](old_pipeline_demos).
+
 ### Background subtraction
 [Background_subtraction_and_Stage3-HD141569A.ipynb](https://github.com/STScI-MIRI/Coronagraphy_ExampleNB/blob/main/Background_subtraction_and_Stage3-HD141569A.ipynb) 
 
