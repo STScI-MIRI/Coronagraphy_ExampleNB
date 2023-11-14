@@ -5,11 +5,13 @@ Example notebooks for reducing MIRI coronagraphic observations with the [officia
 ## General JWST calibration pipeline help
 
 We refer users to the [STScI JWebbinar repository](https://www.stsci.edu/jwst/science-execution/jwebbinars) for help on installing and running the pipeline. The following JWebbinars are particularly relevant:
-(before launch and commissioning)
+
+Before launch and commissioning:
 - JWebbinar 1: Pipeline Information and Data Products
 - JWebbinar 3: Pipeline: Imaging Mode
 - JWebbinar 12: JWST Pipeline 101
-(after launch and commissioning)
+
+After launch and commissioning:
 - JWebbinar 18: JWST Pipeline refresher 
 - JWebbinar 19: ERS: Reducing & Analyzing JWST Coronagraphic Data with spaceKLIP 
 - JWebbinar 20: JWST Science Use Cases
@@ -36,7 +38,7 @@ Several notebooks demonstrating how to use the pipeline for different use cases 
 
    6. [pipeline_demos/full_miri_coron_pipeline.ipynb](full_miri_coron_pipeline.ipynb) -> run all stages of the pipeline on the full observing sequence. 
 
-These notebooks supersede the older pipeline demonstration notebooks below. These are preserved because although they are outdated, they do contain potentially useful information.
+These notebooks supersede the older pipeline demonstration notebooks below, which are preserved because although they are outdated, they do contain potentially useful information.
 
 ## Older pipeline notebooks
 
