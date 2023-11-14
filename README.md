@@ -28,8 +28,11 @@ Several notebooks demonstrating how to use the pipeline for different use cases 
    1. [pipeline_demos/calwebb_image2-single_exposure.ipynb](calwebb_image2-single_exposure.ipynb) -> run and configure each step of Stage 2 separately for a single exposure.
    2. [calwebb_image2-all_exposures.ipynb](pipeline_demos/calwebb_image2-all_exposures.ipynb) -> run Stage 2 on all the exposures associated with the observing sequence, using custom-generated association files to link background observations and enable background subtraction.
 3. Stage 3
+
    [pipeline_demos/calwebb_coron3.ipynb](calwebb_coron3.ipynb) -> run Stage 3 on the flux-calibrated and background-subtracted science and PSF reference exposures using a custom association file.
+
 4. Full pipeline
+
    [pipeline_demos/full_miri_coron_pipeline.ipynb](full_miri_coron_pipeline.ipynb) -> run all stages of the pipeline on the full observing sequence. 
 
 These notebooks supersede the older pipeline demonstration notebooks below. These are preserved because although they are outdated, they do contain potentially useful information.
