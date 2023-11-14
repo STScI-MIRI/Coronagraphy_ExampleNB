@@ -2,6 +2,9 @@
 data/
 test/
 
+*fits
+*json
+
 # Python gitignore template provided by Github
 # Byte-compiled / optimized / DLL files
 __pycache__/
