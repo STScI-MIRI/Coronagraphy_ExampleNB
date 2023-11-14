@@ -27,16 +27,16 @@ Several notebooks demonstrating how to use the pipeline for different use cases 
    1. [calwebb_detector1-single_exposure.ipynb](pipeline_demos/calwebb_detector1-single_exposure.ipynb) -> run and configure each step of Stage 1 separately for a single exposure.
    2. [calwebb_detector1-all_exposures.ipynb](pipeline_demos/calwebb_detector1-all_exposures.ipynb) -> run Stage 1 on all the exposures associated with the observing sequence
 ### Stage 2
-   3. [pipeline_demos/calwebb_image2-single_exposure.ipynb](calwebb_image2-single_exposure.ipynb) -> run and configure each step of Stage 2 separately for a single exposure.
+   3. [calwebb_image2-single_exposure.ipynb](pipeline_demos/calwebb_image2-single_exposure.ipynb) -> run and configure each step of Stage 2 separately for a single exposure.
    4. [calwebb_image2-all_exposures.ipynb](pipeline_demos/calwebb_image2-all_exposures.ipynb) -> run Stage 2 on all the exposures associated with the observing sequence, using custom-generated association files to link background observations and enable background subtraction.
 
 ### Stage 3
 
-   5. [pipeline_demos/calwebb_coron3.ipynb](calwebb_coron3.ipynb) -> run Stage 3 on the flux-calibrated and background-subtracted science and PSF reference exposures using a custom association file.
+   5. [calwebb_coron3.ipynb](pipeline_demos/calwebb_coron3.ipynb) -> run Stage 3 on the flux-calibrated and background-subtracted science and PSF reference exposures using a custom association file.
 
 ### Full pipeline
 
-   6. [pipeline_demos/full_miri_coron_pipeline.ipynb](full_miri_coron_pipeline.ipynb) -> run all stages of the pipeline on the full observing sequence. 
+   6. [full_miri_coron_pipeline.ipynb](pipeline_demos/full_miri_coron_pipeline.ipynb) -> run all stages of the pipeline on the full observing sequence. 
 
 These notebooks supersede the older pipeline demonstration notebooks below, which are preserved because although they are outdated, they do contain potentially useful information.
 
