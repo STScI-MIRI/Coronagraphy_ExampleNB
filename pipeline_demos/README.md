@@ -1,8 +1,11 @@
-# Coronagraphy Pipeline Tutorial
+# Coronagraphy Pipeline Example Notebooks
 
-This tutorial guides users through running the jwst calibration pipeline on MIRI coronagraphy data, using the JWST-ERS-1386 program's observations of HIP 65426 as an example. We show how to customize the pipeline at the stage level and at the individual step level. We do not show how to override reference files.
 
-The pipeline consists of 3 stages:
+## Introduction
+
+These tutorials guide users through running the jwst calibration pipeline on MIRI coronagraphy data, using the JWST-ERS-1386 program's observations of HIP 65426 as an example. We show how to customize the pipeline at the stage level and at the individual step level. We do not show how to override reference files.
+
+The pipeline consists of 3 stages: 
 
 1. Stage 1: detector-level corrections and "ramps to slopes". 
     This stage converts the data from units of uncalibrated "DN" into the rate unit "DN/s" by performing linearity corrections and slope-fitting to the groups that comprise each integration.
@@ -11,24 +14,24 @@ The pipeline consists of 3 stages:
 3. Stage 3: PSF subtraction
     This stage constructs a PSF from the PSF reference targets and subtracts it from the science target(s) using the KLIP algorithm. If more than one roll is used to observe the science target, it derotates and co-adds them.
 
-Pipeline documentation is available here: 
+Pipeline documentation is available here: https://jwst-pipeline.readthedocs.io/en/latest/
 
 
 ## Requirements
 
 The notebooks make use of the following Python modules:
 
-Standard
+Python Standard Library
 - os
 - collections
 - pathlib
 
-Non-standard
+Non-Standard Library packages
 - numpy
 - pandas
 - matplotlib
 
-Astronomy-specific
+Astronomy-specific packages
 - astropy
 - astroquery
 - jwst
