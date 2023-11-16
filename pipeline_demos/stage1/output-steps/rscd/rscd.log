@@ -1,0 +1,7 @@
+2023-11-16 11:41:00,055 - stpipe.RscdStep - INFO - RscdStep instance created.
+2023-11-16 11:41:00,127 - stpipe.RscdStep - INFO - Step RscdStep running with args (<RampModel(19, 100, 224, 288) from jw01386007001_04101_00001_mirimage_linearitystep.fits>,).
+2023-11-16 11:41:00,127 - stpipe.RscdStep - INFO - Step RscdStep parameters are: {'pre_hooks': [], 'post_hooks': [], 'output_file': None, 'output_dir': 'stage1/output-steps/rscd', 'output_ext': '.fits', 'output_use_model': False, 'output_use_index': True, 'save_results': True, 'skip': False, 'suffix': None, 'search_output_file': True, 'input_dir': '', 'type': 'baseline'}
+2023-11-16 11:41:00,149 - stpipe.RscdStep - INFO - Using RSCD reference file /Volumes/agdisk/crds/references/jwst/miri/jwst_miri_rscd_0017.fits
+2023-11-16 11:41:00,708 - stpipe.RscdStep - INFO - Results used CRDS context: jwst_1148.pmap
+2023-11-16 11:41:01,433 - stpipe.RscdStep - INFO - Saved model in stage1/output-steps/rscd/jw01386007001_04101_00001_mirimage_rscdstep.fits
+2023-11-16 11:41:01,433 - stpipe.RscdStep - INFO - Step RscdStep done

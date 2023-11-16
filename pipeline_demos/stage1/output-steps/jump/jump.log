@@ -1,0 +1,16 @@
+2023-11-16 11:41:17,195 - stpipe.jump - INFO - JumpStep instance created.
+2023-11-16 11:41:17,284 - stpipe.jump - INFO - Step jump running with args (<RampModel(19, 100, 224, 288) from jw01386007001_04101_00001_mirimage_refpixstep.fits>,).
+2023-11-16 11:41:17,286 - stpipe.jump - INFO - Step jump parameters are: {'pre_hooks': [], 'post_hooks': [], 'output_file': None, 'output_dir': 'stage1/output-steps/jump', 'output_ext': '.fits', 'output_use_model': False, 'output_use_index': True, 'save_results': True, 'skip': False, 'suffix': None, 'search_output_file': True, 'input_dir': '', 'rejection_threshold': 4.0, 'three_group_rejection_threshold': 6.0, 'four_group_rejection_threshold': 5.0, 'maximum_cores': 'half', 'flag_4_neighbors': True, 'max_jump_to_flag_neighbors': 1000.0, 'min_jump_to_flag_neighbors': 10.0, 'after_jump_flag_dn1': 0.0, 'after_jump_flag_time1': 0.0, 'after_jump_flag_dn2': 0.0, 'after_jump_flag_time2': 0.0, 'min_sat_area': 1.0, 'min_jump_area': 5.0, 'expand_factor': 2.0, 'use_ellipses': False, 'sat_required_snowball': True, 'min_sat_radius_extend': 2.5, 'sat_expand': 2, 'expand_large_events': False, 'find_showers': False, 'edge_size': 25, 'extend_snr_threshold': 1.2, 'extend_min_area': 90, 'extend_inner_radius': 1.0, 'extend_outer_radius': 2.6, 'extend_ellipse_expand_ratio': 1.1, 'time_masked_after_shower': 15.0, 'max_extended_radius': 200, 'minimum_groups': 3, 'minimum_sigclip_groups': 100, 'only_use_ints': True}
+2023-11-16 11:41:17,295 - stpipe.jump - INFO - CR rejection threshold = 4 sigma
+2023-11-16 11:41:17,295 - stpipe.jump - INFO - Maximum cores to use = half
+2023-11-16 11:41:17,306 - stpipe.jump - INFO - Using GAIN reference file: /Volumes/agdisk/crds/references/jwst/miri/jwst_miri_gain_0018.fits
+2023-11-16 11:41:17,487 - stpipe.jump - INFO - Using READNOISE reference file: /Volumes/agdisk/crds/references/jwst/miri/jwst_miri_readnoise_0085.fits
+2023-11-16 11:41:17,723 - stpipe.jump - INFO - Extracting gain subarray to match science data
+2023-11-16 11:41:17,723 - stpipe.jump - INFO - Extracting readnoise subarray to match science data
+2023-11-16 11:41:17,781 - stpipe.jump - INFO - Executing two-point difference method
+2023-11-16 11:41:17,805 - stpipe.jump - INFO - Creating 5 processes for jump detection 
+2023-11-16 11:41:57,365 - stpipe.jump - INFO - Total elapsed time = 39.5833 sec
+2023-11-16 11:41:57,941 - stpipe.jump - INFO - The execution time in seconds: 40.645530
+2023-11-16 11:41:57,948 - stpipe.jump - INFO - Results used CRDS context: jwst_1148.pmap
+2023-11-16 11:41:59,110 - stpipe.jump - INFO - Saved model in stage1/output-steps/jump/jw01386007001_04101_00001_mirimage_jump.fits
+2023-11-16 11:41:59,110 - stpipe.jump - INFO - Step jump done

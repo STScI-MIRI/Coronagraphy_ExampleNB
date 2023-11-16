@@ -1,0 +1,10 @@
+2023-11-16 11:41:01,838 - stpipe.DarkCurrentStep - INFO - DarkCurrentStep instance created.
+2023-11-16 11:41:01,912 - stpipe.DarkCurrentStep - INFO - Step DarkCurrentStep running with args (<RampModel(19, 100, 224, 288) from jw01386007001_04101_00001_mirimage_rscdstep.fits>,).
+2023-11-16 11:41:01,912 - stpipe.DarkCurrentStep - INFO - Step DarkCurrentStep parameters are: {'pre_hooks': [], 'post_hooks': [], 'output_file': None, 'output_dir': 'stage1/output-steps/dark_current', 'output_ext': '.fits', 'output_use_model': False, 'output_use_index': True, 'save_results': True, 'skip': False, 'suffix': None, 'search_output_file': True, 'input_dir': '', 'dark_output': '/Users/jaguilar/Projects/jwst_calibration/Coronagraphy_ExampleNB/pipeline_demos/stage1/output-steps/dark_current/dark.fits'}
+2023-11-16 11:41:01,932 - stpipe.DarkCurrentStep - INFO - Using DARK reference file /Volumes/agdisk/crds/references/jwst/miri/jwst_miri_dark_0098.fits
+2023-11-16 11:41:09,284 - stpipe.DarkCurrentStep - WARNING - Keyword UNRELIABLE_RESET does not correspond to an existing DQ mnemonic, so will be ignored
+2023-11-16 11:41:09,289 - stpipe.DarkCurrentStep - INFO - Science data nints=19, ngroups=100, nframes=1, groupgap=0
+2023-11-16 11:41:09,289 - stpipe.DarkCurrentStep - INFO - Dark data nints=3, ngroups=500, nframes=1, groupgap=0
+2023-11-16 11:41:10,453 - stpipe.DarkCurrentStep - INFO - Results used CRDS context: jwst_1148.pmap
+2023-11-16 11:41:11,257 - stpipe.DarkCurrentStep - INFO - Saved model in stage1/output-steps/dark_current/jw01386007001_04101_00001_mirimage_darkcurrentstep.fits
+2023-11-16 11:41:11,257 - stpipe.DarkCurrentStep - INFO - Step DarkCurrentStep done

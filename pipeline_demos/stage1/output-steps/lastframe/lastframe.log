@@ -1,0 +1,5 @@
+2023-11-16 11:40:54,187 - stpipe.LastFrameStep - INFO - LastFrameStep instance created.
+2023-11-16 11:40:54,251 - stpipe.LastFrameStep - INFO - Step LastFrameStep running with args (<RampModel(19, 100, 224, 288) from jw01386007001_04101_00001_mirimage_firstframestep.fits>,).
+2023-11-16 11:40:54,252 - stpipe.LastFrameStep - INFO - Step LastFrameStep parameters are: {'pre_hooks': [], 'post_hooks': [], 'output_file': None, 'output_dir': 'stage1/output-steps/lastframe', 'output_ext': '.fits', 'output_use_model': False, 'output_use_index': True, 'save_results': True, 'skip': False, 'suffix': None, 'search_output_file': True, 'input_dir': ''}
+2023-11-16 11:40:55,218 - stpipe.LastFrameStep - INFO - Saved model in stage1/output-steps/lastframe/jw01386007001_04101_00001_mirimage_lastframestep.fits
+2023-11-16 11:40:55,218 - stpipe.LastFrameStep - INFO - Step LastFrameStep done

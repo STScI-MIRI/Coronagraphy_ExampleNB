@@ -1,0 +1,12 @@
+2023-11-16 11:40:35,004 - stpipe.SaturationStep - INFO - SaturationStep instance created.
+2023-11-16 11:40:35,083 - stpipe.SaturationStep - INFO - Step SaturationStep running with args (<RampModel(19, 100, 224, 288) from jw01386007001_04101_00001_mirimage_dqinitstep.fits>,).
+2023-11-16 11:40:35,084 - stpipe.SaturationStep - INFO - Step SaturationStep parameters are: {'pre_hooks': [], 'post_hooks': [], 'output_file': None, 'output_dir': 'stage1/output-steps/saturation', 'output_ext': '.fits', 'output_use_model': False, 'output_use_index': True, 'save_results': True, 'skip': False, 'suffix': None, 'search_output_file': True, 'input_dir': '', 'n_pix_grow_sat': 5}
+2023-11-16 11:40:35,105 - stpipe.SaturationStep - INFO - Using SATURATION reference file /Volumes/agdisk/crds/references/jwst/miri/jwst_miri_saturation_0034.fits
+2023-11-16 11:40:35,176 - stpipe.SaturationStep - WARNING - Keyword RESERVED_4 does not correspond to an existing DQ mnemonic, so will be ignored
+2023-11-16 11:40:35,289 - stpipe.SaturationStep - WARNING - Keyword UNRELIABLE_RESET does not correspond to an existing DQ mnemonic, so will be ignored
+2023-11-16 11:40:35,855 - stpipe.SaturationStep - INFO - Extracting reference file subarray to match science data
+2023-11-16 11:40:51,420 - stpipe.SaturationStep - INFO - Detected 2240 saturated pixels
+2023-11-16 11:40:51,436 - stpipe.SaturationStep - INFO - Detected 3 A/D floor pixels
+2023-11-16 11:40:51,447 - stpipe.SaturationStep - INFO - Results used CRDS context: jwst_1148.pmap
+2023-11-16 11:40:52,151 - stpipe.SaturationStep - INFO - Saved model in stage1/output-steps/saturation/jw01386007001_04101_00001_mirimage_saturationstep.fits
+2023-11-16 11:40:52,151 - stpipe.SaturationStep - INFO - Step SaturationStep done

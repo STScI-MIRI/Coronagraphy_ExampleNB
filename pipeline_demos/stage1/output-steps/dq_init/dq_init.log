@@ -1,0 +1,10 @@
+2023-11-16 11:40:27,900 - stpipe.DQInitStep - INFO - DQInitStep instance created.
+2023-11-16 11:40:27,959 - stpipe.DQInitStep - INFO - Step DQInitStep running with args (<Level1bModel(19, 100, 224, 288) from jw01386007001_04101_00001_mirimage_uncal.fits>,).
+2023-11-16 11:40:27,959 - stpipe.DQInitStep - INFO - Step DQInitStep parameters are: {'pre_hooks': [], 'post_hooks': [], 'output_file': None, 'output_dir': 'stage1/output-steps/dq_init', 'output_ext': '.fits', 'output_use_model': False, 'output_use_index': True, 'save_results': True, 'skip': False, 'suffix': None, 'search_output_file': True, 'input_dir': ''}
+2023-11-16 11:40:28,128 - stpipe.DQInitStep - INFO - Using MASK reference file /Volumes/agdisk/crds/references/jwst/miri/jwst_miri_mask_0036.fits
+2023-11-16 11:40:28,212 - stpipe.DQInitStep - WARNING - Keyword RESERVED_4 does not correspond to an existing DQ mnemonic, so will be ignored
+2023-11-16 11:40:28,332 - stpipe.DQInitStep - WARNING - Keyword UNRELIABLE_RESET does not correspond to an existing DQ mnemonic, so will be ignored
+2023-11-16 11:40:28,631 - stpipe.DQInitStep - INFO - Extracting mask subarray to match science data
+2023-11-16 11:40:28,843 - stpipe.DQInitStep - INFO - Results used CRDS context: jwst_1148.pmap
+2023-11-16 11:40:29,306 - stpipe.DQInitStep - INFO - Saved model in stage1/output-steps/dq_init/jw01386007001_04101_00001_mirimage_dqinitstep.fits
+2023-11-16 11:40:29,306 - stpipe.DQInitStep - INFO - Step DQInitStep done

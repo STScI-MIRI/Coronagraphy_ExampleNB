@@ -1,0 +1,7 @@
+2023-11-16 11:41:12,326 - stpipe.RefPixStep - INFO - RefPixStep instance created.
+2023-11-16 11:41:12,414 - stpipe.RefPixStep - INFO - Step RefPixStep running with args (<RampModel(19, 100, 224, 288) from jw01386007001_04101_00001_mirimage_darkcurrentstep.fits>,).
+2023-11-16 11:41:12,414 - stpipe.RefPixStep - INFO - Step RefPixStep parameters are: {'pre_hooks': [], 'post_hooks': [], 'output_file': None, 'output_dir': 'stage1/output-steps/refpix', 'output_ext': '.fits', 'output_use_model': False, 'output_use_index': True, 'save_results': True, 'skip': False, 'suffix': None, 'search_output_file': True, 'input_dir': '', 'odd_even_columns': True, 'use_side_ref_pixels': True, 'side_smoothing_length': 11, 'side_gain': 1.0, 'odd_even_rows': True, 'ovr_corr_mitigation_ftr': 1.8}
+2023-11-16 11:41:12,873 - stpipe.RefPixStep - WARNING - Refpix correction skipped for MIRI subarrays
+2023-11-16 11:41:14,073 - stpipe.RefPixStep - INFO - Saved model in stage1/output-steps/refpix/jw01386007001_04101_00001_mirimage_refpixstep.fits
+2023-11-16 11:41:14,073 - stpipe.RefPixStep - INFO - Step RefPixStep done
+2023-11-16 11:41:17,027 - stpipe - INFO - PARS-JUMPSTEP parameters found: /Volumes/agdisk/crds/references/jwst/miri/jwst_miri_pars-jumpstep_0002.asdf

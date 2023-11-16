@@ -1,0 +1,2 @@
+2023-11-15 16:59:37,474 - stpipe - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-2' coro=<Kernel.poll_control_queue() running at /Users/jaguilar/Projects/miniconda3/envs/jwst_inspector/lib/python3.9/site-packages/ipykernel/kernelbase.py:278> wait_for=<Future pending cb=[<TaskWakeupMethWrapper object at 0x7f99b036dbe0>()]> cb=[_chain_future.<locals>._call_set_state() at /Users/jaguilar/Projects/miniconda3/envs/jwst_inspector/lib/python3.9/asyncio/futures.py:391]>

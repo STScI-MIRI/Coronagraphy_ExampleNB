@@ -1,0 +1,9 @@
+2023-11-16 11:40:55,787 - stpipe.LinearityStep - INFO - LinearityStep instance created.
+2023-11-16 11:40:55,850 - stpipe.LinearityStep - INFO - Step LinearityStep running with args (<RampModel(19, 100, 224, 288) from jw01386007001_04101_00001_mirimage_lastframestep.fits>,).
+2023-11-16 11:40:55,850 - stpipe.LinearityStep - INFO - Step LinearityStep parameters are: {'pre_hooks': [], 'post_hooks': [], 'output_file': None, 'output_dir': 'stage1/output-steps/linearity', 'output_ext': '.fits', 'output_use_model': False, 'output_use_index': True, 'save_results': True, 'skip': False, 'suffix': None, 'search_output_file': True, 'input_dir': ''}
+2023-11-16 11:40:55,871 - stpipe.LinearityStep - INFO - Using Linearity reference file /Volumes/agdisk/crds/references/jwst/miri/jwst_miri_linearity_0032.fits
+2023-11-16 11:40:56,784 - stpipe.LinearityStep - WARNING - Keyword RESERVED_4 does not correspond to an existing DQ mnemonic, so will be ignored
+2023-11-16 11:40:56,891 - stpipe.LinearityStep - WARNING - Keyword UNRELIABLE_RESET does not correspond to an existing DQ mnemonic, so will be ignored
+2023-11-16 11:40:57,606 - stpipe.LinearityStep - INFO - Results used CRDS context: jwst_1148.pmap
+2023-11-16 11:40:58,917 - stpipe.LinearityStep - INFO - Saved model in stage1/output-steps/linearity/jw01386007001_04101_00001_mirimage_linearitystep.fits
+2023-11-16 11:40:58,918 - stpipe.LinearityStep - INFO - Step LinearityStep done
