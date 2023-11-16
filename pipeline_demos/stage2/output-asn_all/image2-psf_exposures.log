@@ -1,2 +1,573 @@
-2023-11-15 16:59:37,474 - stpipe - ERROR - Task was destroyed but it is pending!
-task: <Task pending name='Task-2' coro=<Kernel.poll_control_queue() running at /Users/jaguilar/Projects/miniconda3/envs/jwst_inspector/lib/python3.9/site-packages/ipykernel/kernelbase.py:278> wait_for=<Future pending cb=[<TaskWakeupMethWrapper object at 0x7f99b036dbe0>()]> cb=[_chain_future.<locals>._call_set_state() at /Users/jaguilar/Projects/miniconda3/envs/jwst_inspector/lib/python3.9/asyncio/futures.py:391]>
+2023-11-16 12:28:53,213 - stpipe.Image2Pipeline.resample - INFO - ResampleStep instance creat2023-11-16 12:28:54,677 - stpipe.Image2Pipeline.photom - INFO - Step photom running with args (<CubeModel(19, 224, 288) from jw01386007001_04101_00001_mirimage_bsubints.fits>,).
+2023-11-16 12:28:54,678 - stpipe.Image2Pipeline.photom - INFO - Step photom parameters are: {'pre_hooks': [], 'post_hooks': [], 'output_file': None, 'output_dir': None, 'output_ext': '.fits', 'output_use_model': False, 'output_use_index': True, 'save_results': False, 'skip': False, 'suffix': None, 'search_output_file': True, 'input_dir': 'stage2', 'inverse': False, 'source_type': None, 'mrs_time_correction': True}
+2023-11-16 12:28:54,704 - stpipe.Image2Pipeline.photom - INFO - Using photom reference file: /Volumes/agdisk/crds/references/jwst/miri/jwst_miri_photom_0191.fits
+2023-11-16 12:28:54,705 - stpipe.Image2Pipeline.photom - INFO - Using area reference file: N/A
+2023-11-16 12:28:54,772 - stpipe.Image2Pipeline.photom - INFO - Using instrument: MIRI
+2023-11-16 12:28:54,772 - stpipe.Image2Pipeline.photom - INFO -  detector: MIRIMAGE
+2023-11-16 12:28:54,772 - stpipe.Image2Pipeline.photom - INFO -  exp_type: MIR_4QPM
+2023-11-16 12:28:54,772 - stpipe.Image2Pipeline.photom - INFO -  filter: F1550C
+2023-11-16 12:28:54,790 - stpipe.Image2Pipeline.photom - INFO -  subarray: MASK1550
+2023-11-16 12:28:54,791 - stpipe.Image2Pipeline.photom - INFO - PHOTMJSR value: 3.79525
+2023-11-16 12:28:54,801 - stpipe.Image2Pipeline.photom - INFO - Step photom done
+2023-11-16 12:28:56,118 - stpipe.Image2Pipeline.photom - INFO - Step photom running with args (<CubeModel(19, 224, 288) from jw01386007001_04101_00002_mirimage_bsubints.fits>,).
+2023-11-16 12:28:56,119 - stpipe.Image2Pipeline.photom - INFO - Step photom parameters are: {'pre_hooks': [], 'post_hooks': [], 'output_file': None, 'output_dir': None, 'output_ext': '.fits', 'output_use_model': False, 'output_use_index': True, 'save_results': False, 'skip': False, 'suffix': 'photom', 'search_output_file': True, 'input_dir': 'stage2', 'inverse': False, 'source_type': None, 'mrs_time_correction': True}
+2023-11-16 12:28:56,146 - stpipe.Image2Pipeline.photom - INFO - Using photom reference file: /Volumes/agdisk/crds/references/jwst/miri/jwst_miri_photom_0191.fits
+2023-11-16 12:28:56,146 - stpipe.Image2Pipeline.photom - INFO - Using area reference file: N/A
+2023-11-16 12:28:56,214 - stpipe.Image2Pipeline.photom - INFO - Using instrument: MIRI
+2023-11-16 12:28:56,214 - stpipe.Image2Pipeline.photom - INFO -  detector: MIRIMAGE
+2023-11-16 12:28:56,214 - stpipe.Image2Pipeline.photom - INFO -  exp_type: MIR_4QPM
+2023-11-16 12:28:56,214 - stpipe.Image2Pipeline.photom - INFO -  filter: F1550C
+2023-11-16 12:28:56,232 - stpipe.Image2Pipeline.photom - INFO -  subarray: MASK1550
+2023-11-16 12:28:56,233 - stpipe.Image2Pipeline.photom - INFO - PHOTMJSR value: 3.79525
+2023-11-16 12:28:56,243 - stpipe.Image2Pipeline.photom - INFO - Step photom done
+2023-11-16 12:28:57,539 - stpipe.Image2Pipeline.photom - INFO - Step photom running with args (<CubeModel(19, 224, 288) from jw01386007001_04101_00003_mirimage_bsubints.fits>,).
+2023-11-16 12:28:57,540 - stpipe.Image2Pipeline.photom - INFO - Step photom parameters are: {'pre_hooks': [], 'post_hooks': [], 'output_file': None, 'output_dir': None, 'output_ext': '.fits', 'output_use_model': False, 'output_use_index': True, 'save_results': False, 'skip': False, 'suffix': 'photom', 'search_output_file': True, 'input_dir': 'stage2', 'inverse': False, 'source_type': None, 'mrs_time_correction': True}
+2023-11-16 12:28:57,567 - stpipe.Image2Pipeline.photom - INFO - Using photom reference file: /Volumes/agdisk/crds/references/jwst/miri/jwst_miri_photom_0191.fits
+2023-11-16 12:28:57,567 - stpipe.Image2Pipeline.photom - INFO - Using area reference file: N/A
+2023-11-16 12:28:57,646 - stpipe.Image2Pipeline.photom - INFO - Using instrument: MIRI
+2023-11-16 12:28:57,646 - stpipe.Image2Pipeline.photom - INFO -  detector: MIRIMAGE
+2023-11-16 12:28:57,646 - stpipe.Image2Pipeline.photom - INFO -  exp_type: MIR_4QPM
+2023-11-16 12:28:57,646 - stpipe.Image2Pipeline.photom - INFO -  filter: F1550C
+2023-11-16 12:28:57,665 - stpipe.Image2Pipeline.photom - INFO -  subarray: MASK1550
+2023-11-16 12:28:57,665 - stpipe.Image2Pipeline.photom - INFO - PHOTMJSR value: 3.79525
+2023-11-16 12:28:57,676 - stpipe.Image2Pipeline.photom - INFO - Step photom done
+2023-11-16 12:28:58,999 - stpipe.Image2Pipeline.photom - INFO - Step photom running with args (<CubeModel(19, 224, 288) from jw01386007001_04101_00004_mirimage_bsubints.fits>,).
+2023-11-16 12:28:59,000 - stpipe.Image2Pipeline.photom - INFO - Step photom parameters are: {'pre_hooks': [], 'post_hooks': [], 'output_file': None, 'output_dir': None, 'output_ext': '.fits', 'output_use_model': False, 'output_use_index': True, 'save_results': False, 'skip': False, 'suffix': 'photom', 'search_output_file': True, 'input_dir': 'stage2', 'inverse': False, 'source_type': None, 'mrs_time_correction': True}
+2023-11-16 12:28:59,026 - stpipe.Image2Pipeline.photom - INFO - Using photom reference file: /Volumes/agdisk/crds/references/jwst/miri/jwst_miri_photom_0191.fits
+2023-11-16 12:28:59,026 - stpipe.Image2Pipeline.photom - INFO - Using area reference file: N/A
+2023-11-16 12:28:59,100 - stpipe.Image2Pipeline.photom - INFO - Using instrument: MIRI
+2023-11-16 12:28:59,100 - stpipe.Image2Pipeline.photom - INFO -  detector: MIRIMAGE
+2023-11-16 12:28:59,100 - stpipe.Image2Pipeline.photom - INFO -  exp_type: MIR_4QPM
+2023-11-16 12:28:59,100 - stpipe.Image2Pipeline.photom - INFO -  filter: F1550C
+2023-11-16 12:28:59,118 - stpipe.Image2Pipeline.photom - INFO -  subarray: MASK1550
+2023-11-16 12:28:59,119 - stpipe.Image2Pipeline.photom - INFO - PHOTMJSR value: 3.79525
+2023-11-16 12:28:59,130 - stpipe.Image2Pipeline.photom - INFO - Step photom done
+2023-11-16 12:29:00,471 - stpipe.Image2Pipeline.photom - INFO - Step photom running with args (<CubeModel(19, 224, 288) from jw01386007001_04101_00005_mirimage_bsubints.fits>,).
+2023-11-16 12:29:00,471 - stpipe.Image2Pipeline.photom - INFO - Step photom parameters are: {'pre_hooks': [], 'post_hooks': [], 'output_file': None, 'output_dir': None, 'output_ext': '.fits', 'output_use_model': False, 'output_use_index': True, 'save_results': False, 'skip': False, 'suffix': 'photom', 'search_output_file': True, 'input_dir': 'stage2', 'inverse': False, 'source_type': None, 'mrs_time_correction': True}
+2023-11-16 12:29:00,498 - stpipe.Image2Pipeline.photom - INFO - Using photom reference file: /Volumes/agdisk/crds/references/jwst/miri/jwst_miri_photom_0191.fits
+2023-11-16 12:29:00,498 - stpipe.Image2Pipeline.photom - INFO - Using area reference file: N/A
+2023-11-16 12:29:00,572 - stpipe.Image2Pipeline.photom - INFO - Using instrument: MIRI
+2023-11-16 12:29:00,572 - stpipe.Image2Pipeline.photom - INFO -  detector: MIRIMAGE
+2023-11-16 12:29:00,572 - stpipe.Image2Pipeline.photom - INFO -  exp_type: MIR_4QPM
+2023-11-16 12:29:00,572 - stpipe.Image2Pipeline.photom - INFO -  filter: F1550C
+2023-11-16 12:29:00,590 - stpipe.Image2Pipeline.photom - INFO -  subarray: MASK1550
+2023-11-16 12:29:00,591 - stpipe.Image2Pipeline.photom - INFO - PHOTMJSR value: 3.79525
+2023-11-16 12:29:00,602 - stpipe.Image2Pipeline.photom - INFO - Step photom done
+2023-11-16 12:29:02,004 - stpipe.Image2Pipeline.photom - INFO - Step photom running with args (<CubeModel(19, 224, 288) from jw01386007001_04101_00006_mirimage_bsubints.fits>,).
+2023-11-16 12:29:02,004 - stpipe.Image2Pipeline.photom - INFO - Step photom parameters are: {'pre_hooks': [], 'post_hooks': [], 'output_file': None, 'output_dir': None, 'output_ext': '.fits', 'output_use_model': False, 'output_use_index': True, 'save_results': False, 'skip': False, 'suffix': 'photom', 'search_output_file': True, 'input_dir': 'stage2', 'inverse': False, 'source_type': None, 'mrs_time_correction': True}
+2023-11-16 12:29:02,031 - stpipe.Image2Pipeline.photom - INFO - Using photom reference file: /Volumes/agdisk/crds/references/jwst/miri/jwst_miri_photom_0191.fits
+2023-11-16 12:29:02,031 - stpipe.Image2Pipeline.photom - INFO - Using area reference file: N/A
+2023-11-16 12:29:02,107 - stpipe.Image2Pipeline.photom - INFO - Using instrument: MIRI
+2023-11-16 12:29:02,107 - stpipe.Image2Pipeline.photom - INFO -  detector: MIRIMAGE
+2023-11-16 12:29:02,107 - stpipe.Image2Pipeline.photom - INFO -  exp_type: MIR_4QPM
+2023-11-16 12:29:02,107 - stpipe.Image2Pipeline.photom - INFO -  filter: F1550C
+2023-11-16 12:29:02,127 - stpipe.Image2Pipeline.photom - INFO -  subarray: MASK1550
+2023-11-16 12:29:02,127 - stpipe.Image2Pipeline.photom - INFO - PHOTMJSR value: 3.79525
+2023-11-16 12:29:02,140 - stpipe.Image2Pipeline.photom - INFO - Step photom done
+2023-11-16 12:29:03,541 - stpipe.Image2Pipeline.photom - INFO - Step photom running with args (<CubeModel(19, 224, 288) from jw01386007001_04101_00007_mirimage_bsubints.fits>,).
+2023-11-16 12:29:03,541 - stpipe.Image2Pipeline.photom - INFO - Step photom parameters are: {'pre_hooks': [], 'post_hooks': [], 'output_file': None, 'output_dir': None, 'output_ext': '.fits', 'output_use_model': False, 'output_use_index': True, 'save_results': False, 'skip': False, 'suffix': 'photom', 'search_output_file': True, 'input_dir': 'stage2', 'inverse': False, 'source_type': None, 'mrs_time_correction': True}
+2023-11-16 12:29:03,569 - stpipe.Image2Pipeline.photom - INFO - Using photom reference file: /Volumes/agdisk/crds/references/jwst/miri/jwst_miri_photom_0191.fits
+2023-11-16 12:29:03,569 - stpipe.Image2Pipeline.photom - INFO - Using area reference file: N/A
+2023-11-16 12:29:03,642 - stpipe.Image2Pipeline.photom - INFO - Using instrument: MIRI
+2023-11-16 12:29:03,642 - stpipe.Image2Pipeline.photom - INFO -  detector: MIRIMAGE
+2023-11-16 12:29:03,642 - stpipe.Image2Pipeline.photom - INFO -  exp_type: MIR_4QPM
+2023-11-16 12:29:03,642 - stpipe.Image2Pipeline.photom - INFO -  filter: F1550C
+2023-11-16 12:29:03,661 - stpipe.Image2Pipeline.photom - INFO -  subarray: MASK1550
+2023-11-16 12:29:03,662 - stpipe.Image2Pipeline.photom - INFO - PHOTMJSR value: 3.79525
+2023-11-16 12:29:03,674 - stpipe.Image2Pipeline.photom - INFO - Step photom done
+2023-11-16 12:29:05,039 - stpipe.Image2Pipeline.photom - INFO - Step photom running with args (<CubeModel(19, 224, 288) from jw01386007001_04101_00008_mirimage_bsubints.fits>,).
+2023-11-16 12:29:05,040 - stpipe.Image2Pipeline.photom - INFO - Step photom parameters are: {'pre_hooks': [], 'post_hooks': [], 'output_file': None, 'output_dir': None, 'output_ext': '.fits', 'output_use_model': False, 'output_use_index': True, 'save_results': False, 'skip': False, 'suffix': 'photom', 'search_output_file': True, 'input_dir': 'stage2', 'inverse': False, 'source_type': None, 'mrs_time_correction': True}
+2023-11-16 12:29:05,067 - stpipe.Image2Pipeline.photom - INFO - Using photom reference file: /Volumes/agdisk/crds/references/jwst/miri/jwst_miri_photom_0191.fits
+2023-11-16 12:29:05,067 - stpipe.Image2Pipeline.photom - INFO - Using area reference file: N/A
+2023-11-16 12:29:05,135 - stpipe.Image2Pipeline.photom - INFO - Using instrument: MIRI
+2023-11-16 12:29:05,135 - stpipe.Image2Pipeline.photom - INFO -  detector: MIRIMAGE
+2023-11-16 12:29:05,135 - stpipe.Image2Pipeline.photom - INFO -  exp_type: MIR_4QPM
+2023-11-16 12:29:05,135 - stpipe.Image2Pipeline.photom - INFO -  filter: F1550C
+2023-11-16 12:29:05,154 - stpipe.Image2Pipeline.photom - INFO -  subarray: MASK1550
+2023-11-16 12:29:05,154 - stpipe.Image2Pipeline.photom - INFO - PHOTMJSR value: 3.79525
+2023-11-16 12:29:05,165 - stpipe.Image2Pipeline.photom - INFO - Step photom done
+2023-11-16 12:29:06,520 - stpipe.Image2Pipeline.photom - INFO - Step photom running with args (<CubeModel(19, 224, 288) from jw01386007001_04101_00009_mirimage_bsubints.fits>,).
+2023-11-16 12:29:06,520 - stpipe.Image2Pipeline.photom - INFO - Step photom parameters are: {'pre_hooks': [], 'post_hooks': [], 'output_file': None, 'output_dir': None, 'output_ext': '.fits', 'output_use_model': False, 'output_use_index': True, 'save_results': False, 'skip': False, 'suffix': 'photom', 'search_output_file': True, 'input_dir': 'stage2', 'inverse': False, 'source_type': None, 'mrs_time_correction': True}
+2023-11-16 12:29:06,547 - stpipe.Image2Pipeline.photom - INFO - Using photom reference file: /Volumes/agdisk/crds/references/jwst/miri/jwst_miri_photom_0191.fits
+2023-11-16 12:29:06,547 - stpipe.Image2Pipeline.photom - INFO - Using area reference file: N/A
+2023-11-16 12:29:06,615 - stpipe.Image2Pipeline.photom - INFO - Using instrument: MIRI
+2023-11-16 12:29:06,616 - stpipe.Image2Pipeline.photom - INFO -  detector: MIRIMAGE
+2023-11-16 12:29:06,616 - stpipe.Image2Pipeline.photom - INFO -  exp_type: MIR_4QPM
+2023-11-16 12:29:06,616 - stpipe.Image2Pipeline.photom - INFO -  filter: F1550C
+2023-11-16 12:29:06,634 - stpipe.Image2Pipeline.photom - INFO -  subarray: MASK1550
+2023-11-16 12:29:06,634 - stpipe.Image2Pipeline.photom - INFO - PHOTMJSR value: 3.79525
+2023-11-16 12:29:06,645 - stpipe.Image2Pipeline.photom - INFO - Step photom done
+01_00008_mirimage_bsubints.fits>,).
+2023-11-16 12:29:04,803 - stpipe.Image2Pipeline.flat_field - INFO - Step flat_field parameters are: {'pre_hooks': [], 'post_hooks': [], 'output_file': None, 'output_dir': None, 'output_ext': '.fits', 'output_use_model': False, 'output_use_index': True, 'save_results': False, 'skip': False, 'suffix': 'flat_field', 'search_output_file': True, 'input_dir': 'stage2', 'save_interpolated_flat': False, 'user_supplied_flat': None, 'inverse': False}
+2023-11-16 12:29:04,878 - stpipe.Image2Pipeline.flat_field - WARNING - Keyword CDP_PARTIAL_DATA does not correspond to an existing DQ mnemonic, so will be ignored
+2023-11-16 12:29:04,878 - stpipe.Image2Pipeline.flat_field - WARNING - Keyword CDP_LOW_QUAL does not correspond to an existing DQ mnemonic, so will be ignored
+2023-11-16 12:29:04,878 - stpipe.Image2Pipeline.flat_field - WARNING - Keyword CDP_UNRELIABLE_ERROR does not correspond to an existing DQ mnemonic, so will be ignored
+2023-11-16 12:29:04,879 - stpipe.Image2Pipeline.flat_field - WARNING - Keyword DIFF_PATTERN does not correspond to an existing DQ mnemonic, so will be ignored
+2023-11-16 12:29:04,880 - stpipe.Image2Pipeline.flat_field - INFO - Using FLAT reference file: /Volumes/agdisk/crds/references/jwst/miri/jwst_miri_flat_0768.fits
+2023-11-16 12:29:04,880 - stpipe.Image2Pipeline.flat_field - INFO - No reference found for type FFLAT
+2023-11-16 12:29:04,880 - stpipe.Image2Pipeline.flat_field - INFO - No reference found for type SFLAT
+2023-11-16 12:29:04,880 - stpipe.Image2Pipeline.flat_field - INFO - No reference found for type DFLAT
+2023-11-16 12:29:04,965 - stpipe.Image2Pipeline.flat_field - INFO - Step flat_field done
+2023-11-16 12:29:06,282 - stpipe.Image2Pipeline.flat_field - INFO - Step flat_field running with args (<CubeModel(19, 224, 288) from jw01386007001_04101_00009_mirimage_bsubints.fits>,).
+2023-11-16 12:29:06,283 - stpipe.Image2Pipeline.flat_field - INFO - Step flat_field parameters are: {'pre_hooks': [], 'post_hooks': [], 'output_file': None, 'output_dir': None, 'output_ext': '.fits', 'output_use_model': False, 'output_use_index': True, 'save_results': False, 'skip': False, 'suffix': 'flat_field', 'search_output_file': True, 'input_dir': 'stage2', 'save_interpolated_flat': False, 'user_supplied_flat': None, 'inverse': False}
+2023-11-16 12:29:06,358 - stpipe.Image2Pipeline.flat_field - WARNING - Keyword CDP_PARTIAL_DATA does not correspond to an existing DQ mnemonic, so will be ignored
+2023-11-16 12:29:06,358 - stpipe.Image2Pipeline.flat_field - WARNING - Keyword CDP_LOW_QUAL does not correspond to an existing DQ mnemonic, so will be ignored
+2023-11-16 12:29:06,358 - stpipe.Image2Pipeline.flat_field - WARNING - Keyword CDP_UNRELIABLE_ERROR does not correspond to an existing DQ mnemonic, so will be ignored
+2023-11-16 12:29:06,359 - stpipe.Image2Pipeline.flat_field - WARNING - Keyword DIFF_PATTERN does not correspond to an existing DQ mnemonic, so will be ignored
+2023-11-16 12:29:06,360 - stpipe.Image2Pipeline.flat_field - INFO - Using FLAT reference file: /Volumes/agdisk/crds/references/jwst/miri/jwst_miri_flat_0768.fits
+2023-11-16 12:29:06,360 - stpipe.Image2Pipeline.flat_field - INFO - No reference found for type FFLAT
+2023-11-16 12:29:06,360 - stpipe.Image2Pipeline.flat_field - INFO - No reference found for type SFLAT
+2023-11-16 12:29:06,360 - stpipe.Image2Pipeline.flat_field - INFO - No reference found for type DFLAT
+2023-11-16 12:29:06,444 - stpipe.Image2Pipeline.flat_field - INFO - Step flat_field done
+_REGION to POLYGON ICRS  209.561595316 -42.103140915 209.570382983 -42.105369191 209.574321678 -42.097070079 209.565511888 -42.094817281
+2023-11-16 12:29:06,169 - stpipe.Image2Pipeline.assign_wcs - INFO - COMPLETED assign_wcs
+2023-11-16 12:29:06,205 - stpipe.Image2Pipeline.assign_wcs - INFO - Step assign_wcs done
+ubtract - INFO - Accumulate bkg from /Users/jaguilar/Projects/jwst_calibration/Coronagraphy_ExampleNB/pipeline_demos/stage2/input/jw01386031001_02101_00001_mirimage_rateints.fits
+2023-11-16 12:29:02,445 - stpipe.Image2Pipeline.bkg_subtract - WARNING - /Users/jaguilar/Projects/miniconda3/envs/jwst_inspector/lib/python3.9/site-packages/astropy/stats/sigma_clipping.py:367: AstropyUserWarning: Input data contains invalid values (NaNs or infs), which were automatically clipped.
+  warnings.warn(
+
+2023-11-16 12:29:02,509 - stpipe.Image2Pipeline.bkg_subtract - INFO - Accumulate bkg from /Users/jaguilar/Projects/jwst_calibration/Coronagraphy_ExampleNB/pipeline_demos/stage2/input/jw01386031001_03101_00001_mirimage_rateints.fits
+2023-11-16 12:29:02,581 - stpipe.Image2Pipeline.bkg_subtract - WARNING - /Users/jaguilar/Projects/miniconda3/envs/jwst_inspector/lib/python3.9/site-packages/astropy/stats/sigma_clipping.py:367: AstropyUserWarning: Input data contains invalid values (NaNs or infs), which were automatically clipped.
+  warnings.warn(
+
+2023-11-16 12:29:02,710 - stpipe.Image2Pipeline.bkg_subtract - INFO - Saved model in stage2/output-asn_all/jw01386007001_04101_00007_mirimage_combinedbackground.fits
+2023-11-16 12:29:02,711 - stpipe.Image2Pipeline.bkg_subtract - INFO - Combined background written to "stage2/output-asn_all/jw01386007001_04101_00007_mirimage_combinedbackground.fits".
+2023-11-16 12:29:02,826 - stpipe.Image2Pipeline.bkg_subtract - INFO - Saved model in stage2/output-asn_all/jw01386007001_04101_00007_mirimage_bsubints.fits
+2023-11-16 12:29:02,826 - stpipe.Image2Pipeline.bkg_subtract - INFO - Step bkg_subtract done
+2023-11-16 12:29:03,830 - stpipe.Image2Pipeline.bkg_subtract - INFO - Step bkg_subtract running with args (<CubeModel(19, 224, 288) from jw01386007001_04101_00008_mirimage_rateints.fits>, ['/Users/jaguilar/Projects/jwst_calibration/Coronagraphy_ExampleNB/pipeline_demos/stage2/input/jw01386031001_02101_00001_mirimage_rateints.fits', '/Users/jaguilar/Projects/jwst_calibration/Coronagraphy_ExampleNB/pipeline_demos/stage2/input/jw01386031001_03101_00001_mirimage_rateints.fits']).
+2023-11-16 12:29:03,830 - stpipe.Image2Pipeline.bkg_subtract - INFO - Step bkg_subtract parameters are: {'pre_hooks': [], 'post_hooks': [], 'output_file': None, 'output_dir': None, 'output_ext': '.fits', 'output_use_model': False, 'output_use_index': True, 'save_results': True, 'skip': False, 'suffix': 'bsubints', 'search_output_file': True, 'input_dir': 'stage2', 'save_combined_background': True, 'sigma': 3.0, 'maxiters': None, 'wfss_mmag_extract': None}
+2023-11-16 12:29:03,912 - stpipe.Image2Pipeline.bkg_subtract - INFO - Accumulate bkg from /Users/jaguilar/Projects/jwst_calibration/Coronagraphy_ExampleNB/pipeline_demos/stage2/input/jw01386031001_02101_00001_mirimage_rateints.fits
+2023-11-16 12:29:03,978 - stpipe.Image2Pipeline.bkg_subtract - WARNING - /Users/jaguilar/Projects/miniconda3/envs/jwst_inspector/lib/python3.9/site-packages/astropy/stats/sigma_clipping.py:367: AstropyUserWarning: Input data contains invalid values (NaNs or infs), which were automatically clipped.
+  warnings.warn(
+
+2023-11-16 12:29:04,040 - stpipe.Image2Pipeline.bkg_subtract - INFO - Accumulate bkg from /Users/jaguilar/Projects/jwst_calibration/Coronagraphy_ExampleNB/pipeline_demos/stage2/input/jw01386031001_03101_00001_mirimage_rateints.fits
+2023-11-16 12:29:04,106 - stpipe.Image2Pipeline.bkg_subtract - WARNING - /Users/jaguilar/Projects/miniconda3/envs/jwst_inspector/lib/python3.9/site-packages/astropy/stats/sigma_clipping.py:367: AstropyUserWarning: Input data contains invalid values (NaNs or infs), which were automatically clipped.
+  warnings.warn(
+
+2023-11-16 12:29:04,232 - stpipe.Image2Pipeline.bkg_subtract - INFO - Saved model in stage2/output-asn_all/jw01386007001_04101_00008_mirimage_combinedbackground.fits
+2023-11-16 12:29:04,232 - stpipe.Image2Pipeline.bkg_subtract - INFO - Combined background written to "stage2/output-asn_all/jw01386007001_04101_00008_mirimage_combinedbackground.fits".
+2023-11-16 12:29:04,353 - stpipe.Image2Pipeline.bkg_subtract - INFO - Saved model in stage2/output-asn_all/jw01386007001_04101_00008_mirimage_bsubints.fits
+2023-11-16 12:29:04,353 - stpipe.Image2Pipeline.bkg_subtract - INFO - Step bkg_subtract done
+2023-11-16 12:29:05,312 - stpipe.Image2Pipeline.bkg_subtract - INFO - Step bkg_subtract running with args (<CubeModel(19, 224, 288) from jw01386007001_04101_00009_mirimage_rateints.fits>, ['/Users/jaguilar/Projects/jwst_calibration/Coronagraphy_ExampleNB/pipeline_demos/stage2/input/jw01386031001_02101_00001_mirimage_rateints.fits', '/Users/jaguilar/Projects/jwst_calibration/Coronagraphy_ExampleNB/pipeline_demos/stage2/input/jw01386031001_03101_00001_mirimage_rateints.fits']).
+2023-11-16 12:29:05,313 - stpipe.Image2Pipeline.bkg_subtract - INFO - Step bkg_subtract parameters are: {'pre_hooks': [], 'post_hooks': [], 'output_file': None, 'output_dir': None, 'output_ext': '.fits', 'output_use_model': False, 'output_use_index': True, 'save_results': True, 'skip': False, 'suffix': 'bsubints', 'search_output_file': True, 'input_dir': 'stage2', 'save_combined_background': True, 'sigma': 3.0, 'maxiters': None, 'wfss_mmag_extract': None}
+2023-11-16 12:29:05,394 - stpipe.Image2Pipeline.bkg_subtract - INFO - Accumulate bkg from /Users/jaguilar/Projects/jwst_calibration/Coronagraphy_ExampleNB/pipeline_demos/stage2/input/jw01386031001_02101_00001_mirimage_rateints.fits
+2023-11-16 12:29:05,461 - stpipe.Image2Pipeline.bkg_subtract - WARNING - /Users/jaguilar/Projects/miniconda3/envs/jwst_inspector/lib/python3.9/site-packages/astropy/stats/sigma_clipping.py:367: AstropyUserWarning: Input data contains invalid values (NaNs or infs), which were automatically clipped.
+  warnings.warn(
+
+2023-11-16 12:29:05,523 - stpipe.Image2Pipeline.bkg_subtract - INFO - Accumulate bkg from /Users/jaguilar/Projects/jwst_calibration/Coronagraphy_ExampleNB/pipeline_demos/stage2/input/jw01386031001_03101_00001_mirimage_rateints.fits
+2023-11-16 12:29:05,586 - stpipe.Image2Pipeline.bkg_subtract - WARNING - /Users/jaguilar/Projects/miniconda3/envs/jwst_inspector/lib/python3.9/site-packages/astropy/stats/sigma_clipping.py:367: AstropyUserWarning: Input data contains invalid values (NaNs or infs), which were automatically clipped.
+  warnings.warn(
+
+2023-11-16 12:29:05,712 - stpipe.Image2Pipeline.bkg_subtract - INFO - Saved model in stage2/output-asn_all/jw01386007001_04101_00009_mirimage_combinedbackground.fits
+2023-11-16 12:29:05,712 - stpipe.Image2Pipeline.bkg_subtract - INFO - Combined background written to "stage2/output-asn_all/jw01386007001_04101_00009_mirimage_combinedbackground.fits".
+2023-11-16 12:29:05,822 - stpipe.Image2Pipeline.bkg_subtract - INFO - Saved model in stage2/output-asn_all/jw01386007001_04101_00009_mirimage_bsubints.fits
+2023-11-16 12:29:05,823 - stpipe.Image2Pipeline.bkg_subtract - INFO - Step bkg_subtract done
+peline_demos/stage2/input/jw01386007001_04101_00002_mirimage
+2023-11-16 12:28:56,245 - stpipe.Image2Pipeline - INFO - Processing product /Users/jaguilar/Projects/jwst_calibration/Coronagraphy_ExampleNB/pipeline_demos/stage2/input/jw01386007001_04101_00003_mirimage
+2023-11-16 12:28:56,245 - stpipe.Image2Pipeline - INFO - Working on input /Users/jaguilar/Projects/jwst_calibration/Coronagraphy_ExampleNB/pipeline_demos/stage2/input/jw01386007001_04101_00003_mirimage_rateints.fits ...
+2023-11-16 12:28:56,381 - stpipe.Image2Pipeline.bkg_subtract - INFO - Step bkg_subtract running with args (<CubeModel(19, 224, 288) from jw01386007001_04101_00003_mirimage_rateints.fits>, ['/Users/jaguilar/Projects/jwst_calibration/Coronagraphy_ExampleNB/pipeline_demos/stage2/input/jw01386031001_02101_00001_mirimage_rateints.fits', '/Users/jaguilar/Projects/jwst_calibration/Coronagraphy_ExampleNB/pipeline_demos/stage2/input/jw01386031001_03101_00001_mirimage_rateints.fits']).
+2023-11-16 12:28:56,381 - stpipe.Image2Pipeline.bkg_subtract - INFO - Step bkg_subtract parameters are: {'pre_hooks': [], 'post_hooks': [], 'output_file': None, 'output_dir': None, 'output_ext': '.fits', 'output_use_model': False, 'output_use_index': True, 'save_results': True, 'skip': False, 'suffix': 'bsubints', 'search_output_file': True, 'input_dir': 'stage2', 'save_combined_background': True, 'sigma': 3.0, 'maxiters': None, 'wfss_mmag_extract': None}
+2023-11-16 12:28:56,462 - stpipe.Image2Pipeline.bkg_subtract - INFO - Accumulate bkg from /Users/jaguilar/Projects/jwst_calibration/Coronagraphy_ExampleNB/pipeline_demos/stage2/input/jw01386031001_02101_00001_mirimage_rateints.fits
+2023-11-16 12:28:56,527 - stpipe.Image2Pipeline.bkg_subtract - WARNING - /Users/jaguilar/Projects/miniconda3/envs/jwst_inspector/lib/python3.9/site-packages/astropy/stats/sigma_clipping.py:367: AstropyUserWarning: Input data contains invalid values (NaNs or infs), which were automatically clipped.
+  warnings.warn(
+
+2023-11-16 12:28:56,589 - stpipe.Image2Pipeline.bkg_subtract - INFO - Accumulate bkg from /Users/jaguilar/Projects/jwst_calibration/Coronagraphy_ExampleNB/pipeline_demos/stage2/input/jw01386031001_03101_00001_mirimage_rateints.fits
+2023-11-16 12:28:56,656 - stpipe.Image2Pipeline.bkg_subtract - WARNING - /Users/jaguilar/Projects/miniconda3/envs/jwst_inspector/lib/python3.9/site-packages/astropy/stats/sigma_clipping.py:367: AstropyUserWarning: Input data contains invalid values (NaNs or infs), which were automatically clipped.
+  warnings.warn(
+
+2023-11-16 12:28:56,779 - stpipe.Image2Pipeline.bkg_subtract - INFO - Saved model in stage2/output-asn_all/jw01386007001_04101_00003_mirimage_combinedbackground.fits
+2023-11-16 12:28:56,779 - stpipe.Image2Pipeline.bkg_subtract - INFO - Combined background written to "stage2/output-asn_all/jw01386007001_04101_00003_mirimage_combinedbackground.fits".
+2023-11-16 12:28:56,875 - stpipe.Image2Pipeline.bkg_subtract - INFO - Saved model in stage2/output-asn_all/jw01386007001_04101_00003_mirimage_bsubints.fits
+2023-11-16 12:28:56,876 - stpipe.Image2Pipeline.bkg_subtract - INFO - Step bkg_subtract done
+2023-11-16 12:28:56,942 - stpipe.Image2Pipeline.assign_wcs - INFO - Step assign_wcs running with args (<CubeModel(19, 224, 288) from jw01386007001_04101_00003_mirimage_bsubints.fits>,).
+2023-11-16 12:28:56,943 - stpipe.Image2Pipeline.assign_wcs - INFO - Step assign_wcs parameters are: {'pre_hooks': [], 'post_hooks': [], 'output_file': None, 'output_dir': None, 'output_ext': '.fits', 'output_use_model': False, 'output_use_index': True, 'save_results': False, 'skip': False, 'suffix': 'assign_wcs', 'search_output_file': True, 'input_dir': 'stage2', 'sip_approx': True, 'sip_max_pix_error': 0.1, 'sip_degree': None, 'sip_max_inv_pix_error': 0.1, 'sip_inv_degree': None, 'sip_npoints': 12, 'slit_y_low': -0.55, 'slit_y_high': 0.55}
+2023-11-16 12:28:57,141 - stpipe.Image2Pipeline.assign_wcs - INFO - Created a MIRI mir_4qpm pipeline with references {'distortion': '/Volumes/agdisk/crds/references/jwst/miri/jwst_miri_distortion_0047.asdf', 'filteroffset': '/Volumes/agdisk/crds/references/jwst/miri/jwst_miri_filteroffset_0007.asdf', 'specwcs': None, 'regions': None, 'wavelengthrange': None, 'camera': None, 'collimator': None, 'disperser': None, 'fore': None, 'fpa': None, 'msa': None, 'ote': None, 'ifupost': None, 'ifufore': None, 'ifuslicer': None}
+2023-11-16 12:28:57,204 - stpipe.Image2Pipeline.assign_wcs - INFO - Update S_REGION to POLYGON ICRS  209.561588243 -42.103139089 209.570375909 -42.105367366 209.574314606 -42.097068254 209.565504816 -42.094815455
+2023-11-16 12:28:57,204 - stpipe.Image2Pipeline.assign_wcs - INFO - assign_wcs updated S_REGION to POLYGON ICRS  209.561588243 -42.103139089 209.570375909 -42.105367366 209.574314606 -42.097068254 209.565504816 -42.094815455
+2023-11-16 12:28:57,204 - stpipe.Image2Pipeline.assign_wcs - INFO - COMPLETED assign_wcs
+2023-11-16 12:28:57,239 - stpipe.Image2Pipeline.assign_wcs - INFO - Step assign_wcs done
+2023-11-16 12:28:57,306 - stpipe.Image2Pipeline.flat_field - INFO - Step flat_field running with args (<CubeModel(19, 224, 288) from jw01386007001_04101_00003_mirimage_bsubints.fits>,).
+2023-11-16 12:28:57,306 - stpipe.Image2Pipeline.flat_field - INFO - Step flat_field parameters are: {'pre_hooks': [], 'post_hooks': [], 'output_file': None, 'output_dir': None, 'output_ext': '.fits', 'output_use_model': False, 'output_use_index': True, 'save_results': False, 'skip': False, 'suffix': 'flat_field', 'search_output_file': True, 'input_dir': 'stage2', 'save_interpolated_flat': False, 'user_supplied_flat': None, 'inverse': False}
+2023-11-16 12:28:57,381 - stpipe.Image2Pipeline.flat_field - WARNING - Keyword CDP_PARTIAL_DATA does not correspond to an existing DQ mnemonic, so will be ignored
+2023-11-16 12:28:57,382 - stpipe.Image2Pipeline.flat_field - WARNING - Keyword CDP_LOW_QUAL does not correspond to an existing DQ mnemonic, so will be ignored
+2023-11-16 12:28:57,382 - stpipe.Image2Pipeline.flat_field - WARNING - Keyword CDP_UNRELIABLE_ERROR does not correspond to an existing DQ mnemonic, so will be ignored
+2023-11-16 12:28:57,383 - stpipe.Image2Pipeline.flat_field - WARNING - Keyword DIFF_PATTERN does not correspond to an existing DQ mnemonic, so will be ignored
+2023-11-16 12:28:57,384 - stpipe.Image2Pipeline.flat_field - INFO - Using FLAT reference file: /Volumes/agdisk/crds/references/jwst/miri/jwst_miri_flat_0768.fits
+2023-11-16 12:28:57,384 - stpipe.Image2Pipeline.flat_field - INFO - No reference found for type FFLAT
+2023-11-16 12:28:57,384 - stpipe.Image2Pipeline.flat_field - INFO - No reference found for type SFLAT
+2023-11-16 12:28:57,384 - stpipe.Image2Pipeline.flat_field - INFO - No reference found for type DFLAT
+2023-11-16 12:28:57,473 - stpipe.Image2Pipeline.flat_field - INFO - Step flat_field done
+2023-11-16 12:28:57,539 - stpipe.Image2Pipeline.photom - INFO - Step photom running with args (<CubeModel(19, 224, 288) from jw01386007001_04101_00003_mirimage_bsubints.fits>,).
+2023-11-16 12:28:57,540 - stpipe.Image2Pipeline.photom - INFO - Step photom parameters are: {'pre_hooks': [], 'post_hooks': [], 'output_file': None, 'output_dir': None, 'output_ext': '.fits', 'output_use_model': False, 'output_use_index': True, 'save_results': False, 'skip': False, 'suffix': 'photom', 'search_output_file': True, 'input_dir': 'stage2', 'inverse': False, 'source_type': None, 'mrs_time_correction': True}
+2023-11-16 12:28:57,567 - stpipe.Image2Pipeline.photom - INFO - Using photom reference file: /Volumes/agdisk/crds/references/jwst/miri/jwst_miri_photom_0191.fits
+2023-11-16 12:28:57,567 - stpipe.Image2Pipeline.photom - INFO - Using area reference file: N/A
+2023-11-16 12:28:57,646 - stpipe.Image2Pipeline.photom - INFO - Using instrument: MIRI
+2023-11-16 12:28:57,646 - stpipe.Image2Pipeline.photom - INFO -  detector: MIRIMAGE
+2023-11-16 12:28:57,646 - stpipe.Image2Pipeline.photom - INFO -  exp_type: MIR_4QPM
+2023-11-16 12:28:57,646 - stpipe.Image2Pipeline.photom - INFO -  filter: F1550C
+2023-11-16 12:28:57,665 - stpipe.Image2Pipeline.photom - INFO -  subarray: MASK1550
+2023-11-16 12:28:57,665 - stpipe.Image2Pipeline.photom - INFO - PHOTMJSR value: 3.79525
+2023-11-16 12:28:57,676 - stpipe.Image2Pipeline.photom - INFO - Step photom done
+2023-11-16 12:28:57,677 - stpipe.Image2Pipeline - INFO - Finished processing product /Users/jaguilar/Projects/jwst_calibration/Coronagraphy_ExampleNB/pipeline_demos/stage2/input/jw01386007001_04101_00003_mirimage
+2023-11-16 12:28:57,677 - stpipe.Image2Pipeline - INFO - Processing product /Users/jaguilar/Projects/jwst_calibration/Coronagraphy_ExampleNB/pipeline_demos/stage2/input/jw01386007001_04101_00004_mirimage
+2023-11-16 12:28:57,678 - stpipe.Image2Pipeline - INFO - Working on input /Users/jaguilar/Projects/jwst_calibration/Coronagraphy_ExampleNB/pipeline_demos/stage2/input/jw01386007001_04101_00004_mirimage_rateints.fits ...
+2023-11-16 12:28:57,813 - stpipe.Image2Pipeline.bkg_subtract - INFO - Step bkg_subtract running with args (<CubeModel(19, 224, 288) from jw01386007001_04101_00004_mirimage_rateints.fits>, ['/Users/jaguilar/Projects/jwst_calibration/Coronagraphy_ExampleNB/pipeline_demos/stage2/input/jw01386031001_02101_00001_mirimage_rateints.fits', '/Users/jaguilar/Projects/jwst_calibration/Coronagraphy_ExampleNB/pipeline_demos/stage2/input/jw01386031001_03101_00001_mirimage_rateints.fits']).
+2023-11-16 12:28:57,814 - stpipe.Image2Pipeline.bkg_subtract - INFO - Step bkg_subtract parameters are: {'pre_hooks': [], 'post_hooks': [], 'output_file': None, 'output_dir': None, 'output_ext': '.fits', 'output_use_model': False, 'output_use_index': True, 'save_results': True, 'skip': False, 'suffix': 'bsubints', 'search_output_file': True, 'input_dir': 'stage2', 'save_combined_background': True, 'sigma': 3.0, 'maxiters': None, 'wfss_mmag_extract': None}
+2023-11-16 12:28:57,893 - stpipe.Image2Pipeline.bkg_subtract - INFO - Accumulate bkg from /Users/jaguilar/Projects/jwst_calibration/Coronagraphy_ExampleNB/pipeline_demos/stage2/input/jw01386031001_02101_00001_mirimage_rateints.fits
+2023-11-16 12:28:57,961 - stpipe.Image2Pipeline.bkg_subtract - WARNING - /Users/jaguilar/Projects/miniconda3/envs/jwst_inspector/lib/python3.9/site-packages/astropy/stats/sigma_clipping.py:367: AstropyUserWarning: Input data contains invalid values (NaNs or infs), which were automatically clipped.
+  warnings.warn(
+
+2023-11-16 12:28:58,023 - stpipe.Image2Pipeline.bkg_subtract - INFO - Accumulate bkg from /Users/jaguilar/Projects/jwst_calibration/Coronagraphy_ExampleNB/pipeline_demos/stage2/input/jw01386031001_03101_00001_mirimage_rateints.fits
+2023-11-16 12:28:58,094 - stpipe.Image2Pipeline.bkg_subtract - WARNING - /Users/jaguilar/Projects/miniconda3/envs/jwst_inspector/lib/python3.9/site-packages/astropy/stats/sigma_clipping.py:367: AstropyUserWarning: Input data contains invalid values (NaNs or infs), which were automatically clipped.
+  warnings.warn(
+
+2023-11-16 12:28:58,215 - stpipe.Image2Pipeline.bkg_subtract - INFO - Saved model in stage2/output-asn_all/jw01386007001_04101_00004_mirimage_combinedbackground.fits
+2023-11-16 12:28:58,215 - stpipe.Image2Pipeline.bkg_subtract - INFO - Combined background written to "stage2/output-asn_all/jw01386007001_04101_00004_mirimage_combinedbackground.fits".
+2023-11-16 12:28:58,317 - stpipe.Image2Pipeline.bkg_subtract - INFO - Saved model in stage2/output-asn_all/jw01386007001_04101_00004_mirimage_bsubints.fits
+2023-11-16 12:28:58,317 - stpipe.Image2Pipeline.bkg_subtract - INFO - Step bkg_subtract done
+2023-11-16 12:28:58,390 - stpipe.Image2Pipeline.assign_wcs - INFO - Step assign_wcs running with args (<CubeModel(19, 224, 288) from jw01386007001_04101_00004_mirimage_bsubints.fits>,).
+2023-11-16 12:28:58,391 - stpipe.Image2Pipeline.assign_wcs - INFO - Step assign_wcs parameters are: {'pre_hooks': [], 'post_hooks': [], 'output_file': None, 'output_dir': None, 'output_ext': '.fits', 'output_use_model': False, 'output_use_index': True, 'save_results': False, 'skip': False, 'suffix': 'assign_wcs', 'search_output_file': True, 'input_dir': 'stage2', 'sip_approx': True, 'sip_max_pix_error': 0.1, 'sip_degree': None, 'sip_max_inv_pix_error': 0.1, 'sip_inv_degree': None, 'sip_npoints': 12, 'slit_y_low': -0.55, 'slit_y_high': 0.55}
+2023-11-16 12:28:58,595 - stpipe.Image2Pipeline.assign_wcs - INFO - Created a MIRI mir_4qpm pipeline with references {'distortion': '/Volumes/agdisk/crds/references/jwst/miri/jwst_miri_distortion_0047.asdf', 'filteroffset': '/Volumes/agdisk/crds/references/jwst/miri/jwst_miri_filteroffset_0007.asdf', 'specwcs': None, 'regions': None, 'wavelengthrange': None, 'camera': None, 'collimator': None, 'disperser': None, 'fore': None, 'fpa': None, 'msa': None, 'ote': None, 'ifupost': None, 'ifufore': None, 'ifuslicer': None}
+2023-11-16 12:28:58,658 - stpipe.Image2Pipeline.assign_wcs - INFO - Update S_REGION to POLYGON ICRS  209.561587006 -42.103141709 209.570374673 -42.105369986 209.574313370 -42.097070874 209.565503580 -42.094818076
+2023-11-16 12:28:58,658 - stpipe.Image2Pipeline.assign_wcs - INFO - assign_wcs updated S_REGION to POLYGON ICRS  209.561587006 -42.103141709 209.570374673 -42.105369986 209.574313370 -42.097070874 209.565503580 -42.094818076
+2023-11-16 12:28:58,658 - stpipe.Image2Pipeline.assign_wcs - INFO - COMPLETED assign_wcs
+2023-11-16 12:28:58,693 - stpipe.Image2Pipeline.assign_wcs - INFO - Step assign_wcs done
+2023-11-16 12:28:58,768 - stpipe.Image2Pipeline.flat_field - INFO - Step flat_field running with args (<CubeModel(19, 224, 288) from jw01386007001_04101_00004_mirimage_bsubints.fits>,).
+2023-11-16 12:28:58,768 - stpipe.Image2Pipeline.flat_field - INFO - Step flat_field parameters are: {'pre_hooks': [], 'post_hooks': [], 'output_file': None, 'output_dir': None, 'output_ext': '.fits', 'output_use_model': False, 'output_use_index': True, 'save_results': False, 'skip': False, 'suffix': 'flat_field', 'search_output_file': True, 'input_dir': 'stage2', 'save_interpolated_flat': False, 'user_supplied_flat': None, 'inverse': False}
+2023-11-16 12:28:58,843 - stpipe.Image2Pipeline.flat_field - WARNING - Keyword CDP_PARTIAL_DATA does not correspond to an existing DQ mnemonic, so will be ignored
+2023-11-16 12:28:58,843 - stpipe.Image2Pipeline.flat_field - WARNING - Keyword CDP_LOW_QUAL does not correspond to an existing DQ mnemonic, so will be ignored
+2023-11-16 12:28:58,843 - stpipe.Image2Pipeline.flat_field - WARNING - Keyword CDP_UNRELIABLE_ERROR does not correspond to an existing DQ mnemonic, so will be ignored
+2023-11-16 12:28:58,844 - stpipe.Image2Pipeline.flat_field - WARNING - Keyword DIFF_PATTERN does not correspond to an existing DQ mnemonic, so will be ignored
+2023-11-16 12:28:58,845 - stpipe.Image2Pipeline.flat_field - INFO - Using FLAT reference file: /Volumes/agdisk/crds/references/jwst/miri/jwst_miri_flat_0768.fits
+2023-11-16 12:28:58,845 - stpipe.Image2Pipeline.flat_field - INFO - No reference found for type FFLAT
+2023-11-16 12:28:58,846 - stpipe.Image2Pipeline.flat_field - INFO - No reference found for type SFLAT
+2023-11-16 12:28:58,846 - stpipe.Image2Pipeline.flat_field - INFO - No reference found for type DFLAT
+2023-11-16 12:28:58,931 - stpipe.Image2Pipeline.flat_field - INFO - Step flat_field done
+2023-11-16 12:28:58,999 - stpipe.Image2Pipeline.photom - INFO - Step photom running with args (<CubeModel(19, 224, 288) from jw01386007001_04101_00004_mirimage_bsubints.fits>,).
+2023-11-16 12:28:59,000 - stpipe.Image2Pipeline.photom - INFO - Step photom parameters are: {'pre_hooks': [], 'post_hooks': [], 'output_file': None, 'output_dir': None, 'output_ext': '.fits', 'output_use_model': False, 'output_use_index': True, 'save_results': False, 'skip': False, 'suffix': 'photom', 'search_output_file': True, 'input_dir': 'stage2', 'inverse': False, 'source_type': None, 'mrs_time_correction': True}
+2023-11-16 12:28:59,026 - stpipe.Image2Pipeline.photom - INFO - Using photom reference file: /Volumes/agdisk/crds/references/jwst/miri/jwst_miri_photom_0191.fits
+2023-11-16 12:28:59,026 - stpipe.Image2Pipeline.photom - INFO - Using area reference file: N/A
+2023-11-16 12:28:59,100 - stpipe.Image2Pipeline.photom - INFO - Using instrument: MIRI
+2023-11-16 12:28:59,100 - stpipe.Image2Pipeline.photom - INFO -  detector: MIRIMAGE
+2023-11-16 12:28:59,100 - stpipe.Image2Pipeline.photom - INFO -  exp_type: MIR_4QPM
+2023-11-16 12:28:59,100 - stpipe.Image2Pipeline.photom - INFO -  filter: F1550C
+2023-11-16 12:28:59,118 - stpipe.Image2Pipeline.photom - INFO -  subarray: MASK1550
+2023-11-16 12:28:59,119 - stpipe.Image2Pipeline.photom - INFO - PHOTMJSR value: 3.79525
+2023-11-16 12:28:59,130 - stpipe.Image2Pipeline.photom - INFO - Step photom done
+2023-11-16 12:28:59,130 - stpipe.Image2Pipeline - INFO - Finished processing product /Users/jaguilar/Projects/jwst_calibration/Coronagraphy_ExampleNB/pipeline_demos/stage2/input/jw01386007001_04101_00004_mirimage
+2023-11-16 12:28:59,131 - stpipe.Image2Pipeline - INFO - Processing product /Users/jaguilar/Projects/jwst_calibration/Coronagraphy_ExampleNB/pipeline_demos/stage2/input/jw01386007001_04101_00005_mirimage
+2023-11-16 12:28:59,131 - stpipe.Image2Pipeline - INFO - Working on input /Users/jaguilar/Projects/jwst_calibration/Coronagraphy_ExampleNB/pipeline_demos/stage2/input/jw01386007001_04101_00005_mirimage_rateints.fits ...
+2023-11-16 12:28:59,271 - stpipe.Image2Pipeline.bkg_subtract - INFO - Step bkg_subtract running with args (<CubeModel(19, 224, 288) from jw01386007001_04101_00005_mirimage_rateints.fits>, ['/Users/jaguilar/Projects/jwst_calibration/Coronagraphy_ExampleNB/pipeline_demos/stage2/input/jw01386031001_02101_00001_mirimage_rateints.fits', '/Users/jaguilar/Projects/jwst_calibration/Coronagraphy_ExampleNB/pipeline_demos/stage2/input/jw01386031001_03101_00001_mirimage_rateints.fits']).
+2023-11-16 12:28:59,271 - stpipe.Image2Pipeline.bkg_subtract - INFO - Step bkg_subtract parameters are: {'pre_hooks': [], 'post_hooks': [], 'output_file': None, 'output_dir': None, 'output_ext': '.fits', 'output_use_model': False, 'output_use_index': True, 'save_results': True, 'skip': False, 'suffix': 'bsubints', 'search_output_file': True, 'input_dir': 'stage2', 'save_combined_background': True, 'sigma': 3.0, 'maxiters': None, 'wfss_mmag_extract': None}
+2023-11-16 12:28:59,355 - stpipe.Image2Pipeline.bkg_subtract - INFO - Accumulate bkg from /Users/jaguilar/Projects/jwst_calibration/Coronagraphy_ExampleNB/pipeline_demos/stage2/input/jw01386031001_02101_00001_mirimage_rateints.fits
+2023-11-16 12:28:59,423 - stpipe.Image2Pipeline.bkg_subtract - WARNING - /Users/jaguilar/Projects/miniconda3/envs/jwst_inspector/lib/python3.9/site-packages/astropy/stats/sigma_clipping.py:367: AstropyUserWarning: Input data contains invalid values (NaNs or infs), which were automatically clipped.
+  warnings.warn(
+
+2023-11-16 12:28:59,484 - stpipe.Image2Pipeline.bkg_subtract - INFO - Accumulate bkg from /Users/jaguilar/Projects/jwst_calibration/Coronagraphy_ExampleNB/pipeline_demos/stage2/input/jw01386031001_03101_00001_mirimage_rateints.fits
+2023-11-16 12:28:59,551 - stpipe.Image2Pipeline.bkg_subtract - WARNING - /Users/jaguilar/Projects/miniconda3/envs/jwst_inspector/lib/python3.9/site-packages/astropy/stats/sigma_clipping.py:367: AstropyUserWarning: Input data contains invalid values (NaNs or infs), which were automatically clipped.
+  warnings.warn(
+
+2023-11-16 12:28:59,673 - stpipe.Image2Pipeline.bkg_subtract - INFO - Saved model in stage2/output-asn_all/jw01386007001_04101_00005_mirimage_combinedbackground.fits
+2023-11-16 12:28:59,673 - stpipe.Image2Pipeline.bkg_subtract - INFO - Combined background written to "stage2/output-asn_all/jw01386007001_04101_00005_mirimage_combinedbackground.fits".
+2023-11-16 12:28:59,794 - stpipe.Image2Pipeline.bkg_subtract - INFO - Saved model in stage2/output-asn_all/jw01386007001_04101_00005_mirimage_bsubints.fits
+2023-11-16 12:28:59,795 - stpipe.Image2Pipeline.bkg_subtract - INFO - Step bkg_subtract done
+2023-11-16 12:28:59,864 - stpipe.Image2Pipeline.assign_wcs - INFO - Step assign_wcs running with args (<CubeModel(19, 224, 288) from jw01386007001_04101_00005_mirimage_bsubints.fits>,).
+2023-11-16 12:28:59,865 - stpipe.Image2Pipeline.assign_wcs - INFO - Step assign_wcs parameters are: {'pre_hooks': [], 'post_hooks': [], 'output_file': None, 'output_dir': None, 'output_ext': '.fits', 'output_use_model': False, 'output_use_index': True, 'save_results': False, 'skip': False, 'suffix': 'assign_wcs', 'search_output_file': True, 'input_dir': 'stage2', 'sip_approx': True, 'sip_max_pix_error': 0.1, 'sip_degree': None, 'sip_max_inv_pix_error': 0.1, 'sip_inv_degree': None, 'sip_npoints': 12, 'slit_y_low': -0.55, 'slit_y_high': 0.55}
+2023-11-16 12:29:00,063 - stpipe.Image2Pipeline.assign_wcs - INFO - Created a MIRI mir_4qpm pipeline with references {'distortion': '/Volumes/agdisk/crds/references/jwst/miri/jwst_miri_distortion_0047.asdf', 'filteroffset': '/Volumes/agdisk/crds/references/jwst/miri/jwst_miri_filteroffset_0007.asdf', 'specwcs': None, 'regions': None, 'wavelengthrange': None, 'camera': None, 'collimator': None, 'disperser': None, 'fore': None, 'fpa': None, 'msa': None, 'ote': None, 'ifupost': None, 'ifufore': None, 'ifuslicer': None}
+2023-11-16 12:29:00,126 - stpipe.Image2Pipeline.assign_wcs - INFO - Update S_REGION to POLYGON ICRS  209.561585763 -42.103144332 209.570373431 -42.105372609 209.574312128 -42.097073496 209.565502337 -42.094820698
+2023-11-16 12:29:00,126 - stpipe.Image2Pipeline.assign_wcs - INFO - assign_wcs updated S_REGION to POLYGON ICRS  209.561585763 -42.103144332 209.570373431 -42.105372609 209.574312128 -42.097073496 209.565502337 -42.094820698
+2023-11-16 12:29:00,126 - stpipe.Image2Pipeline.assign_wcs - INFO - COMPLETED assign_wcs
+2023-11-16 12:29:00,162 - stpipe.Image2Pipeline.assign_wcs - INFO - Step assign_wcs done
+2023-11-16 12:29:00,234 - stpipe.Image2Pipeline.flat_field - INFO - Step flat_field running with args (<CubeModel(19, 224, 288) from jw01386007001_04101_00005_mirimage_bsubints.fits>,).
+2023-11-16 12:29:00,234 - stpipe.Image2Pipeline.flat_field - INFO - Step flat_field parameters are: {'pre_hooks': [], 'post_hooks': [], 'output_file': None, 'output_dir': None, 'output_ext': '.fits', 'output_use_model': False, 'output_use_index': True, 'save_results': False, 'skip': False, 'suffix': 'flat_field', 'search_output_file': True, 'input_dir': 'stage2', 'save_interpolated_flat': False, 'user_supplied_flat': None, 'inverse': False}
+2023-11-16 12:29:00,309 - stpipe.Image2Pipeline.flat_field - WARNING - Keyword CDP_PARTIAL_DATA does not correspond to an existing DQ mnemonic, so will be ignored
+2023-11-16 12:29:00,309 - stpipe.Image2Pipeline.flat_field - WARNING - Keyword CDP_LOW_QUAL does not correspond to an existing DQ mnemonic, so will be ignored
+2023-11-16 12:29:00,309 - stpipe.Image2Pipeline.flat_field - WARNING - Keyword CDP_UNRELIABLE_ERROR does not correspond to an existing DQ mnemonic, so will be ignored
+2023-11-16 12:29:00,310 - stpipe.Image2Pipeline.flat_field - WARNING - Keyword DIFF_PATTERN does not correspond to an existing DQ mnemonic, so will be ignored
+2023-11-16 12:29:00,312 - stpipe.Image2Pipeline.flat_field - INFO - Using FLAT reference file: /Volumes/agdisk/crds/references/jwst/miri/jwst_miri_flat_0768.fits
+2023-11-16 12:29:00,312 - stpipe.Image2Pipeline.flat_field - INFO - No reference found for type FFLAT
+2023-11-16 12:29:00,312 - stpipe.Image2Pipeline.flat_field - INFO - No reference found for type SFLAT
+2023-11-16 12:29:00,312 - stpipe.Image2Pipeline.flat_field - INFO - No reference found for type DFLAT
+2023-11-16 12:29:00,397 - stpipe.Image2Pipeline.flat_field - INFO - Step flat_field done
+2023-11-16 12:29:00,471 - stpipe.Image2Pipeline.photom - INFO - Step photom running with args (<CubeModel(19, 224, 288) from jw01386007001_04101_00005_mirimage_bsubints.fits>,).
+2023-11-16 12:29:00,471 - stpipe.Image2Pipeline.photom - INFO - Step photom parameters are: {'pre_hooks': [], 'post_hooks': [], 'output_file': None, 'output_dir': None, 'output_ext': '.fits', 'output_use_model': False, 'output_use_index': True, 'save_results': False, 'skip': False, 'suffix': 'photom', 'search_output_file': True, 'input_dir': 'stage2', 'inverse': False, 'source_type': None, 'mrs_time_correction': True}
+2023-11-16 12:29:00,498 - stpipe.Image2Pipeline.photom - INFO - Using photom reference file: /Volumes/agdisk/crds/references/jwst/miri/jwst_miri_photom_0191.fits
+2023-11-16 12:29:00,498 - stpipe.Image2Pipeline.photom - INFO - Using area reference file: N/A
+2023-11-16 12:29:00,572 - stpipe.Image2Pipeline.photom - INFO - Using instrument: MIRI
+2023-11-16 12:29:00,572 - stpipe.Image2Pipeline.photom - INFO -  detector: MIRIMAGE
+2023-11-16 12:29:00,572 - stpipe.Image2Pipeline.photom - INFO -  exp_type: MIR_4QPM
+2023-11-16 12:29:00,572 - stpipe.Image2Pipeline.photom - INFO -  filter: F1550C
+2023-11-16 12:29:00,590 - stpipe.Image2Pipeline.photom - INFO -  subarray: MASK1550
+2023-11-16 12:29:00,591 - stpipe.Image2Pipeline.photom - INFO - PHOTMJSR value: 3.79525
+2023-11-16 12:29:00,602 - stpipe.Image2Pipeline.photom - INFO - Step photom done
+2023-11-16 12:29:00,603 - stpipe.Image2Pipeline - INFO - Finished processing product /Users/jaguilar/Projects/jwst_calibration/Coronagraphy_ExampleNB/pipeline_demos/stage2/input/jw01386007001_04101_00005_mirimage
+2023-11-16 12:29:00,604 - stpipe.Image2Pipeline - INFO - Processing product /Users/jaguilar/Projects/jwst_calibration/Coronagraphy_ExampleNB/pipeline_demos/stage2/input/jw01386007001_04101_00006_mirimage
+2023-11-16 12:29:00,604 - stpipe.Image2Pipeline - INFO - Working on input /Users/jaguilar/Projects/jwst_calibration/Coronagraphy_ExampleNB/pipeline_demos/stage2/input/jw01386007001_04101_00006_mirimage_rateints.fits ...
+2023-11-16 12:29:00,757 - stpipe.Image2Pipeline.bkg_subtract - INFO - Step bkg_subtract running with args (<CubeModel(19, 224, 288) from jw01386007001_04101_00006_mirimage_rateints.fits>, ['/Users/jaguilar/Projects/jwst_calibration/Coronagraphy_ExampleNB/pipeline_demos/stage2/input/jw01386031001_02101_00001_mirimage_rateints.fits', '/Users/jaguilar/Projects/jwst_calibration/Coronagraphy_ExampleNB/pipeline_demos/stage2/input/jw01386031001_03101_00001_mirimage_rateints.fits']).
+2023-11-16 12:29:00,758 - stpipe.Image2Pipeline.bkg_subtract - INFO - Step bkg_subtract parameters are: {'pre_hooks': [], 'post_hooks': [], 'output_file': None, 'output_dir': None, 'output_ext': '.fits', 'output_use_model': False, 'output_use_index': True, 'save_results': True, 'skip': False, 'suffix': 'bsubints', 'search_output_file': True, 'input_dir': 'stage2', 'save_combined_background': True, 'sigma': 3.0, 'maxiters': None, 'wfss_mmag_extract': None}
+2023-11-16 12:29:00,842 - stpipe.Image2Pipeline.bkg_subtract - INFO - Accumulate bkg from /Users/jaguilar/Projects/jwst_calibration/Coronagraphy_ExampleNB/pipeline_demos/stage2/input/jw01386031001_02101_00001_mirimage_rateints.fits
+2023-11-16 12:29:00,909 - stpipe.Image2Pipeline.bkg_subtract - WARNING - /Users/jaguilar/Projects/miniconda3/envs/jwst_inspector/lib/python3.9/site-packages/astropy/stats/sigma_clipping.py:367: AstropyUserWarning: Input data contains invalid values (NaNs or infs), which were automatically clipped.
+  warnings.warn(
+
+2023-11-16 12:29:00,974 - stpipe.Image2Pipeline.bkg_subtract - INFO - Accumulate bkg from /Users/jaguilar/Projects/jwst_calibration/Coronagraphy_ExampleNB/pipeline_demos/stage2/input/jw01386031001_03101_00001_mirimage_rateints.fits
+2023-11-16 12:29:01,046 - stpipe.Image2Pipeline.bkg_subtract - WARNING - /Users/jaguilar/Projects/miniconda3/envs/jwst_inspector/lib/python3.9/site-packages/astropy/stats/sigma_clipping.py:367: AstropyUserWarning: Input data contains invalid values (NaNs or infs), which were automatically clipped.
+  warnings.warn(
+
+2023-11-16 12:29:01,172 - stpipe.Image2Pipeline.bkg_subtract - INFO - Saved model in stage2/output-asn_all/jw01386007001_04101_00006_mirimage_combinedbackground.fits
+2023-11-16 12:29:01,172 - stpipe.Image2Pipeline.bkg_subtract - INFO - Combined background written to "stage2/output-asn_all/jw01386007001_04101_00006_mirimage_combinedbackground.fits".
+2023-11-16 12:29:01,289 - stpipe.Image2Pipeline.bkg_subtract - INFO - Saved model in stage2/output-asn_all/jw01386007001_04101_00006_mirimage_bsubints.fits
+2023-11-16 12:29:01,289 - stpipe.Image2Pipeline.bkg_subtract - INFO - Step bkg_subtract done
+2023-11-16 12:29:01,361 - stpipe.Image2Pipeline.assign_wcs - INFO - Step assign_wcs running with args (<CubeModel(19, 224, 288) from jw01386007001_04101_00006_mirimage_bsubints.fits>,).
+2023-11-16 12:29:01,362 - stpipe.Image2Pipeline.assign_wcs - INFO - Step assign_wcs parameters are: {'pre_hooks': [], 'post_hooks': [], 'output_file': None, 'output_dir': None, 'output_ext': '.fits', 'output_use_model': False, 'output_use_index': True, 'save_results': False, 'skip': False, 'suffix': 'assign_wcs', 'search_output_file': True, 'input_dir': 'stage2', 'sip_approx': True, 'sip_max_pix_error': 0.1, 'sip_degree': None, 'sip_max_inv_pix_error': 0.1, 'sip_inv_degree': None, 'sip_npoints': 12, 'slit_y_low': -0.55, 'slit_y_high': 0.55}
+2023-11-16 12:29:01,575 - stpipe.Image2Pipeline.assign_wcs - INFO - Created a MIRI mir_4qpm pipeline with references {'distortion': '/Volumes/agdisk/crds/references/jwst/miri/jwst_miri_distortion_0047.asdf', 'filteroffset': '/Volumes/agdisk/crds/references/jwst/miri/jwst_miri_filteroffset_0007.asdf', 'specwcs': None, 'regions': None, 'wavelengthrange': None, 'camera': None, 'collimator': None, 'disperser': None, 'fore': None, 'fpa': None, 'msa': None, 'ote': None, 'ifupost': None, 'ifufore': None, 'ifuslicer': None}
+2023-11-16 12:29:01,639 - stpipe.Image2Pipeline.assign_wcs - INFO - Update S_REGION to POLYGON ICRS  209.561589304 -42.103145241 209.570376971 -42.105373517 209.574315668 -42.097074405 209.565505876 -42.094821607
+2023-11-16 12:29:01,639 - stpipe.Image2Pipeline.assign_wcs - INFO - assign_wcs updated S_REGION to POLYGON ICRS  209.561589304 -42.103145241 209.570376971 -42.105373517 209.574315668 -42.097074405 209.565505876 -42.094821607
+2023-11-16 12:29:01,639 - stpipe.Image2Pipeline.assign_wcs - INFO - COMPLETED assign_wcs
+2023-11-16 12:29:01,675 - stpipe.Image2Pipeline.assign_wcs - INFO - Step assign_wcs done
+2023-11-16 12:29:01,751 - stpipe.Image2Pipeline.flat_field - INFO - Step flat_field running with args (<CubeModel(19, 224, 288) from jw01386007001_04101_00006_mirimage_bsubints.fits>,).
+2023-11-16 12:29:01,752 - stpipe.Image2Pipeline.flat_field - INFO - Step flat_field parameters are: {'pre_hooks': [], 'post_hooks': [], 'output_file': None, 'output_dir': None, 'output_ext': '.fits', 'output_use_model': False, 'output_use_index': True, 'save_results': False, 'skip': False, 'suffix': 'flat_field', 'search_output_file': True, 'input_dir': 'stage2', 'save_interpolated_flat': False, 'user_supplied_flat': None, 'inverse': False}
+2023-11-16 12:29:01,830 - stpipe.Image2Pipeline.flat_field - WARNING - Keyword CDP_PARTIAL_DATA does not correspond to an existing DQ mnemonic, so will be ignored
+2023-11-16 12:29:01,830 - stpipe.Image2Pipeline.flat_field - WARNING - Keyword CDP_LOW_QUAL does not correspond to an existing DQ mnemonic, so will be ignored
+2023-11-16 12:29:01,830 - stpipe.Image2Pipeline.flat_field - WARNING - Keyword CDP_UNRELIABLE_ERROR does not correspond to an existing DQ mnemonic, so will be ignored
+2023-11-16 12:29:01,831 - stpipe.Image2Pipeline.flat_field - WARNING - Keyword DIFF_PATTERN does not correspond to an existing DQ mnemonic, so will be ignored
+2023-11-16 12:29:01,833 - stpipe.Image2Pipeline.flat_field - INFO - Using FLAT reference file: /Volumes/agdisk/crds/references/jwst/miri/jwst_miri_flat_0768.fits
+2023-11-16 12:29:01,833 - stpipe.Image2Pipeline.flat_field - INFO - No reference found for type FFLAT
+2023-11-16 12:29:01,833 - stpipe.Image2Pipeline.flat_field - INFO - No reference found for type SFLAT
+2023-11-16 12:29:01,833 - stpipe.Image2Pipeline.flat_field - INFO - No reference found for type DFLAT
+2023-11-16 12:29:01,929 - stpipe.Image2Pipeline.flat_field - INFO - Step flat_field done
+2023-11-16 12:29:02,004 - stpipe.Image2Pipeline.photom - INFO - Step photom running with args (<CubeModel(19, 224, 288) from jw01386007001_04101_00006_mirimage_bsubints.fits>,).
+2023-11-16 12:29:02,004 - stpipe.Image2Pipeline.photom - INFO - Step photom parameters are: {'pre_hooks': [], 'post_hooks': [], 'output_file': None, 'output_dir': None, 'output_ext': '.fits', 'output_use_model': False, 'output_use_index': True, 'save_results': False, 'skip': False, 'suffix': 'photom', 'search_output_file': True, 'input_dir': 'stage2', 'inverse': False, 'source_type': None, 'mrs_time_correction': True}
+2023-11-16 12:29:02,031 - stpipe.Image2Pipeline.photom - INFO - Using photom reference file: /Volumes/agdisk/crds/references/jwst/miri/jwst_miri_photom_0191.fits
+2023-11-16 12:29:02,031 - stpipe.Image2Pipeline.photom - INFO - Using area reference file: N/A
+2023-11-16 12:29:02,107 - stpipe.Image2Pipeline.photom - INFO - Using instrument: MIRI
+2023-11-16 12:29:02,107 - stpipe.Image2Pipeline.photom - INFO -  detector: MIRIMAGE
+2023-11-16 12:29:02,107 - stpipe.Image2Pipeline.photom - INFO -  exp_type: MIR_4QPM
+2023-11-16 12:29:02,107 - stpipe.Image2Pipeline.photom - INFO -  filter: F1550C
+2023-11-16 12:29:02,127 - stpipe.Image2Pipeline.photom - INFO -  subarray: MASK1550
+2023-11-16 12:29:02,127 - stpipe.Image2Pipeline.photom - INFO - PHOTMJSR value: 3.79525
+2023-11-16 12:29:02,140 - stpipe.Image2Pipeline.photom - INFO - Step photom done
+2023-11-16 12:29:02,140 - stpipe.Image2Pipeline - INFO - Finished processing product /Users/jaguilar/Projects/jwst_calibration/Coronagraphy_ExampleNB/pipeline_demos/stage2/input/jw01386007001_04101_00006_mirimage
+2023-11-16 12:29:02,141 - stpipe.Image2Pipeline - INFO - Processing product /Users/jaguilar/Projects/jwst_calibration/Coronagraphy_ExampleNB/pipeline_demos/stage2/input/jw01386007001_04101_00007_mirimage
+2023-11-16 12:29:02,141 - stpipe.Image2Pipeline - INFO - Working on input /Users/jaguilar/Projects/jwst_calibration/Coronagraphy_ExampleNB/pipeline_demos/stage2/input/jw01386007001_04101_00007_mirimage_rateints.fits ...
+2023-11-16 12:29:02,295 - stpipe.Image2Pipeline.bkg_subtract - INFO - Step bkg_subtract running with args (<CubeModel(19, 224, 288) from jw01386007001_04101_00007_mirimage_rateints.fits>, ['/Users/jaguilar/Projects/jwst_calibration/Coronagraphy_ExampleNB/pipeline_demos/stage2/input/jw01386031001_02101_00001_mirimage_rateints.fits', '/Users/jaguilar/Projects/jwst_calibration/Coronagraphy_ExampleNB/pipeline_demos/stage2/input/jw01386031001_03101_00001_mirimage_rateints.fits']).
+2023-11-16 12:29:02,296 - stpipe.Image2Pipeline.bkg_subtract - INFO - Step bkg_subtract parameters are: {'pre_hooks': [], 'post_hooks': [], 'output_file': None, 'output_dir': None, 'output_ext': '.fits', 'output_use_model': False, 'output_use_index': True, 'save_results': True, 'skip': False, 'suffix': 'bsubints', 'search_output_file': True, 'input_dir': 'stage2', 'save_combined_background': True, 'sigma': 3.0, 'maxiters': None, 'wfss_mmag_extract': None}
+2023-11-16 12:29:02,377 - stpipe.Image2Pipeline.bkg_subtract - INFO - Accumulate bkg from /Users/jaguilar/Projects/jwst_calibration/Coronagraphy_ExampleNB/pipeline_demos/stage2/input/jw01386031001_02101_00001_mirimage_rateints.fits
+2023-11-16 12:29:02,445 - stpipe.Image2Pipeline.bkg_subtract - WARNING - /Users/jaguilar/Projects/miniconda3/envs/jwst_inspector/lib/python3.9/site-packages/astropy/stats/sigma_clipping.py:367: AstropyUserWarning: Input data contains invalid values (NaNs or infs), which were automatically clipped.
+  warnings.warn(
+
+2023-11-16 12:29:02,509 - stpipe.Image2Pipeline.bkg_subtract - INFO - Accumulate bkg from /Users/jaguilar/Projects/jwst_calibration/Coronagraphy_ExampleNB/pipeline_demos/stage2/input/jw01386031001_03101_00001_mirimage_rateints.fits
+2023-11-16 12:29:02,581 - stpipe.Image2Pipeline.bkg_subtract - WARNING - /Users/jaguilar/Projects/miniconda3/envs/jwst_inspector/lib/python3.9/site-packages/astropy/stats/sigma_clipping.py:367: AstropyUserWarning: Input data contains invalid values (NaNs or infs), which were automatically clipped.
+  warnings.warn(
+
+2023-11-16 12:29:02,710 - stpipe.Image2Pipeline.bkg_subtract - INFO - Saved model in stage2/output-asn_all/jw01386007001_04101_00007_mirimage_combinedbackground.fits
+2023-11-16 12:29:02,711 - stpipe.Image2Pipeline.bkg_subtract - INFO - Combined background written to "stage2/output-asn_all/jw01386007001_04101_00007_mirimage_combinedbackground.fits".
+2023-11-16 12:29:02,826 - stpipe.Image2Pipeline.bkg_subtract - INFO - Saved model in stage2/output-asn_all/jw01386007001_04101_00007_mirimage_bsubints.fits
+2023-11-16 12:29:02,826 - stpipe.Image2Pipeline.bkg_subtract - INFO - Step bkg_subtract done
+2023-11-16 12:29:02,903 - stpipe.Image2Pipeline.assign_wcs - INFO - Step assign_wcs running with args (<CubeModel(19, 224, 288) from jw01386007001_04101_00007_mirimage_bsubints.fits>,).
+2023-11-16 12:29:02,904 - stpipe.Image2Pipeline.assign_wcs - INFO - Step assign_wcs parameters are: {'pre_hooks': [], 'post_hooks': [], 'output_file': None, 'output_dir': None, 'output_ext': '.fits', 'output_use_model': False, 'output_use_index': True, 'save_results': False, 'skip': False, 'suffix': 'assign_wcs', 'search_output_file': True, 'input_dir': 'stage2', 'sip_approx': True, 'sip_max_pix_error': 0.1, 'sip_degree': None, 'sip_max_inv_pix_error': 0.1, 'sip_inv_degree': None, 'sip_npoints': 12, 'slit_y_low': -0.55, 'slit_y_high': 0.55}
+2023-11-16 12:29:03,115 - stpipe.Image2Pipeline.assign_wcs - INFO - Created a MIRI mir_4qpm pipeline with references {'distortion': '/Volumes/agdisk/crds/references/jwst/miri/jwst_miri_distortion_0047.asdf', 'filteroffset': '/Volumes/agdisk/crds/references/jwst/miri/jwst_miri_filteroffset_0007.asdf', 'specwcs': None, 'regions': None, 'wavelengthrange': None, 'camera': None, 'collimator': None, 'disperser': None, 'fore': None, 'fpa': None, 'msa': None, 'ote': None, 'ifupost': None, 'ifufore': None, 'ifuslicer': None}
+2023-11-16 12:29:03,180 - stpipe.Image2Pipeline.assign_wcs - INFO - Update S_REGION to POLYGON ICRS  209.561592854 -42.103146172 209.570380522 -42.105374449 209.574319219 -42.097075337 209.565509428 -42.094822539
+2023-11-16 12:29:03,180 - stpipe.Image2Pipeline.assign_wcs - INFO - assign_wcs updated S_REGION to POLYGON ICRS  209.561592854 -42.103146172 209.570380522 -42.105374449 209.574319219 -42.097075337 209.565509428 -42.094822539
+2023-11-16 12:29:03,180 - stpipe.Image2Pipeline.assign_wcs - INFO - COMPLETED assign_wcs
+2023-11-16 12:29:03,216 - stpipe.Image2Pipeline.assign_wcs - INFO - Step assign_wcs done
+2023-11-16 12:29:03,293 - stpipe.Image2Pipeline.flat_field - INFO - Step flat_field running with args (<CubeModel(19, 224, 288) from jw01386007001_04101_00007_mirimage_bsubints.fits>,).
+2023-11-16 12:29:03,293 - stpipe.Image2Pipeline.flat_field - INFO - Step flat_field parameters are: {'pre_hooks': [], 'post_hooks': [], 'output_file': None, 'output_dir': None, 'output_ext': '.fits', 'output_use_model': False, 'output_use_index': True, 'save_results': False, 'skip': False, 'suffix': 'flat_field', 'search_output_file': True, 'input_dir': 'stage2', 'save_interpolated_flat': False, 'user_supplied_flat': None, 'inverse': False}
+2023-11-16 12:29:03,370 - stpipe.Image2Pipeline.flat_field - WARNING - Keyword CDP_PARTIAL_DATA does not correspond to an existing DQ mnemonic, so will be ignored
+2023-11-16 12:29:03,370 - stpipe.Image2Pipeline.flat_field - WARNING - Keyword CDP_LOW_QUAL does not correspond to an existing DQ mnemonic, so will be ignored
+2023-11-16 12:29:03,371 - stpipe.Image2Pipeline.flat_field - WARNING - Keyword CDP_UNRELIABLE_ERROR does not correspond to an existing DQ mnemonic, so will be ignored
+2023-11-16 12:29:03,371 - stpipe.Image2Pipeline.flat_field - WARNING - Keyword DIFF_PATTERN does not correspond to an existing DQ mnemonic, so will be ignored
+2023-11-16 12:29:03,373 - stpipe.Image2Pipeline.flat_field - INFO - Using FLAT reference file: /Volumes/agdisk/crds/references/jwst/miri/jwst_miri_flat_0768.fits
+2023-11-16 12:29:03,373 - stpipe.Image2Pipeline.flat_field - INFO - No reference found for type FFLAT
+2023-11-16 12:29:03,373 - stpipe.Image2Pipeline.flat_field - INFO - No reference found for type SFLAT
+2023-11-16 12:29:03,373 - stpipe.Image2Pipeline.flat_field - INFO - No reference found for type DFLAT
+2023-11-16 12:29:03,459 - stpipe.Image2Pipeline.flat_field - INFO - Step flat_field done
+2023-11-16 12:29:03,541 - stpipe.Image2Pipeline.photom - INFO - Step photom running with args (<CubeModel(19, 224, 288) from jw01386007001_04101_00007_mirimage_bsubints.fits>,).
+2023-11-16 12:29:03,541 - stpipe.Image2Pipeline.photom - INFO - Step photom parameters are: {'pre_hooks': [], 'post_hooks': [], 'output_file': None, 'output_dir': None, 'output_ext': '.fits', 'output_use_model': False, 'output_use_index': True, 'save_results': False, 'skip': False, 'suffix': 'photom', 'search_output_file': True, 'input_dir': 'stage2', 'inverse': False, 'source_type': None, 'mrs_time_correction': True}
+2023-11-16 12:29:03,569 - stpipe.Image2Pipeline.photom - INFO - Using photom reference file: /Volumes/agdisk/crds/references/jwst/miri/jwst_miri_photom_0191.fits
+2023-11-16 12:29:03,569 - stpipe.Image2Pipeline.photom - INFO - Using area reference file: N/A
+2023-11-16 12:29:03,642 - stpipe.Image2Pipeline.photom - INFO - Using instrument: MIRI
+2023-11-16 12:29:03,642 - stpipe.Image2Pipeline.photom - INFO -  detector: MIRIMAGE
+2023-11-16 12:29:03,642 - stpipe.Image2Pipeline.photom - INFO -  exp_type: MIR_4QPM
+2023-11-16 12:29:03,642 - stpipe.Image2Pipeline.photom - INFO -  filter: F1550C
+2023-11-16 12:29:03,661 - stpipe.Image2Pipeline.photom - INFO -  subarray: MASK1550
+2023-11-16 12:29:03,662 - stpipe.Image2Pipeline.photom - INFO - PHOTMJSR value: 3.79525
+2023-11-16 12:29:03,674 - stpipe.Image2Pipeline.photom - INFO - Step photom done
+2023-11-16 12:29:03,674 - stpipe.Image2Pipeline - INFO - Finished processing product /Users/jaguilar/Projects/jwst_calibration/Coronagraphy_ExampleNB/pipeline_demos/stage2/input/jw01386007001_04101_00007_mirimage
+2023-11-16 12:29:03,675 - stpipe.Image2Pipeline - INFO - Processing product /Users/jaguilar/Projects/jwst_calibration/Coronagraphy_ExampleNB/pipeline_demos/stage2/input/jw01386007001_04101_00008_mirimage
+2023-11-16 12:29:03,675 - stpipe.Image2Pipeline - INFO - Working on input /Users/jaguilar/Projects/jwst_calibration/Coronagraphy_ExampleNB/pipeline_demos/stage2/input/jw01386007001_04101_00008_mirimage_rateints.fits ...
+2023-11-16 12:29:03,830 - stpipe.Image2Pipeline.bkg_subtract - INFO - Step bkg_subtract running with args (<CubeModel(19, 224, 288) from jw01386007001_04101_00008_mirimage_rateints.fits>, ['/Users/jaguilar/Projects/jwst_calibration/Coronagraphy_ExampleNB/pipeline_demos/stage2/input/jw01386031001_02101_00001_mirimage_rateints.fits', '/Users/jaguilar/Projects/jwst_calibration/Coronagraphy_ExampleNB/pipeline_demos/stage2/input/jw01386031001_03101_00001_mirimage_rateints.fits']).
+2023-11-16 12:29:03,830 - stpipe.Image2Pipeline.bkg_subtract - INFO - Step bkg_subtract parameters are: {'pre_hooks': [], 'post_hooks': [], 'output_file': None, 'output_dir': None, 'output_ext': '.fits', 'output_use_model': False, 'output_use_index': True, 'save_results': True, 'skip': False, 'suffix': 'bsubints', 'search_output_file': True, 'input_dir': 'stage2', 'save_combined_background': True, 'sigma': 3.0, 'maxiters': None, 'wfss_mmag_extract': None}
+2023-11-16 12:29:03,912 - stpipe.Image2Pipeline.bkg_subtract - INFO - Accumulate bkg from /Users/jaguilar/Projects/jwst_calibration/Coronagraphy_ExampleNB/pipeline_demos/stage2/input/jw01386031001_02101_00001_mirimage_rateints.fits
+2023-11-16 12:29:03,978 - stpipe.Image2Pipeline.bkg_subtract - WARNING - /Users/jaguilar/Projects/miniconda3/envs/jwst_inspector/lib/python3.9/site-packages/astropy/stats/sigma_clipping.py:367: AstropyUserWarning: Input data contains invalid values (NaNs or infs), which were automatically clipped.
+  warnings.warn(
+
+2023-11-16 12:29:04,040 - stpipe.Image2Pipeline.bkg_subtract - INFO - Accumulate bkg from /Users/jaguilar/Projects/jwst_calibration/Coronagraphy_ExampleNB/pipeline_demos/stage2/input/jw01386031001_03101_00001_mirimage_rateints.fits
+2023-11-16 12:29:04,106 - stpipe.Image2Pipeline.bkg_subtract - WARNING - /Users/jaguilar/Projects/miniconda3/envs/jwst_inspector/lib/python3.9/site-packages/astropy/stats/sigma_clipping.py:367: AstropyUserWarning: Input data contains invalid values (NaNs or infs), which were automatically clipped.
+  warnings.warn(
+
+2023-11-16 12:29:04,232 - stpipe.Image2Pipeline.bkg_subtract - INFO - Saved model in stage2/output-asn_all/jw01386007001_04101_00008_mirimage_combinedbackground.fits
+2023-11-16 12:29:04,232 - stpipe.Image2Pipeline.bkg_subtract - INFO - Combined background written to "stage2/output-asn_all/jw01386007001_04101_00008_mirimage_combinedbackground.fits".
+2023-11-16 12:29:04,353 - stpipe.Image2Pipeline.bkg_subtract - INFO - Saved model in stage2/output-asn_all/jw01386007001_04101_00008_mirimage_bsubints.fits
+2023-11-16 12:29:04,353 - stpipe.Image2Pipeline.bkg_subtract - INFO - Step bkg_subtract done
+2023-11-16 12:29:04,430 - stpipe.Image2Pipeline.assign_wcs - INFO - Step assign_wcs running with args (<CubeModel(19, 224, 288) from jw01386007001_04101_00008_mirimage_bsubints.fits>,).
+2023-11-16 12:29:04,431 - stpipe.Image2Pipeline.assign_wcs - INFO - Step assign_wcs parameters are: {'pre_hooks': [], 'post_hooks': [], 'output_file': None, 'output_dir': None, 'output_ext': '.fits', 'output_use_model': False, 'output_use_index': True, 'save_results': False, 'skip': False, 'suffix': 'assign_wcs', 'search_output_file': True, 'input_dir': 'stage2', 'sip_approx': True, 'sip_max_pix_error': 0.1, 'sip_degree': None, 'sip_max_inv_pix_error': 0.1, 'sip_inv_degree': None, 'sip_npoints': 12, 'slit_y_low': -0.55, 'slit_y_high': 0.55}
+2023-11-16 12:29:04,630 - stpipe.Image2Pipeline.assign_wcs - INFO - Created a MIRI mir_4qpm pipeline with references {'distortion': '/Volumes/agdisk/crds/references/jwst/miri/jwst_miri_distortion_0047.asdf', 'filteroffset': '/Volumes/agdisk/crds/references/jwst/miri/jwst_miri_filteroffset_0007.asdf', 'specwcs': None, 'regions': None, 'wavelengthrange': None, 'camera': None, 'collimator': None, 'disperser': None, 'fore': None, 'fpa': None, 'msa': None, 'ote': None, 'ifupost': None, 'ifufore': None, 'ifuslicer': None}
+2023-11-16 12:29:04,693 - stpipe.Image2Pipeline.assign_wcs - INFO - Update S_REGION to POLYGON ICRS  209.561594067 -42.103143540 209.570381734 -42.105371816 209.574320430 -42.097072704 209.565510639 -42.094819906
+2023-11-16 12:29:04,693 - stpipe.Image2Pipeline.assign_wcs - INFO - assign_wcs updated S_REGION to POLYGON ICRS  209.561594067 -42.103143540 209.570381734 -42.105371816 209.574320430 -42.097072704 209.565510639 -42.094819906
+2023-11-16 12:29:04,693 - stpipe.Image2Pipeline.assign_wcs - INFO - COMPLETED assign_wcs
+2023-11-16 12:29:04,728 - stpipe.Image2Pipeline.assign_wcs - INFO - Step assign_wcs done
+2023-11-16 12:29:04,802 - stpipe.Image2Pipeline.flat_field - INFO - Step flat_field running with args (<CubeModel(19, 224, 288) from jw01386007001_04101_00008_mirimage_bsubints.fits>,).
+2023-11-16 12:29:04,803 - stpipe.Image2Pipeline.flat_field - INFO - Step flat_field parameters are: {'pre_hooks': [], 'post_hooks': [], 'output_file': None, 'output_dir': None, 'output_ext': '.fits', 'output_use_model': False, 'output_use_index': True, 'save_results': False, 'skip': False, 'suffix': 'flat_field', 'search_output_file': True, 'input_dir': 'stage2', 'save_interpolated_flat': False, 'user_supplied_flat': None, 'inverse': False}
+2023-11-16 12:29:04,878 - stpipe.Image2Pipeline.flat_field - WARNING - Keyword CDP_PARTIAL_DATA does not correspond to an existing DQ mnemonic, so will be ignored
+2023-11-16 12:29:04,878 - stpipe.Image2Pipeline.flat_field - WARNING - Keyword CDP_LOW_QUAL does not correspond to an existing DQ mnemonic, so will be ignored
+2023-11-16 12:29:04,878 - stpipe.Image2Pipeline.flat_field - WARNING - Keyword CDP_UNRELIABLE_ERROR does not correspond to an existing DQ mnemonic, so will be ignored
+2023-11-16 12:29:04,879 - stpipe.Image2Pipeline.flat_field - WARNING - Keyword DIFF_PATTERN does not correspond to an existing DQ mnemonic, so will be ignored
+2023-11-16 12:29:04,880 - stpipe.Image2Pipeline.flat_field - INFO - Using FLAT reference file: /Volumes/agdisk/crds/references/jwst/miri/jwst_miri_flat_0768.fits
+2023-11-16 12:29:04,880 - stpipe.Image2Pipeline.flat_field - INFO - No reference found for type FFLAT
+2023-11-16 12:29:04,880 - stpipe.Image2Pipeline.flat_field - INFO - No reference found for type SFLAT
+2023-11-16 12:29:04,880 - stpipe.Image2Pipeline.flat_field - INFO - No reference found for type DFLAT
+2023-11-16 12:29:04,965 - stpipe.Image2Pipeline.flat_field - INFO - Step flat_field done
+2023-11-16 12:29:05,039 - stpipe.Image2Pipeline.photom - INFO - Step photom running with args (<CubeModel(19, 224, 288) from jw01386007001_04101_00008_mirimage_bsubints.fits>,).
+2023-11-16 12:29:05,040 - stpipe.Image2Pipeline.photom - INFO - Step photom parameters are: {'pre_hooks': [], 'post_hooks': [], 'output_file': None, 'output_dir': None, 'output_ext': '.fits', 'output_use_model': False, 'output_use_index': True, 'save_results': False, 'skip': False, 'suffix': 'photom', 'search_output_file': True, 'input_dir': 'stage2', 'inverse': False, 'source_type': None, 'mrs_time_correction': True}
+2023-11-16 12:29:05,067 - stpipe.Image2Pipeline.photom - INFO - Using photom reference file: /Volumes/agdisk/crds/references/jwst/miri/jwst_miri_photom_0191.fits
+2023-11-16 12:29:05,067 - stpipe.Image2Pipeline.photom - INFO - Using area reference file: N/A
+2023-11-16 12:29:05,135 - stpipe.Image2Pipeline.photom - INFO - Using instrument: MIRI
+2023-11-16 12:29:05,135 - stpipe.Image2Pipeline.photom - INFO -  detector: MIRIMAGE
+2023-11-16 12:29:05,135 - stpipe.Image2Pipeline.photom - INFO -  exp_type: MIR_4QPM
+2023-11-16 12:29:05,135 - stpipe.Image2Pipeline.photom - INFO -  filter: F1550C
+2023-11-16 12:29:05,154 - stpipe.Image2Pipeline.photom - INFO -  subarray: MASK1550
+2023-11-16 12:29:05,154 - stpipe.Image2Pipeline.photom - INFO - PHOTMJSR value: 3.79525
+2023-11-16 12:29:05,165 - stpipe.Image2Pipeline.photom - INFO - Step photom done
+2023-11-16 12:29:05,166 - stpipe.Image2Pipeline - INFO - Finished processing product /Users/jaguilar/Projects/jwst_calibration/Coronagraphy_ExampleNB/pipeline_demos/stage2/input/jw01386007001_04101_00008_mirimage
+2023-11-16 12:29:05,166 - stpipe.Image2Pipeline - INFO - Processing product /Users/jaguilar/Projects/jwst_calibration/Coronagraphy_ExampleNB/pipeline_demos/stage2/input/jw01386007001_04101_00009_mirimage
+2023-11-16 12:29:05,166 - stpipe.Image2Pipeline - INFO - Working on input /Users/jaguilar/Projects/jwst_calibration/Coronagraphy_ExampleNB/pipeline_demos/stage2/input/jw01386007001_04101_00009_mirimage_rateints.fits ...
+2023-11-16 12:29:05,312 - stpipe.Image2Pipeline.bkg_subtract - INFO - Step bkg_subtract running with args (<CubeModel(19, 224, 288) from jw01386007001_04101_00009_mirimage_rateints.fits>, ['/Users/jaguilar/Projects/jwst_calibration/Coronagraphy_ExampleNB/pipeline_demos/stage2/input/jw01386031001_02101_00001_mirimage_rateints.fits', '/Users/jaguilar/Projects/jwst_calibration/Coronagraphy_ExampleNB/pipeline_demos/stage2/input/jw01386031001_03101_00001_mirimage_rateints.fits']).
+2023-11-16 12:29:05,313 - stpipe.Image2Pipeline.bkg_subtract - INFO - Step bkg_subtract parameters are: {'pre_hooks': [], 'post_hooks': [], 'output_file': None, 'output_dir': None, 'output_ext': '.fits', 'output_use_model': False, 'output_use_index': True, 'save_results': True, 'skip': False, 'suffix': 'bsubints', 'search_output_file': True, 'input_dir': 'stage2', 'save_combined_background': True, 'sigma': 3.0, 'maxiters': None, 'wfss_mmag_extract': None}
+2023-11-16 12:29:05,394 - stpipe.Image2Pipeline.bkg_subtract - INFO - Accumulate bkg from /Users/jaguilar/Projects/jwst_calibration/Coronagraphy_ExampleNB/pipeline_demos/stage2/input/jw01386031001_02101_00001_mirimage_rateints.fits
+2023-11-16 12:29:05,461 - stpipe.Image2Pipeline.bkg_subtract - WARNING - /Users/jaguilar/Projects/miniconda3/envs/jwst_inspector/lib/python3.9/site-packages/astropy/stats/sigma_clipping.py:367: AstropyUserWarning: Input data contains invalid values (NaNs or infs), which were automatically clipped.
+  warnings.warn(
+
+2023-11-16 12:29:05,523 - stpipe.Image2Pipeline.bkg_subtract - INFO - Accumulate bkg from /Users/jaguilar/Projects/jwst_calibration/Coronagraphy_ExampleNB/pipeline_demos/stage2/input/jw01386031001_03101_00001_mirimage_rateints.fits
+2023-11-16 12:29:05,586 - stpipe.Image2Pipeline.bkg_subtract - WARNING - /Users/jaguilar/Projects/miniconda3/envs/jwst_inspector/lib/python3.9/site-packages/astropy/stats/sigma_clipping.py:367: AstropyUserWarning: Input data contains invalid values (NaNs or infs), which were automatically clipped.
+  warnings.warn(
+
+2023-11-16 12:29:05,712 - stpipe.Image2Pipeline.bkg_subtract - INFO - Saved model in stage2/output-asn_all/jw01386007001_04101_00009_mirimage_combinedbackground.fits
+2023-11-16 12:29:05,712 - stpipe.Image2Pipeline.bkg_subtract - INFO - Combined background written to "stage2/output-asn_all/jw01386007001_04101_00009_mirimage_combinedbackground.fits".
+2023-11-16 12:29:05,822 - stpipe.Image2Pipeline.bkg_subtract - INFO - Saved model in stage2/output-asn_all/jw01386007001_04101_00009_mirimage_bsubints.fits
+2023-11-16 12:29:05,823 - stpipe.Image2Pipeline.bkg_subtract - INFO - Step bkg_subtract done
+2023-11-16 12:29:05,905 - stpipe.Image2Pipeline.assign_wcs - INFO - Step assign_wcs running with args (<CubeModel(19, 224, 288) from jw01386007001_04101_00009_mirimage_bsubints.fits>,).
+2023-11-16 12:29:05,906 - stpipe.Image2Pipeline.assign_wcs - INFO - Step assign_wcs parameters are: {'pre_hooks': [], 'post_hooks': [], 'output_file': None, 'output_dir': None, 'output_ext': '.fits', 'output_use_model': False, 'output_use_index': True, 'save_results': False, 'skip': False, 'suffix': 'assign_wcs', 'search_output_file': True, 'input_dir': 'stage2', 'sip_approx': True, 'sip_max_pix_error': 0.1, 'sip_degree': None, 'sip_max_inv_pix_error': 0.1, 'sip_inv_degree': None, 'sip_npoints': 12, 'slit_y_low': -0.55, 'slit_y_high': 0.55}
+2023-11-16 12:29:06,105 - stpipe.Image2Pipeline.assign_wcs - INFO - Created a MIRI mir_4qpm pipeline with references {'distortion': '/Volumes/agdisk/crds/references/jwst/miri/jwst_miri_distortion_0047.asdf', 'filteroffset': '/Volumes/agdisk/crds/references/jwst/miri/jwst_miri_filteroffset_0007.asdf', 'specwcs': None, 'regions': None, 'wavelengthrange': None, 'camera': None, 'collimator': None, 'disperser': None, 'fore': None, 'fpa': None, 'msa': None, 'ote': None, 'ifupost': None, 'ifufore': None, 'ifuslicer': None}
+2023-11-16 12:29:06,169 - stpipe.Image2Pipeline.assign_wcs - INFO - Update S_REGION to POLYGON ICRS  209.561595316 -42.103140915 209.570382983 -42.105369191 209.574321678 -42.097070079 209.565511888 -42.094817281
+2023-11-16 12:29:06,169 - stpipe.Image2Pipeline.assign_wcs - INFO - assign_wcs updated S_REGION to POLYGON ICRS  209.561595316 -42.103140915 209.570382983 -42.105369191 209.574321678 -42.097070079 209.565511888 -42.094817281
+2023-11-16 12:29:06,169 - stpipe.Image2Pipeline.assign_wcs - INFO - COMPLETED assign_wcs
+2023-11-16 12:29:06,205 - stpipe.Image2Pipeline.assign_wcs - INFO - Step assign_wcs done
+2023-11-16 12:29:06,282 - stpipe.Image2Pipeline.flat_field - INFO - Step flat_field running with args (<CubeModel(19, 224, 288) from jw01386007001_04101_00009_mirimage_bsubints.fits>,).
+2023-11-16 12:29:06,283 - stpipe.Image2Pipeline.flat_field - INFO - Step flat_field parameters are: {'pre_hooks': [], 'post_hooks': [], 'output_file': None, 'output_dir': None, 'output_ext': '.fits', 'output_use_model': False, 'output_use_index': True, 'save_results': False, 'skip': False, 'suffix': 'flat_field', 'search_output_file': True, 'input_dir': 'stage2', 'save_interpolated_flat': False, 'user_supplied_flat': None, 'inverse': False}
+2023-11-16 12:29:06,358 - stpipe.Image2Pipeline.flat_field - WARNING - Keyword CDP_PARTIAL_DATA does not correspond to an existing DQ mnemonic, so will be ignored
+2023-11-16 12:29:06,358 - stpipe.Image2Pipeline.flat_field - WARNING - Keyword CDP_LOW_QUAL does not correspond to an existing DQ mnemonic, so will be ignored
+2023-11-16 12:29:06,358 - stpipe.Image2Pipeline.flat_field - WARNING - Keyword CDP_UNRELIABLE_ERROR does not correspond to an existing DQ mnemonic, so will be ignored
+2023-11-16 12:29:06,359 - stpipe.Image2Pipeline.flat_field - WARNING - Keyword DIFF_PATTERN does not correspond to an existing DQ mnemonic, so will be ignored
+2023-11-16 12:29:06,360 - stpipe.Image2Pipeline.flat_field - INFO - Using FLAT reference file: /Volumes/agdisk/crds/references/jwst/miri/jwst_miri_flat_0768.fits
+2023-11-16 12:29:06,360 - stpipe.Image2Pipeline.flat_field - INFO - No reference found for type FFLAT
+2023-11-16 12:29:06,360 - stpipe.Image2Pipeline.flat_field - INFO - No reference found for type SFLAT
+2023-11-16 12:29:06,360 - stpipe.Image2Pipeline.flat_field - INFO - No reference found for type DFLAT
+2023-11-16 12:29:06,444 - stpipe.Image2Pipeline.flat_field - INFO - Step flat_field done
+2023-11-16 12:29:06,520 - stpipe.Image2Pipeline.photom - INFO - Step photom running with args (<CubeModel(19, 224, 288) from jw01386007001_04101_00009_mirimage_bsubints.fits>,).
+2023-11-16 12:29:06,520 - stpipe.Image2Pipeline.photom - INFO - Step photom parameters are: {'pre_hooks': [], 'post_hooks': [], 'output_file': None, 'output_dir': None, 'output_ext': '.fits', 'output_use_model': False, 'output_use_index': True, 'save_results': False, 'skip': False, 'suffix': 'photom', 'search_output_file': True, 'input_dir': 'stage2', 'inverse': False, 'source_type': None, 'mrs_time_correction': True}
+2023-11-16 12:29:06,547 - stpipe.Image2Pipeline.photom - INFO - Using photom reference file: /Volumes/agdisk/crds/references/jwst/miri/jwst_miri_photom_0191.fits
+2023-11-16 12:29:06,547 - stpipe.Image2Pipeline.photom - INFO - Using area reference file: N/A
+2023-11-16 12:29:06,615 - stpipe.Image2Pipeline.photom - INFO - Using instrument: MIRI
+2023-11-16 12:29:06,616 - stpipe.Image2Pipeline.photom - INFO -  detector: MIRIMAGE
+2023-11-16 12:29:06,616 - stpipe.Image2Pipeline.photom - INFO -  exp_type: MIR_4QPM
+2023-11-16 12:29:06,616 - stpipe.Image2Pipeline.photom - INFO -  filter: F1550C
+2023-11-16 12:29:06,634 - stpipe.Image2Pipeline.photom - INFO -  subarray: MASK1550
+2023-11-16 12:29:06,634 - stpipe.Image2Pipeline.photom - INFO - PHOTMJSR value: 3.79525
+2023-11-16 12:29:06,645 - stpipe.Image2Pipeline.photom - INFO - Step photom done
+2023-11-16 12:29:06,646 - stpipe.Image2Pipeline - INFO - Finished processing product /Users/jaguilar/Projects/jwst_calibration/Coronagraphy_ExampleNB/pipeline_demos/stage2/input/jw01386007001_04101_00009_mirimage
+2023-11-16 12:29:06,646 - stpipe.Image2Pipeline - INFO - ... ending calwebb_image2
+2023-11-16 12:29:06,647 - stpipe.Image2Pipeline - INFO - Results used CRDS context: jwst_1148.pmap
+2023-11-16 12:29:06,647 - stpipe.Image2Pipeline - INFO - Results used CRDS context: jwst_1148.pmap
+2023-11-16 12:29:06,647 - stpipe.Image2Pipeline - INFO - Results used CRDS context: jwst_1148.pmap
+2023-11-16 12:29:06,647 - stpipe.Image2Pipeline - INFO - Results used CRDS context: jwst_1148.pmap
+2023-11-16 12:29:06,647 - stpipe.Image2Pipeline - INFO - Results used CRDS context: jwst_1148.pmap
+2023-11-16 12:29:06,647 - stpipe.Image2Pipeline - INFO - Results used CRDS context: jwst_1148.pmap
+2023-11-16 12:29:06,647 - stpipe.Image2Pipeline - INFO - Results used CRDS context: jwst_1148.pmap
+2023-11-16 12:29:06,647 - stpipe.Image2Pipeline - INFO - Results used CRDS context: jwst_1148.pmap
+2023-11-16 12:29:06,647 - stpipe.Image2Pipeline - INFO - Results used CRDS context: jwst_1148.pmap
+2023-11-16 12:29:06,837 - stpipe.Image2Pipeline - INFO - Saved model in stage2/output-asn_all/jw01386007001_04101_00001_mirimage_calints.fits
+2023-11-16 12:29:07,011 - stpipe.Image2Pipeline - INFO - Saved model in stage2/output-asn_all/jw01386007001_04101_00002_mirimage_calints.fits
+2023-11-16 12:29:07,185 - stpipe.Image2Pipeline - INFO - Saved model in stage2/output-asn_all/jw01386007001_04101_00003_mirimage_calints.fits
+2023-11-16 12:29:07,358 - stpipe.Image2Pipeline - INFO - Saved model in stage2/output-asn_all/jw01386007001_04101_00004_mirimage_calints.fits
+2023-11-16 12:29:07,519 - stpipe.Image2Pipeline - INFO - Saved model in stage2/output-asn_all/jw01386007001_04101_00005_mirimage_calints.fits
+2023-11-16 12:29:07,688 - stpipe.Image2Pipeline - INFO - Saved model in stage2/output-asn_all/jw01386007001_04101_00006_mirimage_calints.fits
+2023-11-16 12:29:07,857 - stpipe.Image2Pipeline - INFO - Saved model in stage2/output-asn_all/jw01386007001_04101_00007_mirimage_calints.fits
+2023-11-16 12:29:08,025 - stpipe.Image2Pipeline - INFO - Saved model in stage2/output-asn_all/jw01386007001_04101_00008_mirimage_calints.fits
+2023-11-16 12:29:08,204 - stpipe.Image2Pipeline - INFO - Saved model in stage2/output-asn_all/jw01386007001_04101_00009_mirimage_calints.fits
+2023-11-16 12:29:08,204 - stpipe.Image2Pipeline - INFO - Step Image2Pipeline done
+2023-11-16 12:29:08,303 - stpipe - WARNING - /var/folders/hr/1pqv7tg94gvbhpcgq7c2fb_r0001bw/T/ipykernel_39543/3011563975.py:6: RuntimeWarning: Mean of empty slice
+  img = np.nanmean(img, axis=0)
+
+2023-11-16 12:29:08,469 - stpipe - WARNING - /var/folders/hr/1pqv7tg94gvbhpcgq7c2fb_r0001bw/T/ipykernel_39543/3011563975.py:6: RuntimeWarning: Mean of empty slice
+  img = np.nanmean(img, axis=0)
+
+2023-11-16 12:29:08,567 - stpipe - WARNING - /var/folders/hr/1pqv7tg94gvbhpcgq7c2fb_r0001bw/T/ipykernel_39543/3011563975.py:6: RuntimeWarning: Mean of empty slice
+  img = np.nanmean(img, axis=0)
+
+2023-11-16 12:29:08,817 - stpipe - WARNING - /var/folders/hr/1pqv7tg94gvbhpcgq7c2fb_r0001bw/T/ipykernel_39543/3011563975.py:6: RuntimeWarning: Mean of empty slice
+  img = np.nanmean(img, axis=0)
+
+2023-11-16 12:29:08,915 - stpipe - WARNING - /var/folders/hr/1pqv7tg94gvbhpcgq7c2fb_r0001bw/T/ipykernel_39543/3011563975.py:6: RuntimeWarning: Mean of empty slice
+  img = np.nanmean(img, axis=0)
+
+2023-11-16 12:29:09,076 - stpipe - WARNING - /var/folders/hr/1pqv7tg94gvbhpcgq7c2fb_r0001bw/T/ipykernel_39543/3011563975.py:6: RuntimeWarning: Mean of empty slice
+  img = np.nanmean(img, axis=0)
+
+2023-11-16 12:29:09,177 - stpipe - WARNING - /var/folders/hr/1pqv7tg94gvbhpcgq7c2fb_r0001bw/T/ipykernel_39543/3011563975.py:6: RuntimeWarning: Mean of empty slice
+  img = np.nanmean(img, axis=0)
+
+2023-11-16 12:29:09,341 - stpipe - WARNING - /var/folders/hr/1pqv7tg94gvbhpcgq7c2fb_r0001bw/T/ipykernel_39543/3011563975.py:6: RuntimeWarning: Mean of empty slice
+  img = np.nanmean(img, axis=0)
+
+2023-11-16 12:29:09,452 - stpipe - WARNING - /var/folders/hr/1pqv7tg94gvbhpcgq7c2fb_r0001bw/T/ipykernel_39543/3011563975.py:6: RuntimeWarning: Mean of empty slice
+  img = np.nanmean(img, axis=0)
+
+2023-11-16 12:29:09,616 - stpipe - WARNING - /var/folders/hr/1pqv7tg94gvbhpcgq7c2fb_r0001bw/T/ipykernel_39543/3011563975.py:6: RuntimeWarning: Mean of empty slice
+  img = np.nanmean(img, axis=0)
+
+2023-11-16 12:29:09,715 - stpipe - WARNING - /var/folders/hr/1pqv7tg94gvbhpcgq7c2fb_r0001bw/T/ipykernel_39543/3011563975.py:6: RuntimeWarning: Mean of empty slice
+  img = np.nanmean(img, axis=0)
+
+2023-11-16 12:29:09,880 - stpipe - WARNING - /var/folders/hr/1pqv7tg94gvbhpcgq7c2fb_r0001bw/T/ipykernel_39543/3011563975.py:6: RuntimeWarning: Mean of empty slice
+  img = np.nanmean(img, axis=0)
+
+2023-11-16 12:29:10,071 - stpipe - WARNING - /var/folders/hr/1pqv7tg94gvbhpcgq7c2fb_r0001bw/T/ipykernel_39543/3011563975.py:6: RuntimeWarning: Mean of empty slice
+  img = np.nanmean(img, axis=0)
+
+2023-11-16 12:29:10,233 - stpipe - WARNING - /var/folders/hr/1pqv7tg94gvbhpcgq7c2fb_r0001bw/T/ipykernel_39543/3011563975.py:6: RuntimeWarning: Mean of empty slice
+  img = np.nanmean(img, axis=0)
+
+2023-11-16 12:29:10,332 - stpipe - WARNING - /var/folders/hr/1pqv7tg94gvbhpcgq7c2fb_r0001bw/T/ipykernel_39543/3011563975.py:6: RuntimeWarning: Mean of empty slice
+  img = np.nanmean(img, axis=0)
+
+2023-11-16 12:29:10,493 - stpipe - WARNING - /var/folders/hr/1pqv7tg94gvbhpcgq7c2fb_r0001bw/T/ipykernel_39543/3011563975.py:6: RuntimeWarning: Mean of empty slice
+  img = np.nanmean(img, axis=0)
+
+2023-11-16 12:29:10,592 - stpipe - WARNING - /var/folders/hr/1pqv7tg94gvbhpcgq7c2fb_r0001bw/T/ipykernel_39543/3011563975.py:6: RuntimeWarning: Mean of empty slice
+  img = np.nanmean(img, axis=0)
+
+2023-11-16 12:29:10,753 - stpipe - WARNING - /var/folders/hr/1pqv7tg94gvbhpcgq7c2fb_r0001bw/T/ipykernel_39543/3011563975.py:6: RuntimeWarning: Mean of empty slice
+  img = np.nanmean(img, axis=0)
+
+2023-11-16 12:29:10,862 - stpipe - WARNING - /var/folders/hr/1pqv7tg94gvbhpcgq7c2fb_r0001bw/T/ipykernel_39543/3011563975.py:6: RuntimeWarning: Mean of empty slice
+  img = np.nanmean(img, axis=0)
+
+2023-11-16 12:29:11,036 - stpipe - WARNING - /var/folders/hr/1pqv7tg94gvbhpcgq7c2fb_r0001bw/T/ipykernel_39543/3011563975.py:6: RuntimeWarning: Mean of empty slice
+  img = np.nanmean(img, axis=0)
+
+2023-11-16 12:29:11,146 - stpipe - WARNING - /var/folders/hr/1pqv7tg94gvbhpcgq7c2fb_r0001bw/T/ipykernel_39543/3011563975.py:6: RuntimeWarning: Mean of empty slice
+  img = np.nanmean(img, axis=0)
+
+2023-11-16 12:29:11,414 - stpipe - WARNING - /var/folders/hr/1pqv7tg94gvbhpcgq7c2fb_r0001bw/T/ipykernel_39543/3011563975.py:6: RuntimeWarning: Mean of empty slice
+  img = np.nanmean(img, axis=0)
+
