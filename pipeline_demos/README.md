@@ -3,7 +3,7 @@
 
 ## Introduction
 
-These tutorials guide users through running the jwst calibration pipeline on MIRI coronagraphy data, using the JWST-ERS-1386 program's observations of HIP 65426 as an example. We show how to customize the pipeline at the stage level and at the individual step level. We do not show how to override reference files.
+These tutorials guide users through running the jwst calibration pipeline on MIRI coronagraphy data, using the JWST-ERS-1386 program's observations of HIP 65426 as an example. We show how to customize the pipeline at the stage level and at the individual step level. We do not show how to override reference files. 
 
 The MIRI coronagraphy pipeline consists of 3 stages:
 
@@ -42,7 +42,10 @@ Astronomy-specific packages
 
 ## Contents and usage notes
 
-Please copy the directory structure in addition to the notebooks and README. The notebooks are configured to read and write from the directories provided in this repository. Each notebook has a dedicated output folder, as well as an optional input folder for placing example data downloaded from MAST.
+No data files are provided in this repository. The default behavior for each notebook is to use the output of the notebook corresponding to the preceding pipeline stage (see note below about directory structure). Additionally, all notebooks include code to download the data they need directly from MAST, as well as a few brief instructions for switching it on. This enables users to skip running earlier pipeline stages. 
+
+Please copy the directory structure included in this repository, in addition to the notebooks and README. The notebooks are configured to read and write from the directories provided in this repository. Each notebook has a dedicated output folder, as well as an optional input folder for placing example data downloaded from MAST. 
+
 The directory structure is as follows:
 - pipeline_demos/
     - {notebooks here}
@@ -69,7 +72,7 @@ Some notebooks include much more detail than others. The most detailed notebook,
 #### `calwebb_detector1-single_file.ipynb`
 - Output location: `./stage1/output-step/{step_name}/`
 
-This notebook demonstrates how to run and configure each step of `Detector1Pipeline` independently of the rest of the pipeline. It is useful to run the pipeline in this way if you want to fiddle with the parameters of a particular step and examine its output without having to run the entire stage.
+This notebook demonstrates how to run and configure each step of `Detector1Pipeline` independently of the rest of the pipeline. It is useful to run the pipeline in this way to fiddle with the parameters of a particular step and examine its output without having to run the entire stage.
 
 #### `calwebb_detector1-all_exposures.ipynb`
 - Output location: `./stage1/output/`
