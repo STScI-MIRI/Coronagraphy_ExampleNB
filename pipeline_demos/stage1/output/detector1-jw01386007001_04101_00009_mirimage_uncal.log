@@ -1,140 +1,140 @@
-2023-11-15 13:04:56,166 - stpipe.Detector1Pipeline.gain_scale - INFO - GainScaleStep insta202023-1120232023-11-15 13:07:11,905 - stpipe.Detector1Pipeline.gain_scale - INFO - Step gain_scale running with args (<ImageModel(224, 288) from jw01386007001_04101_00009_mirimage_uncal.fits>,).
-2023-11-15 13:07:11,906 - stpipe.Detector1Pipeline.gain_scale - INFO - Step gain_scale parameters are: {'pre_hooks': [], 'post_hooks': [], 'output_file': None, 'output_dir': None, 'output_ext': '.fits', 'output_use_model': False, 'output_use_index': True, 'save_results': False, 'skip': False, 'suffix': 'gain_scale', 'search_output_file': True, 'input_dir': 'uncal'}
-2023-11-15 13:07:11,940 - stpipe.Detector1Pipeline.gain_scale - INFO - GAINFACT not found in gain reference file
-2023-11-15 13:07:11,940 - stpipe.Detector1Pipeline.gain_scale - INFO - Step will be skipped
-2023-11-15 13:07:11,944 - stpipe.Detector1Pipeline.gain_scale - INFO - Step gain_scale done
-2023-11-15 13:07:12,004 - stpipe.Detector1Pipeline.gain_scale - INFO - Step gain_scale running with args (<CubeModel(19, 224, 288) from jw01386007001_04101_00009_mirimage_uncal.fits>,).
-2023-11-15 13:07:12,004 - stpipe.Detector1Pipeline.gain_scale - INFO - Step gain_scale parameters are: {'pre_hooks': [], 'post_hooks': [], 'output_file': None, 'output_dir': None, 'output_ext': '.fits', 'output_use_model': False, 'output_use_index': True, 'save_results': False, 'skip': False, 'suffix': 'gain_scaleints', 'search_output_file': True, 'input_dir': 'uncal'}
-2023-11-15 13:07:12,039 - stpipe.Detector1Pipeline.gain_scale - INFO - GAINFACT not found in gain reference file
-2023-11-15 13:07:12,039 - stpipe.Detector1Pipeline.gain_scale - INFO - Step will be skipped
-2023-11-15 13:07:12,042 - stpipe.Detector1Pipeline.gain_scale - INFO - Step gain_scale done
+2023-11-16 13:18:43,167 - stpipe.Detector1Pipeline.gain_scale - INFO - GainScaleStep insta202023-1120232023-11-16 13:20:37,438 - stpipe.Detector1Pipeline.gain_scale - INFO - Step gain_scale running with args (<ImageModel(224, 288) from jw01386007001_04101_00009_mirimage_uncal.fits>,).
+2023-11-16 13:20:37,439 - stpipe.Detector1Pipeline.gain_scale - INFO - Step gain_scale parameters are: {'pre_hooks': [], 'post_hooks': [], 'output_file': None, 'output_dir': None, 'output_ext': '.fits', 'output_use_model': False, 'output_use_index': True, 'save_results': False, 'skip': False, 'suffix': 'gain_scale', 'search_output_file': True, 'input_dir': 'uncal'}
+2023-11-16 13:20:37,477 - stpipe.Detector1Pipeline.gain_scale - INFO - GAINFACT not found in gain reference file
+2023-11-16 13:20:37,477 - stpipe.Detector1Pipeline.gain_scale - INFO - Step will be skipped
+2023-11-16 13:20:37,481 - stpipe.Detector1Pipeline.gain_scale - INFO - Step gain_scale done
+2023-11-16 13:20:37,541 - stpipe.Detector1Pipeline.gain_scale - INFO - Step gain_scale running with args (<CubeModel(19, 224, 288) from jw01386007001_04101_00009_mirimage_uncal.fits>,).
+2023-11-16 13:20:37,541 - stpipe.Detector1Pipeline.gain_scale - INFO - Step gain_scale parameters are: {'pre_hooks': [], 'post_hooks': [], 'output_file': None, 'output_dir': None, 'output_ext': '.fits', 'output_use_model': False, 'output_use_index': True, 'save_results': False, 'skip': False, 'suffix': 'gain_scaleints', 'search_output_file': True, 'input_dir': 'uncal'}
+2023-11-16 13:20:37,583 - stpipe.Detector1Pipeline.gain_scale - INFO - GAINFACT not found in gain reference file
+2023-11-16 13:20:37,583 - stpipe.Detector1Pipeline.gain_scale - INFO - Step will be skipped
+2023-11-16 13:20:37,586 - stpipe.Detector1Pipeline.gain_scale - INFO - Step gain_scale done
  - stpipe.Detector1Pipeline.ramp_fit - INFO - Number of processors used for multiprocessing: 5
-2023-11-15 13:07:11,826 - stpipe.Detector1Pipeline.ramp_fit - INFO - Step ramp_fit done
+2023-11-16 13:20:37,364 - stpipe.Detector1Pipeline.ramp_fit - INFO - Step ramp_fit done
 e_0085.fits
-2023-11-15 13:05:05,114 - stpipe.Detector1Pipeline.jump - INFO - Extracting gain subarray to match science data
-2023-11-15 13:05:05,115 - stpipe.Detector1Pipeline.jump - INFO - Extracting readnoise subarray to match science data
-2023-11-15 13:05:05,173 - stpipe.Detector1Pipeline.jump - INFO - Executing two-point difference method
-2023-11-15 13:05:05,254 - stpipe.Detector1Pipeline.jump - INFO - Creating 5 processes for jump detection 
-2023-11-15 13:05:32,820 - stpipe.Detector1Pipeline.jump - INFO - Total elapsed time = 27.6474 sec
-2023-11-15 13:05:33,209 - stpipe.Detector1Pipeline.jump - INFO - The execution time in seconds: 28.224689
-2023-11-15 13:05:33,214 - stpipe.Detector1Pipeline.jump - INFO - Step jump done
+2023-11-16 13:18:51,400 - stpipe.Detector1Pipeline.jump - INFO - Extracting gain subarray to match science data
+2023-11-16 13:18:51,401 - stpipe.Detector1Pipeline.jump - INFO - Extracting readnoise subarray to match science data
+2023-11-16 13:18:51,457 - stpipe.Detector1Pipeline.jump - INFO - Executing two-point difference method
+2023-11-16 13:18:51,527 - stpipe.Detector1Pipeline.jump - INFO - Creating 5 processes for jump detection 
+2023-11-16 13:19:19,154 - stpipe.Detector1Pipeline.jump - INFO - Total elapsed time = 27.6959 sec
+2023-11-16 13:19:19,562 - stpipe.Detector1Pipeline.jump - INFO - The execution time in seconds: 28.290384
+2023-11-16 13:19:19,568 - stpipe.Detector1Pipeline.jump - INFO - Step jump done
 put_dir': None, 'output_ext': '.fits', 'output_use_model': False, 'output_use_index': True, 'save_results': False, 'skip': False, 'suffix': None, 'search_output_file': True, 'input_dir': ''}, 'saturation': {'pre_hooks': [], 'post_hooks': [], 'output_file': None, 'output_dir': None, 'output_ext': '.fits', 'output_use_model': False, 'output_use_index': True, 'save_results': False, 'skip': False, 'suffix': None, 'search_output_file': True, 'input_dir': '', 'n_pix_grow_sat': 1}, 'ipc': {'pre_hooks': [], 'post_hooks': [], 'output_file': None, 'output_dir': None, 'output_ext': '.fits', 'output_use_model': False, 'output_use_index': True, 'save_results': False, 'skip': True, 'suffix': None, 'search_output_file': True, 'input_dir': ''}, 'superbias': {'pre_hooks': [], 'post_hooks': [], 'output_file': None, 'output_dir': None, 'output_ext': '.fits', 'output_use_model': False, 'output_use_index': True, 'save_results': False, 'skip': False, 'suffix': None, 'search_output_file': True, 'input_dir': ''}, 'refpix': {'pre_hooks': [], 'post_hooks': [], 'output_file': None, 'output_dir': None, 'output_ext': '.fits', 'output_use_model': False, 'output_use_index': True, 'save_results': False, 'skip': False, 'suffix': None, 'search_output_file': True, 'input_dir': '', 'odd_even_columns': True, 'use_side_ref_pixels': True, 'side_smoothing_length': 11, 'side_gain': 1.0, 'odd_even_rows': True, 'ovr_corr_mitigation_ftr': 1.8}, 'rscd': {'pre_hooks': [], 'post_hooks': [], 'output_file': None, 'output_dir': None, 'output_ext': '.fits', 'output_use_model': False, 'output_use_index': True, 'save_results': False, 'skip': False, 'suffix': None, 'search_output_file': True, 'input_dir': '', 'type': 'baseline'}, 'firstframe': {'pre_hooks': [], 'post_hooks': [], 'output_file': None, 'output_dir': None, 'output_ext': '.fits', 'output_use_model': False, 'output_use_index': True, 'save_results': False, 'skip': False, 'suffix': None, 'search_output_file': True, 'input_dir': ''}, 'lastframe': {'pre_hooks': [], 'post_hooks': [], 'output_file': None, 'output_dir': None, 'output_ext': '.fits', 'output_use_model': False, 'output_use_index': True, 'save_results': False, 'skip': False, 'suffix': None, 'search_output_file': True, 'input_dir': ''}, 'linearity': {'pre_hooks': [], 'post_hooks': [], 'output_file': None, 'output_dir': None, 'output_ext': '.fits', 'output_use_model': False, 'output_use_index': True, 'save_results': False, 'skip': False, 'suffix': None, 'search_output_file': True, 'input_dir': ''}, 'dark_current': {'pre_hooks': [], 'post_hooks': [], 'output_file': None, 'output_dir': None, 'output_ext': '.fits', 'output_use_model': False, 'output_use_index': True, 'save_results': False, 'skip': False, 'suffix': None, 'search_output_file': True, 'input_dir': '', 'dark_output': None}, 'reset': {'pre_hooks': [], 'post_hooks': [], 'output_file': None, 'output_dir': None, 'output_ext': '.fits', 'output_use_model': False, 'output_use_index': True, 'save_results': False, 'skip': False, 'suffix': None, 'search_output_file': True, 'input_dir': ''}, 'persistence': {'pre_hooks': [], 'post_hooks': [], 'output_file': None, 'output_dir': None, 'output_ext': '.fits', 'output_use_model': False, 'output_use_index': True, 'save_results': False, 'skip': False, 'suffix': None, 'search_output_file': True, 'input_dir': '', 'input_trapsfilled': '', 'flag_pers_cutoff': 40.0, 'save_persistence': False, 'save_trapsfilled': True}, 'jump': {'pre_hooks': [], 'post_hooks': [], 'output_file': None, 'output_dir': None, 'output_ext': '.fits', 'output_use_model': False, 'output_use_index': True, 'save_results': False, 'skip': False, 'suffix': None, 'search_output_file': True, 'input_dir': '', 'rejection_threshold': 4.0, 'three_group_rejection_threshold': 6.0, 'four_group_rejection_threshold': 5.0, 'maximum_cores': 'half', 'flag_4_neighbors': True, 'max_jump_to_flag_neighbors': 1000.0, 'min_jump_to_flag_neighbors': 10.0, 'after_jump_flag_dn1': 100, 'after_jump_flag_time1': 15, 'after_jump_flag_dn2': 2000, 'after_jump_flag_time2': 3000, 'min_sat_area': 0, 'min_jump_area': 15, 'expand_factor': 2.5, 'use_ellipses': True, 'sat_required_snowball': False, 'min_sat_radius_extend': 2.5, 'sat_expand': 2, 'expand_large_events': False, 'find_showers': False, 'edge_size': 25, 'extend_snr_threshold': 1.2, 'extend_min_area': 90, 'extend_inner_radius': 1.0, 'extend_outer_radius': 2.6, 'extend_ellipse_expand_ratio': 1.1, 'time_masked_after_shower': 15.0, 'max_extended_radius': 200, 'minimum_groups': 3, 'minimum_sigclip_groups': 100, 'only_use_ints': True}, 'undersampling_correction': {'pre_hooks': [], 'post_hooks': [], 'output_file': None, 'output_dir': None, 'output_ext': '.fits', 'output_use_model': False, 'output_use_index': True, 'save_results': False, 'skip': True, 'suffix': None, 'search_output_file': True, 'input_dir': '', 'signal_threshold': 30000.0}, 'ramp_fit': {'pre_hooks': [], 'post_hooks': [], 'output_file': None, 'output_dir': None, 'output_ext': '.fits', 'output_use_model': False, 'output_use_index': True, 'save_results': False, 'skip': False, 'suffix': None, 'search_output_file': True, 'input_dir': '', 'int_name': '', 'save_opt': False, 'opt_name': '', 'suppress_one_group': True, 'maximum_cores': 'half'}, 'gain_scale': {'pre_hooks': [], 'post_hooks': [], 'output_file': None, 'output_dir': None, 'output_ext': '.fits', 'output_use_model': False, 'output_use_index': True, 'save_results': False, 'skip': False, 'suffix': None, 'search_output_file': True, 'input_dir': ''}}}
-2023-11-15 13:04:56,472 - stpipe.Detector1Pipeline - INFO - Prefetching reference files for dataset: 'jw01386007001_04101_00009_mirimage_uncal.fits' reftypes = ['dark', 'gain', 'linearity', 'mask', 'persat', 'readnoise', 'refpix', 'reset', 'rscd', 'saturation', 'superbias', 'trapdensity', 'trappars']
-2023-11-15 13:04:56,475 - stpipe.Detector1Pipeline - INFO - Prefetch for DARK reference file is '/Volumes/agdisk/crds/references/jwst/miri/jwst_miri_dark_0098.fits'.
-2023-11-15 13:04:56,475 - stpipe.Detector1Pipeline - INFO - Prefetch for GAIN reference file is '/Volumes/agdisk/crds/references/jwst/miri/jwst_miri_gain_0018.fits'.
-2023-11-15 13:04:56,475 - stpipe.Detector1Pipeline - INFO - Prefetch for LINEARITY reference file is '/Volumes/agdisk/crds/references/jwst/miri/jwst_miri_linearity_0032.fits'.
-2023-11-15 13:04:56,475 - stpipe.Detector1Pipeline - INFO - Prefetch for MASK reference file is '/Volumes/agdisk/crds/references/jwst/miri/jwst_miri_mask_0036.fits'.
-2023-11-15 13:04:56,475 - stpipe.Detector1Pipeline - INFO - Prefetch for PERSAT reference file is 'N/A'.
-2023-11-15 13:04:56,475 - stpipe.Detector1Pipeline - INFO - Prefetch for READNOISE reference file is '/Volumes/agdisk/crds/references/jwst/miri/jwst_miri_readnoise_0085.fits'.
-2023-11-15 13:04:56,475 - stpipe.Detector1Pipeline - INFO - Prefetch for REFPIX reference file is 'N/A'.
-2023-11-15 13:04:56,475 - stpipe.Detector1Pipeline - INFO - Prefetch for RESET reference file is '/Volumes/agdisk/crds/references/jwst/miri/jwst_miri_reset_0065.fits'.
-2023-11-15 13:04:56,475 - stpipe.Detector1Pipeline - INFO - Prefetch for RSCD reference file is '/Volumes/agdisk/crds/references/jwst/miri/jwst_miri_rscd_0017.fits'.
-2023-11-15 13:04:56,476 - stpipe.Detector1Pipeline - INFO - Prefetch for SATURATION reference file is '/Volumes/agdisk/crds/references/jwst/miri/jwst_miri_saturation_0034.fits'.
-2023-11-15 13:04:56,476 - stpipe.Detector1Pipeline - INFO - Prefetch for SUPERBIAS reference file is 'N/A'.
-2023-11-15 13:04:56,476 - stpipe.Detector1Pipeline - INFO - Prefetch for TRAPDENSITY reference file is 'N/A'.
-2023-11-15 13:04:56,476 - stpipe.Detector1Pipeline - INFO - Prefetch for TRAPPARS reference file is 'N/A'.
-2023-11-15 13:04:56,476 - stpipe.Detector1Pipeline - INFO - Starting calwebb_detector1 ...
-2023-11-15 13:04:57,256 - stpipe.Detector1Pipeline.group_scale - INFO - Step group_scale running with args (<RampModel(19, 100, 224, 288) from jw01386007001_04101_00009_mirimage_uncal.fits>,).
-2023-11-15 13:04:57,257 - stpipe.Detector1Pipeline.group_scale - INFO - Step group_scale parameters are: {'pre_hooks': [], 'post_hooks': [], 'output_file': None, 'output_dir': None, 'output_ext': '.fits', 'output_use_model': False, 'output_use_index': True, 'save_results': False, 'skip': False, 'suffix': None, 'search_output_file': True, 'input_dir': 'uncal'}
-2023-11-15 13:04:57,527 - stpipe.Detector1Pipeline.group_scale - INFO - NFRAMES and FRMDIVSR are equal; correction not needed
-2023-11-15 13:04:57,528 - stpipe.Detector1Pipeline.group_scale - INFO - Step will be skipped
-2023-11-15 13:04:57,529 - stpipe.Detector1Pipeline.group_scale - INFO - Step group_scale done
-2023-11-15 13:04:57,591 - stpipe.Detector1Pipeline.dq_init - INFO - Step dq_init running with args (<RampModel(19, 100, 224, 288) from jw01386007001_04101_00009_mirimage_uncal.fits>,).
-2023-11-15 13:04:57,592 - stpipe.Detector1Pipeline.dq_init - INFO - Step dq_init parameters are: {'pre_hooks': [], 'post_hooks': [], 'output_file': None, 'output_dir': None, 'output_ext': '.fits', 'output_use_model': False, 'output_use_index': True, 'save_results': False, 'skip': False, 'suffix': None, 'search_output_file': True, 'input_dir': 'uncal'}
-2023-11-15 13:04:57,610 - stpipe.Detector1Pipeline.dq_init - INFO - Using MASK reference file /Volumes/agdisk/crds/references/jwst/miri/jwst_miri_mask_0036.fits
-2023-11-15 13:04:57,657 - stpipe.Detector1Pipeline.dq_init - WARNING - Keyword RESERVED_4 does not correspond to an existing DQ mnemonic, so will be ignored
-2023-11-15 13:04:57,711 - stpipe.Detector1Pipeline.dq_init - WARNING - Keyword UNRELIABLE_RESET does not correspond to an existing DQ mnemonic, so will be ignored
-2023-11-15 13:04:57,825 - stpipe.Detector1Pipeline.dq_init - INFO - Extracting mask subarray to match science data
-2023-11-15 13:04:58,020 - stpipe.Detector1Pipeline.dq_init - INFO - Step dq_init done
-2023-11-15 13:04:58,082 - stpipe.Detector1Pipeline.saturation - INFO - Step saturation running with args (<RampModel(19, 100, 224, 288) from jw01386007001_04101_00009_mirimage_uncal.fits>,).
-2023-11-15 13:04:58,082 - stpipe.Detector1Pipeline.saturation - INFO - Step saturation parameters are: {'pre_hooks': [], 'post_hooks': [], 'output_file': None, 'output_dir': None, 'output_ext': '.fits', 'output_use_model': False, 'output_use_index': True, 'save_results': False, 'skip': False, 'suffix': None, 'search_output_file': True, 'input_dir': 'uncal', 'n_pix_grow_sat': 1}
-2023-11-15 13:04:58,100 - stpipe.Detector1Pipeline.saturation - INFO - Using SATURATION reference file /Volumes/agdisk/crds/references/jwst/miri/jwst_miri_saturation_0034.fits
-2023-11-15 13:04:58,147 - stpipe.Detector1Pipeline.saturation - WARNING - Keyword RESERVED_4 does not correspond to an existing DQ mnemonic, so will be ignored
-2023-11-15 13:04:58,201 - stpipe.Detector1Pipeline.saturation - WARNING - Keyword UNRELIABLE_RESET does not correspond to an existing DQ mnemonic, so will be ignored
-2023-11-15 13:04:58,294 - stpipe.Detector1Pipeline.saturation - INFO - Extracting reference file subarray to match science data
-2023-11-15 13:05:02,744 - stpipe.Detector1Pipeline.saturation - INFO - Detected 648 saturated pixels
-2023-11-15 13:05:02,755 - stpipe.Detector1Pipeline.saturation - INFO - Detected 0 A/D floor pixels
-2023-11-15 13:05:02,760 - stpipe.Detector1Pipeline.saturation - INFO - Step saturation done
-2023-11-15 13:05:02,821 - stpipe.Detector1Pipeline.ipc - INFO - Step ipc running with args (<RampModel(19, 100, 224, 288) from jw01386007001_04101_00009_mirimage_uncal.fits>,).
-2023-11-15 13:05:02,822 - stpipe.Detector1Pipeline.ipc - INFO - Step ipc parameters are: {'pre_hooks': [], 'post_hooks': [], 'output_file': None, 'output_dir': None, 'output_ext': '.fits', 'output_use_model': False, 'output_use_index': True, 'save_results': False, 'skip': True, 'suffix': None, 'search_output_file': True, 'input_dir': 'uncal'}
-2023-11-15 13:05:02,822 - stpipe.Detector1Pipeline.ipc - INFO - Step skipped.
-2023-11-15 13:05:02,824 - stpipe.Detector1Pipeline.ipc - INFO - Step ipc done
-2023-11-15 13:05:02,881 - stpipe.Detector1Pipeline.firstframe - INFO - Step firstframe running with args (<RampModel(19, 100, 224, 288) from jw01386007001_04101_00009_mirimage_uncal.fits>,).
-2023-11-15 13:05:02,881 - stpipe.Detector1Pipeline.firstframe - INFO - Step firstframe parameters are: {'pre_hooks': [], 'post_hooks': [], 'output_file': None, 'output_dir': None, 'output_ext': '.fits', 'output_use_model': False, 'output_use_index': True, 'save_results': False, 'skip': False, 'suffix': None, 'search_output_file': True, 'input_dir': 'uncal'}
-2023-11-15 13:05:02,962 - stpipe.Detector1Pipeline.firstframe - INFO - Step firstframe done
-2023-11-15 13:05:03,023 - stpipe.Detector1Pipeline.lastframe - INFO - Step lastframe running with args (<RampModel(19, 100, 224, 288) from jw01386007001_04101_00009_mirimage_uncal.fits>,).
-2023-11-15 13:05:03,024 - stpipe.Detector1Pipeline.lastframe - INFO - Step lastframe parameters are: {'pre_hooks': [], 'post_hooks': [], 'output_file': None, 'output_dir': None, 'output_ext': '.fits', 'output_use_model': False, 'output_use_index': True, 'save_results': False, 'skip': False, 'suffix': None, 'search_output_file': True, 'input_dir': 'uncal'}
-2023-11-15 13:05:03,105 - stpipe.Detector1Pipeline.lastframe - INFO - Step lastframe done
-2023-11-15 13:05:03,166 - stpipe.Detector1Pipeline.reset - INFO - Step reset running with args (<RampModel(19, 100, 224, 288) from jw01386007001_04101_00009_mirimage_uncal.fits>,).
-2023-11-15 13:05:03,167 - stpipe.Detector1Pipeline.reset - INFO - Step reset parameters are: {'pre_hooks': [], 'post_hooks': [], 'output_file': None, 'output_dir': None, 'output_ext': '.fits', 'output_use_model': False, 'output_use_index': True, 'save_results': False, 'skip': False, 'suffix': None, 'search_output_file': True, 'input_dir': 'uncal'}
-2023-11-15 13:05:03,185 - stpipe.Detector1Pipeline.reset - INFO - Using RESET reference file /Volumes/agdisk/crds/references/jwst/miri/jwst_miri_reset_0065.fits
-2023-11-15 13:05:03,215 - stpipe.Detector1Pipeline.reset - WARNING - Keyword RESERVED_4 does not correspond to an existing DQ mnemonic, so will be ignored
-2023-11-15 13:05:03,219 - stpipe.Detector1Pipeline.reset - WARNING - Keyword UNRELIABLE_RESET does not correspond to an existing DQ mnemonic, so will be ignored
-2023-11-15 13:05:03,316 - stpipe.Detector1Pipeline.reset - INFO - Step reset done
-2023-11-15 13:05:03,377 - stpipe.Detector1Pipeline.linearity - INFO - Step linearity running with args (<RampModel(19, 100, 224, 288) from jw01386007001_04101_00009_mirimage_uncal.fits>,).
-2023-11-15 13:05:03,378 - stpipe.Detector1Pipeline.linearity - INFO - Step linearity parameters are: {'pre_hooks': [], 'post_hooks': [], 'output_file': None, 'output_dir': None, 'output_ext': '.fits', 'output_use_model': False, 'output_use_index': True, 'save_results': False, 'skip': False, 'suffix': None, 'search_output_file': True, 'input_dir': 'uncal'}
-2023-11-15 13:05:03,396 - stpipe.Detector1Pipeline.linearity - INFO - Using Linearity reference file /Volumes/agdisk/crds/references/jwst/miri/jwst_miri_linearity_0032.fits
-2023-11-15 13:05:03,450 - stpipe.Detector1Pipeline.linearity - WARNING - Keyword RESERVED_4 does not correspond to an existing DQ mnemonic, so will be ignored
-2023-11-15 13:05:03,503 - stpipe.Detector1Pipeline.linearity - WARNING - Keyword UNRELIABLE_RESET does not correspond to an existing DQ mnemonic, so will be ignored
-2023-11-15 13:05:03,887 - stpipe.Detector1Pipeline.linearity - INFO - Step linearity done
-2023-11-15 13:05:03,949 - stpipe.Detector1Pipeline.rscd - INFO - Step rscd running with args (<RampModel(19, 100, 224, 288) from jw01386007001_04101_00009_mirimage_uncal.fits>,).
-2023-11-15 13:05:03,949 - stpipe.Detector1Pipeline.rscd - INFO - Step rscd parameters are: {'pre_hooks': [], 'post_hooks': [], 'output_file': None, 'output_dir': None, 'output_ext': '.fits', 'output_use_model': False, 'output_use_index': True, 'save_results': False, 'skip': False, 'suffix': None, 'search_output_file': True, 'input_dir': 'uncal', 'type': 'baseline'}
-2023-11-15 13:05:03,968 - stpipe.Detector1Pipeline.rscd - INFO - Using RSCD reference file /Volumes/agdisk/crds/references/jwst/miri/jwst_miri_rscd_0017.fits
-2023-11-15 13:05:04,079 - stpipe.Detector1Pipeline.rscd - INFO - Step rscd done
-2023-11-15 13:05:04,140 - stpipe.Detector1Pipeline.dark_current - INFO - Step dark_current running with args (<RampModel(19, 100, 224, 288) from jw01386007001_04101_00009_mirimage_uncal.fits>,).
-2023-11-15 13:05:04,141 - stpipe.Detector1Pipeline.dark_current - INFO - Step dark_current parameters are: {'pre_hooks': [], 'post_hooks': [], 'output_file': None, 'output_dir': 'stage1/output', 'output_ext': '.fits', 'output_use_model': False, 'output_use_index': True, 'save_results': False, 'skip': False, 'suffix': None, 'search_output_file': True, 'input_dir': 'uncal', 'dark_output': None}
-2023-11-15 13:05:04,159 - stpipe.Detector1Pipeline.dark_current - INFO - Using DARK reference file /Volumes/agdisk/crds/references/jwst/miri/jwst_miri_dark_0098.fits
-2023-11-15 13:05:04,267 - stpipe.Detector1Pipeline.dark_current - WARNING - Keyword UNRELIABLE_RESET does not correspond to an existing DQ mnemonic, so will be ignored
-2023-11-15 13:05:04,271 - stpipe.Detector1Pipeline.dark_current - INFO - Science data nints=19, ngroups=100, nframes=1, groupgap=0
-2023-11-15 13:05:04,271 - stpipe.Detector1Pipeline.dark_current - INFO - Dark data nints=3, ngroups=500, nframes=1, groupgap=0
-2023-11-15 13:05:04,763 - stpipe.Detector1Pipeline.dark_current - INFO - Step dark_current done
-2023-11-15 13:05:04,827 - stpipe.Detector1Pipeline.refpix - INFO - Step refpix running with args (<RampModel(19, 100, 224, 288) from jw01386007001_04101_00009_mirimage_uncal.fits>,).
-2023-11-15 13:05:04,827 - stpipe.Detector1Pipeline.refpix - INFO - Step refpix parameters are: {'pre_hooks': [], 'post_hooks': [], 'output_file': None, 'output_dir': None, 'output_ext': '.fits', 'output_use_model': False, 'output_use_index': True, 'save_results': False, 'skip': False, 'suffix': None, 'search_output_file': True, 'input_dir': 'uncal', 'odd_even_columns': True, 'use_side_ref_pixels': True, 'side_smoothing_length': 11, 'side_gain': 1.0, 'odd_even_rows': True, 'ovr_corr_mitigation_ftr': 1.8}
-2023-11-15 13:05:04,909 - stpipe.Detector1Pipeline.refpix - WARNING - Refpix correction skipped for MIRI subarrays
-2023-11-15 13:05:04,911 - stpipe.Detector1Pipeline.refpix - INFO - Step refpix done
-2023-11-15 13:05:04,974 - stpipe.Detector1Pipeline.jump - INFO - Step jump running with args (<RampModel(19, 100, 224, 288) from jw01386007001_04101_00009_mirimage_uncal.fits>,).
-2023-11-15 13:05:04,975 - stpipe.Detector1Pipeline.jump - INFO - Step jump parameters are: {'pre_hooks': [], 'post_hooks': [], 'output_file': None, 'output_dir': None, 'output_ext': '.fits', 'output_use_model': False, 'output_use_index': True, 'save_results': False, 'skip': False, 'suffix': None, 'search_output_file': True, 'input_dir': 'uncal', 'rejection_threshold': 4.0, 'three_group_rejection_threshold': 6.0, 'four_group_rejection_threshold': 5.0, 'maximum_cores': 'half', 'flag_4_neighbors': True, 'max_jump_to_flag_neighbors': 1000.0, 'min_jump_to_flag_neighbors': 10.0, 'after_jump_flag_dn1': 100, 'after_jump_flag_time1': 15, 'after_jump_flag_dn2': 2000, 'after_jump_flag_time2': 3000, 'min_sat_area': 0, 'min_jump_area': 15, 'expand_factor': 2.5, 'use_ellipses': True, 'sat_required_snowball': False, 'min_sat_radius_extend': 2.5, 'sat_expand': 2, 'expand_large_events': False, 'find_showers': False, 'edge_size': 25, 'extend_snr_threshold': 1.2, 'extend_min_area': 90, 'extend_inner_radius': 1.0, 'extend_outer_radius': 2.6, 'extend_ellipse_expand_ratio': 1.1, 'time_masked_after_shower': 15.0, 'max_extended_radius': 200, 'minimum_groups': 3, 'minimum_sigclip_groups': 100, 'only_use_ints': True}
-2023-11-15 13:05:04,984 - stpipe.Detector1Pipeline.jump - INFO - CR rejection threshold = 4 sigma
-2023-11-15 13:05:04,984 - stpipe.Detector1Pipeline.jump - INFO - Maximum cores to use = half
-2023-11-15 13:05:04,994 - stpipe.Detector1Pipeline.jump - INFO - Using GAIN reference file: /Volumes/agdisk/crds/references/jwst/miri/jwst_miri_gain_0018.fits
-2023-11-15 13:05:05,024 - stpipe.Detector1Pipeline.jump - INFO - Using READNOISE reference file: /Volumes/agdisk/crds/references/jwst/miri/jwst_miri_readnoise_0085.fits
-2023-11-15 13:05:05,114 - stpipe.Detector1Pipeline.jump - INFO - Extracting gain subarray to match science data
-2023-11-15 13:05:05,115 - stpipe.Detector1Pipeline.jump - INFO - Extracting readnoise subarray to match science data
-2023-11-15 13:05:05,173 - stpipe.Detector1Pipeline.jump - INFO - Executing two-point difference method
-2023-11-15 13:05:05,254 - stpipe.Detector1Pipeline.jump - INFO - Creating 5 processes for jump detection 
-2023-11-15 13:05:32,820 - stpipe.Detector1Pipeline.jump - INFO - Total elapsed time = 27.6474 sec
-2023-11-15 13:05:33,209 - stpipe.Detector1Pipeline.jump - INFO - The execution time in seconds: 28.224689
-2023-11-15 13:05:33,214 - stpipe.Detector1Pipeline.jump - INFO - Step jump done
-2023-11-15 13:05:33,296 - stpipe.Detector1Pipeline.undersampling_correction - INFO - Step undersampling_correction running with args (<RampModel(19, 100, 224, 288) from jw01386007001_04101_00009_mirimage_uncal.fits>,).
-2023-11-15 13:05:33,297 - stpipe.Detector1Pipeline.undersampling_correction - INFO - Step undersampling_correction parameters are: {'pre_hooks': [], 'post_hooks': [], 'output_file': None, 'output_dir': None, 'output_ext': '.fits', 'output_use_model': False, 'output_use_index': True, 'save_results': False, 'skip': True, 'suffix': None, 'search_output_file': True, 'input_dir': 'uncal', 'signal_threshold': 30000.0}
-2023-11-15 13:05:33,297 - stpipe.Detector1Pipeline.undersampling_correction - INFO - Step skipped.
-2023-11-15 13:05:33,299 - stpipe.Detector1Pipeline.undersampling_correction - INFO - Step undersampling_correction done
-2023-11-15 13:05:33,357 - stpipe.Detector1Pipeline.ramp_fit - INFO - Step ramp_fit running with args (<RampModel(19, 100, 224, 288) from jw01386007001_04101_00009_mirimage_uncal.fits>,).
-2023-11-15 13:05:33,358 - stpipe.Detector1Pipeline.ramp_fit - INFO - Step ramp_fit parameters are: {'pre_hooks': [], 'post_hooks': [], 'output_file': None, 'output_dir': 'stage1/output', 'output_ext': '.fits', 'output_use_model': False, 'output_use_index': True, 'save_results': False, 'skip': False, 'suffix': None, 'search_output_file': True, 'input_dir': 'uncal', 'int_name': '', 'save_opt': False, 'opt_name': '', 'suppress_one_group': True, 'maximum_cores': 'half'}
-2023-11-15 13:05:33,386 - stpipe.Detector1Pipeline.ramp_fit - INFO - Using READNOISE reference file: /Volumes/agdisk/crds/references/jwst/miri/jwst_miri_readnoise_0085.fits
-2023-11-15 13:05:33,386 - stpipe.Detector1Pipeline.ramp_fit - INFO - Using GAIN reference file: /Volumes/agdisk/crds/references/jwst/miri/jwst_miri_gain_0018.fits
-2023-11-15 13:05:33,426 - stpipe.Detector1Pipeline.ramp_fit - INFO - Extracting gain subarray to match science data
-2023-11-15 13:05:33,426 - stpipe.Detector1Pipeline.ramp_fit - INFO - Extracting readnoise subarray to match science data
-2023-11-15 13:05:33,426 - stpipe.Detector1Pipeline.ramp_fit - INFO - Using algorithm = ols
-2023-11-15 13:05:33,426 - stpipe.Detector1Pipeline.ramp_fit - INFO - Using weighting = optimal
-2023-11-15 13:05:33,984 - stpipe.Detector1Pipeline.ramp_fit - INFO - Number of leading groups that are flagged as DO_NOT_USE: 1
-2023-11-15 13:05:33,984 - stpipe.Detector1Pipeline.ramp_fit - INFO - MIRI dataset has all pixels in the final group flagged as DO_NOT_USE.
-2023-11-15 13:05:33,985 - stpipe.Detector1Pipeline.ramp_fit - INFO - Number of processors used for multiprocessing: 5
-2023-11-15 13:07:11,826 - stpipe.Detector1Pipeline.ramp_fit - INFO - Step ramp_fit done
-2023-11-15 13:07:11,905 - stpipe.Detector1Pipeline.gain_scale - INFO - Step gain_scale running with args (<ImageModel(224, 288) from jw01386007001_04101_00009_mirimage_uncal.fits>,).
-2023-11-15 13:07:11,906 - stpipe.Detector1Pipeline.gain_scale - INFO - Step gain_scale parameters are: {'pre_hooks': [], 'post_hooks': [], 'output_file': None, 'output_dir': None, 'output_ext': '.fits', 'output_use_model': False, 'output_use_index': True, 'save_results': False, 'skip': False, 'suffix': 'gain_scale', 'search_output_file': True, 'input_dir': 'uncal'}
-2023-11-15 13:07:11,940 - stpipe.Detector1Pipeline.gain_scale - INFO - GAINFACT not found in gain reference file
-2023-11-15 13:07:11,940 - stpipe.Detector1Pipeline.gain_scale - INFO - Step will be skipped
-2023-11-15 13:07:11,944 - stpipe.Detector1Pipeline.gain_scale - INFO - Step gain_scale done
-2023-11-15 13:07:12,004 - stpipe.Detector1Pipeline.gain_scale - INFO - Step gain_scale running with args (<CubeModel(19, 224, 288) from jw01386007001_04101_00009_mirimage_uncal.fits>,).
-2023-11-15 13:07:12,004 - stpipe.Detector1Pipeline.gain_scale - INFO - Step gain_scale parameters are: {'pre_hooks': [], 'post_hooks': [], 'output_file': None, 'output_dir': None, 'output_ext': '.fits', 'output_use_model': False, 'output_use_index': True, 'save_results': False, 'skip': False, 'suffix': 'gain_scaleints', 'search_output_file': True, 'input_dir': 'uncal'}
-2023-11-15 13:07:12,039 - stpipe.Detector1Pipeline.gain_scale - INFO - GAINFACT not found in gain reference file
-2023-11-15 13:07:12,039 - stpipe.Detector1Pipeline.gain_scale - INFO - Step will be skipped
-2023-11-15 13:07:12,042 - stpipe.Detector1Pipeline.gain_scale - INFO - Step gain_scale done
-2023-11-15 13:07:12,122 - stpipe.Detector1Pipeline - INFO - Saved model in stage1/output/jw01386007001_04101_00009_mirimage_rateints.fits
-2023-11-15 13:07:12,122 - stpipe.Detector1Pipeline - INFO - ... ending calwebb_detector1
-2023-11-15 13:07:12,123 - stpipe.Detector1Pipeline - INFO - Results used CRDS context: jwst_1148.pmap
-2023-11-15 13:07:12,181 - stpipe.Detector1Pipeline - INFO - Saved model in stage1/output/jw01386007001_04101_00009_mirimage_rate.fits
-2023-11-15 13:07:12,181 - stpipe.Detector1Pipeline - INFO - Step Detector1Pipeline done
-2023-11-15 13:07:14,211 - stpipe - INFO - PARS-JUMPSTEP parameters found: /Volumes/agdisk/crds/references/jwst/miri/jwst_miri_pars-jumpstep_0002.asdf
-2023-11-15 13:07:14,222 - stpipe - INFO - PARS-DETECTOR1PIPELINE parameters found: /Volumes/agdisk/crds/references/jwst/miri/jwst_miri_pars-detector1pipeline_0001.asdf
+2023-11-16 13:18:43,466 - stpipe.Detector1Pipeline - INFO - Prefetching reference files for dataset: 'jw01386007001_04101_00009_mirimage_uncal.fits' reftypes = ['dark', 'gain', 'linearity', 'mask', 'persat', 'readnoise', 'refpix', 'reset', 'rscd', 'saturation', 'superbias', 'trapdensity', 'trappars']
+2023-11-16 13:18:43,468 - stpipe.Detector1Pipeline - INFO - Prefetch for DARK reference file is '/Volumes/agdisk/crds/references/jwst/miri/jwst_miri_dark_0098.fits'.
+2023-11-16 13:18:43,468 - stpipe.Detector1Pipeline - INFO - Prefetch for GAIN reference file is '/Volumes/agdisk/crds/references/jwst/miri/jwst_miri_gain_0018.fits'.
+2023-11-16 13:18:43,468 - stpipe.Detector1Pipeline - INFO - Prefetch for LINEARITY reference file is '/Volumes/agdisk/crds/references/jwst/miri/jwst_miri_linearity_0032.fits'.
+2023-11-16 13:18:43,468 - stpipe.Detector1Pipeline - INFO - Prefetch for MASK reference file is '/Volumes/agdisk/crds/references/jwst/miri/jwst_miri_mask_0036.fits'.
+2023-11-16 13:18:43,469 - stpipe.Detector1Pipeline - INFO - Prefetch for PERSAT reference file is 'N/A'.
+2023-11-16 13:18:43,469 - stpipe.Detector1Pipeline - INFO - Prefetch for READNOISE reference file is '/Volumes/agdisk/crds/references/jwst/miri/jwst_miri_readnoise_0085.fits'.
+2023-11-16 13:18:43,469 - stpipe.Detector1Pipeline - INFO - Prefetch for REFPIX reference file is 'N/A'.
+2023-11-16 13:18:43,469 - stpipe.Detector1Pipeline - INFO - Prefetch for RESET reference file is '/Volumes/agdisk/crds/references/jwst/miri/jwst_miri_reset_0065.fits'.
+2023-11-16 13:18:43,469 - stpipe.Detector1Pipeline - INFO - Prefetch for RSCD reference file is '/Volumes/agdisk/crds/references/jwst/miri/jwst_miri_rscd_0017.fits'.
+2023-11-16 13:18:43,469 - stpipe.Detector1Pipeline - INFO - Prefetch for SATURATION reference file is '/Volumes/agdisk/crds/references/jwst/miri/jwst_miri_saturation_0034.fits'.
+2023-11-16 13:18:43,469 - stpipe.Detector1Pipeline - INFO - Prefetch for SUPERBIAS reference file is 'N/A'.
+2023-11-16 13:18:43,469 - stpipe.Detector1Pipeline - INFO - Prefetch for TRAPDENSITY reference file is 'N/A'.
+2023-11-16 13:18:43,469 - stpipe.Detector1Pipeline - INFO - Prefetch for TRAPPARS reference file is 'N/A'.
+2023-11-16 13:18:43,469 - stpipe.Detector1Pipeline - INFO - Starting calwebb_detector1 ...
+2023-11-16 13:18:44,247 - stpipe.Detector1Pipeline.group_scale - INFO - Step group_scale running with args (<RampModel(19, 100, 224, 288) from jw01386007001_04101_00009_mirimage_uncal.fits>,).
+2023-11-16 13:18:44,247 - stpipe.Detector1Pipeline.group_scale - INFO - Step group_scale parameters are: {'pre_hooks': [], 'post_hooks': [], 'output_file': None, 'output_dir': None, 'output_ext': '.fits', 'output_use_model': False, 'output_use_index': True, 'save_results': False, 'skip': False, 'suffix': None, 'search_output_file': True, 'input_dir': 'uncal'}
+2023-11-16 13:18:44,527 - stpipe.Detector1Pipeline.group_scale - INFO - NFRAMES and FRMDIVSR are equal; correction not needed
+2023-11-16 13:18:44,527 - stpipe.Detector1Pipeline.group_scale - INFO - Step will be skipped
+2023-11-16 13:18:44,528 - stpipe.Detector1Pipeline.group_scale - INFO - Step group_scale done
+2023-11-16 13:18:44,583 - stpipe.Detector1Pipeline.dq_init - INFO - Step dq_init running with args (<RampModel(19, 100, 224, 288) from jw01386007001_04101_00009_mirimage_uncal.fits>,).
+2023-11-16 13:18:44,584 - stpipe.Detector1Pipeline.dq_init - INFO - Step dq_init parameters are: {'pre_hooks': [], 'post_hooks': [], 'output_file': None, 'output_dir': None, 'output_ext': '.fits', 'output_use_model': False, 'output_use_index': True, 'save_results': False, 'skip': False, 'suffix': None, 'search_output_file': True, 'input_dir': 'uncal'}
+2023-11-16 13:18:44,602 - stpipe.Detector1Pipeline.dq_init - INFO - Using MASK reference file /Volumes/agdisk/crds/references/jwst/miri/jwst_miri_mask_0036.fits
+2023-11-16 13:18:44,647 - stpipe.Detector1Pipeline.dq_init - WARNING - Keyword RESERVED_4 does not correspond to an existing DQ mnemonic, so will be ignored
+2023-11-16 13:18:44,701 - stpipe.Detector1Pipeline.dq_init - WARNING - Keyword UNRELIABLE_RESET does not correspond to an existing DQ mnemonic, so will be ignored
+2023-11-16 13:18:44,814 - stpipe.Detector1Pipeline.dq_init - INFO - Extracting mask subarray to match science data
+2023-11-16 13:18:45,016 - stpipe.Detector1Pipeline.dq_init - INFO - Step dq_init done
+2023-11-16 13:18:45,070 - stpipe.Detector1Pipeline.saturation - INFO - Step saturation running with args (<RampModel(19, 100, 224, 288) from jw01386007001_04101_00009_mirimage_uncal.fits>,).
+2023-11-16 13:18:45,071 - stpipe.Detector1Pipeline.saturation - INFO - Step saturation parameters are: {'pre_hooks': [], 'post_hooks': [], 'output_file': None, 'output_dir': None, 'output_ext': '.fits', 'output_use_model': False, 'output_use_index': True, 'save_results': False, 'skip': False, 'suffix': None, 'search_output_file': True, 'input_dir': 'uncal', 'n_pix_grow_sat': 1}
+2023-11-16 13:18:45,089 - stpipe.Detector1Pipeline.saturation - INFO - Using SATURATION reference file /Volumes/agdisk/crds/references/jwst/miri/jwst_miri_saturation_0034.fits
+2023-11-16 13:18:45,137 - stpipe.Detector1Pipeline.saturation - WARNING - Keyword RESERVED_4 does not correspond to an existing DQ mnemonic, so will be ignored
+2023-11-16 13:18:45,190 - stpipe.Detector1Pipeline.saturation - WARNING - Keyword UNRELIABLE_RESET does not correspond to an existing DQ mnemonic, so will be ignored
+2023-11-16 13:18:45,281 - stpipe.Detector1Pipeline.saturation - INFO - Extracting reference file subarray to match science data
+2023-11-16 13:18:49,095 - stpipe.Detector1Pipeline.saturation - INFO - Detected 648 saturated pixels
+2023-11-16 13:18:49,106 - stpipe.Detector1Pipeline.saturation - INFO - Detected 0 A/D floor pixels
+2023-11-16 13:18:49,112 - stpipe.Detector1Pipeline.saturation - INFO - Step saturation done
+2023-11-16 13:18:49,168 - stpipe.Detector1Pipeline.ipc - INFO - Step ipc running with args (<RampModel(19, 100, 224, 288) from jw01386007001_04101_00009_mirimage_uncal.fits>,).
+2023-11-16 13:18:49,168 - stpipe.Detector1Pipeline.ipc - INFO - Step ipc parameters are: {'pre_hooks': [], 'post_hooks': [], 'output_file': None, 'output_dir': None, 'output_ext': '.fits', 'output_use_model': False, 'output_use_index': True, 'save_results': False, 'skip': True, 'suffix': None, 'search_output_file': True, 'input_dir': 'uncal'}
+2023-11-16 13:18:49,168 - stpipe.Detector1Pipeline.ipc - INFO - Step skipped.
+2023-11-16 13:18:49,170 - stpipe.Detector1Pipeline.ipc - INFO - Step ipc done
+2023-11-16 13:18:49,222 - stpipe.Detector1Pipeline.firstframe - INFO - Step firstframe running with args (<RampModel(19, 100, 224, 288) from jw01386007001_04101_00009_mirimage_uncal.fits>,).
+2023-11-16 13:18:49,223 - stpipe.Detector1Pipeline.firstframe - INFO - Step firstframe parameters are: {'pre_hooks': [], 'post_hooks': [], 'output_file': None, 'output_dir': None, 'output_ext': '.fits', 'output_use_model': False, 'output_use_index': True, 'save_results': False, 'skip': False, 'suffix': None, 'search_output_file': True, 'input_dir': 'uncal'}
+2023-11-16 13:18:49,303 - stpipe.Detector1Pipeline.firstframe - INFO - Step firstframe done
+2023-11-16 13:18:49,359 - stpipe.Detector1Pipeline.lastframe - INFO - Step lastframe running with args (<RampModel(19, 100, 224, 288) from jw01386007001_04101_00009_mirimage_uncal.fits>,).
+2023-11-16 13:18:49,360 - stpipe.Detector1Pipeline.lastframe - INFO - Step lastframe parameters are: {'pre_hooks': [], 'post_hooks': [], 'output_file': None, 'output_dir': None, 'output_ext': '.fits', 'output_use_model': False, 'output_use_index': True, 'save_results': False, 'skip': False, 'suffix': None, 'search_output_file': True, 'input_dir': 'uncal'}
+2023-11-16 13:18:49,443 - stpipe.Detector1Pipeline.lastframe - INFO - Step lastframe done
+2023-11-16 13:18:49,498 - stpipe.Detector1Pipeline.reset - INFO - Step reset running with args (<RampModel(19, 100, 224, 288) from jw01386007001_04101_00009_mirimage_uncal.fits>,).
+2023-11-16 13:18:49,499 - stpipe.Detector1Pipeline.reset - INFO - Step reset parameters are: {'pre_hooks': [], 'post_hooks': [], 'output_file': None, 'output_dir': None, 'output_ext': '.fits', 'output_use_model': False, 'output_use_index': True, 'save_results': False, 'skip': False, 'suffix': None, 'search_output_file': True, 'input_dir': 'uncal'}
+2023-11-16 13:18:49,518 - stpipe.Detector1Pipeline.reset - INFO - Using RESET reference file /Volumes/agdisk/crds/references/jwst/miri/jwst_miri_reset_0065.fits
+2023-11-16 13:18:49,545 - stpipe.Detector1Pipeline.reset - WARNING - Keyword RESERVED_4 does not correspond to an existing DQ mnemonic, so will be ignored
+2023-11-16 13:18:49,549 - stpipe.Detector1Pipeline.reset - WARNING - Keyword UNRELIABLE_RESET does not correspond to an existing DQ mnemonic, so will be ignored
+2023-11-16 13:18:49,645 - stpipe.Detector1Pipeline.reset - INFO - Step reset done
+2023-11-16 13:18:49,700 - stpipe.Detector1Pipeline.linearity - INFO - Step linearity running with args (<RampModel(19, 100, 224, 288) from jw01386007001_04101_00009_mirimage_uncal.fits>,).
+2023-11-16 13:18:49,701 - stpipe.Detector1Pipeline.linearity - INFO - Step linearity parameters are: {'pre_hooks': [], 'post_hooks': [], 'output_file': None, 'output_dir': None, 'output_ext': '.fits', 'output_use_model': False, 'output_use_index': True, 'save_results': False, 'skip': False, 'suffix': None, 'search_output_file': True, 'input_dir': 'uncal'}
+2023-11-16 13:18:49,719 - stpipe.Detector1Pipeline.linearity - INFO - Using Linearity reference file /Volumes/agdisk/crds/references/jwst/miri/jwst_miri_linearity_0032.fits
+2023-11-16 13:18:49,770 - stpipe.Detector1Pipeline.linearity - WARNING - Keyword RESERVED_4 does not correspond to an existing DQ mnemonic, so will be ignored
+2023-11-16 13:18:49,824 - stpipe.Detector1Pipeline.linearity - WARNING - Keyword UNRELIABLE_RESET does not correspond to an existing DQ mnemonic, so will be ignored
+2023-11-16 13:18:50,207 - stpipe.Detector1Pipeline.linearity - INFO - Step linearity done
+2023-11-16 13:18:50,264 - stpipe.Detector1Pipeline.rscd - INFO - Step rscd running with args (<RampModel(19, 100, 224, 288) from jw01386007001_04101_00009_mirimage_uncal.fits>,).
+2023-11-16 13:18:50,265 - stpipe.Detector1Pipeline.rscd - INFO - Step rscd parameters are: {'pre_hooks': [], 'post_hooks': [], 'output_file': None, 'output_dir': None, 'output_ext': '.fits', 'output_use_model': False, 'output_use_index': True, 'save_results': False, 'skip': False, 'suffix': None, 'search_output_file': True, 'input_dir': 'uncal', 'type': 'baseline'}
+2023-11-16 13:18:50,284 - stpipe.Detector1Pipeline.rscd - INFO - Using RSCD reference file /Volumes/agdisk/crds/references/jwst/miri/jwst_miri_rscd_0017.fits
+2023-11-16 13:18:50,397 - stpipe.Detector1Pipeline.rscd - INFO - Step rscd done
+2023-11-16 13:18:50,456 - stpipe.Detector1Pipeline.dark_current - INFO - Step dark_current running with args (<RampModel(19, 100, 224, 288) from jw01386007001_04101_00009_mirimage_uncal.fits>,).
+2023-11-16 13:18:50,457 - stpipe.Detector1Pipeline.dark_current - INFO - Step dark_current parameters are: {'pre_hooks': [], 'post_hooks': [], 'output_file': None, 'output_dir': 'stage1/output', 'output_ext': '.fits', 'output_use_model': False, 'output_use_index': True, 'save_results': False, 'skip': False, 'suffix': None, 'search_output_file': True, 'input_dir': 'uncal', 'dark_output': None}
+2023-11-16 13:18:50,476 - stpipe.Detector1Pipeline.dark_current - INFO - Using DARK reference file /Volumes/agdisk/crds/references/jwst/miri/jwst_miri_dark_0098.fits
+2023-11-16 13:18:50,584 - stpipe.Detector1Pipeline.dark_current - WARNING - Keyword UNRELIABLE_RESET does not correspond to an existing DQ mnemonic, so will be ignored
+2023-11-16 13:18:50,588 - stpipe.Detector1Pipeline.dark_current - INFO - Science data nints=19, ngroups=100, nframes=1, groupgap=0
+2023-11-16 13:18:50,588 - stpipe.Detector1Pipeline.dark_current - INFO - Dark data nints=3, ngroups=500, nframes=1, groupgap=0
+2023-11-16 13:18:51,066 - stpipe.Detector1Pipeline.dark_current - INFO - Step dark_current done
+2023-11-16 13:18:51,124 - stpipe.Detector1Pipeline.refpix - INFO - Step refpix running with args (<RampModel(19, 100, 224, 288) from jw01386007001_04101_00009_mirimage_uncal.fits>,).
+2023-11-16 13:18:51,125 - stpipe.Detector1Pipeline.refpix - INFO - Step refpix parameters are: {'pre_hooks': [], 'post_hooks': [], 'output_file': None, 'output_dir': None, 'output_ext': '.fits', 'output_use_model': False, 'output_use_index': True, 'save_results': False, 'skip': False, 'suffix': None, 'search_output_file': True, 'input_dir': 'uncal', 'odd_even_columns': True, 'use_side_ref_pixels': True, 'side_smoothing_length': 11, 'side_gain': 1.0, 'odd_even_rows': True, 'ovr_corr_mitigation_ftr': 1.8}
+2023-11-16 13:18:51,205 - stpipe.Detector1Pipeline.refpix - WARNING - Refpix correction skipped for MIRI subarrays
+2023-11-16 13:18:51,207 - stpipe.Detector1Pipeline.refpix - INFO - Step refpix done
+2023-11-16 13:18:51,262 - stpipe.Detector1Pipeline.jump - INFO - Step jump running with args (<RampModel(19, 100, 224, 288) from jw01386007001_04101_00009_mirimage_uncal.fits>,).
+2023-11-16 13:18:51,263 - stpipe.Detector1Pipeline.jump - INFO - Step jump parameters are: {'pre_hooks': [], 'post_hooks': [], 'output_file': None, 'output_dir': None, 'output_ext': '.fits', 'output_use_model': False, 'output_use_index': True, 'save_results': False, 'skip': False, 'suffix': None, 'search_output_file': True, 'input_dir': 'uncal', 'rejection_threshold': 4.0, 'three_group_rejection_threshold': 6.0, 'four_group_rejection_threshold': 5.0, 'maximum_cores': 'half', 'flag_4_neighbors': True, 'max_jump_to_flag_neighbors': 1000.0, 'min_jump_to_flag_neighbors': 10.0, 'after_jump_flag_dn1': 100, 'after_jump_flag_time1': 15, 'after_jump_flag_dn2': 2000, 'after_jump_flag_time2': 3000, 'min_sat_area': 0, 'min_jump_area': 15, 'expand_factor': 2.5, 'use_ellipses': True, 'sat_required_snowball': False, 'min_sat_radius_extend': 2.5, 'sat_expand': 2, 'expand_large_events': False, 'find_showers': False, 'edge_size': 25, 'extend_snr_threshold': 1.2, 'extend_min_area': 90, 'extend_inner_radius': 1.0, 'extend_outer_radius': 2.6, 'extend_ellipse_expand_ratio': 1.1, 'time_masked_after_shower': 15.0, 'max_extended_radius': 200, 'minimum_groups': 3, 'minimum_sigclip_groups': 100, 'only_use_ints': True}
+2023-11-16 13:18:51,272 - stpipe.Detector1Pipeline.jump - INFO - CR rejection threshold = 4 sigma
+2023-11-16 13:18:51,272 - stpipe.Detector1Pipeline.jump - INFO - Maximum cores to use = half
+2023-11-16 13:18:51,282 - stpipe.Detector1Pipeline.jump - INFO - Using GAIN reference file: /Volumes/agdisk/crds/references/jwst/miri/jwst_miri_gain_0018.fits
+2023-11-16 13:18:51,311 - stpipe.Detector1Pipeline.jump - INFO - Using READNOISE reference file: /Volumes/agdisk/crds/references/jwst/miri/jwst_miri_readnoise_0085.fits
+2023-11-16 13:18:51,400 - stpipe.Detector1Pipeline.jump - INFO - Extracting gain subarray to match science data
+2023-11-16 13:18:51,401 - stpipe.Detector1Pipeline.jump - INFO - Extracting readnoise subarray to match science data
+2023-11-16 13:18:51,457 - stpipe.Detector1Pipeline.jump - INFO - Executing two-point difference method
+2023-11-16 13:18:51,527 - stpipe.Detector1Pipeline.jump - INFO - Creating 5 processes for jump detection 
+2023-11-16 13:19:19,154 - stpipe.Detector1Pipeline.jump - INFO - Total elapsed time = 27.6959 sec
+2023-11-16 13:19:19,562 - stpipe.Detector1Pipeline.jump - INFO - The execution time in seconds: 28.290384
+2023-11-16 13:19:19,568 - stpipe.Detector1Pipeline.jump - INFO - Step jump done
+2023-11-16 13:19:19,642 - stpipe.Detector1Pipeline.undersampling_correction - INFO - Step undersampling_correction running with args (<RampModel(19, 100, 224, 288) from jw01386007001_04101_00009_mirimage_uncal.fits>,).
+2023-11-16 13:19:19,643 - stpipe.Detector1Pipeline.undersampling_correction - INFO - Step undersampling_correction parameters are: {'pre_hooks': [], 'post_hooks': [], 'output_file': None, 'output_dir': None, 'output_ext': '.fits', 'output_use_model': False, 'output_use_index': True, 'save_results': False, 'skip': True, 'suffix': None, 'search_output_file': True, 'input_dir': 'uncal', 'signal_threshold': 30000.0}
+2023-11-16 13:19:19,643 - stpipe.Detector1Pipeline.undersampling_correction - INFO - Step skipped.
+2023-11-16 13:19:19,644 - stpipe.Detector1Pipeline.undersampling_correction - INFO - Step undersampling_correction done
+2023-11-16 13:19:19,696 - stpipe.Detector1Pipeline.ramp_fit - INFO - Step ramp_fit running with args (<RampModel(19, 100, 224, 288) from jw01386007001_04101_00009_mirimage_uncal.fits>,).
+2023-11-16 13:19:19,697 - stpipe.Detector1Pipeline.ramp_fit - INFO - Step ramp_fit parameters are: {'pre_hooks': [], 'post_hooks': [], 'output_file': None, 'output_dir': 'stage1/output', 'output_ext': '.fits', 'output_use_model': False, 'output_use_index': True, 'save_results': False, 'skip': False, 'suffix': None, 'search_output_file': True, 'input_dir': 'uncal', 'int_name': '', 'save_opt': False, 'opt_name': '', 'suppress_one_group': True, 'maximum_cores': 'half'}
+2023-11-16 13:19:19,726 - stpipe.Detector1Pipeline.ramp_fit - INFO - Using READNOISE reference file: /Volumes/agdisk/crds/references/jwst/miri/jwst_miri_readnoise_0085.fits
+2023-11-16 13:19:19,726 - stpipe.Detector1Pipeline.ramp_fit - INFO - Using GAIN reference file: /Volumes/agdisk/crds/references/jwst/miri/jwst_miri_gain_0018.fits
+2023-11-16 13:19:19,765 - stpipe.Detector1Pipeline.ramp_fit - INFO - Extracting gain subarray to match science data
+2023-11-16 13:19:19,766 - stpipe.Detector1Pipeline.ramp_fit - INFO - Extracting readnoise subarray to match science data
+2023-11-16 13:19:19,766 - stpipe.Detector1Pipeline.ramp_fit - INFO - Using algorithm = ols
+2023-11-16 13:19:19,766 - stpipe.Detector1Pipeline.ramp_fit - INFO - Using weighting = optimal
+2023-11-16 13:19:20,333 - stpipe.Detector1Pipeline.ramp_fit - INFO - Number of leading groups that are flagged as DO_NOT_USE: 1
+2023-11-16 13:19:20,334 - stpipe.Detector1Pipeline.ramp_fit - INFO - MIRI dataset has all pixels in the final group flagged as DO_NOT_USE.
+2023-11-16 13:19:20,334 - stpipe.Detector1Pipeline.ramp_fit - INFO - Number of processors used for multiprocessing: 5
+2023-11-16 13:20:37,364 - stpipe.Detector1Pipeline.ramp_fit - INFO - Step ramp_fit done
+2023-11-16 13:20:37,438 - stpipe.Detector1Pipeline.gain_scale - INFO - Step gain_scale running with args (<ImageModel(224, 288) from jw01386007001_04101_00009_mirimage_uncal.fits>,).
+2023-11-16 13:20:37,439 - stpipe.Detector1Pipeline.gain_scale - INFO - Step gain_scale parameters are: {'pre_hooks': [], 'post_hooks': [], 'output_file': None, 'output_dir': None, 'output_ext': '.fits', 'output_use_model': False, 'output_use_index': True, 'save_results': False, 'skip': False, 'suffix': 'gain_scale', 'search_output_file': True, 'input_dir': 'uncal'}
+2023-11-16 13:20:37,477 - stpipe.Detector1Pipeline.gain_scale - INFO - GAINFACT not found in gain reference file
+2023-11-16 13:20:37,477 - stpipe.Detector1Pipeline.gain_scale - INFO - Step will be skipped
+2023-11-16 13:20:37,481 - stpipe.Detector1Pipeline.gain_scale - INFO - Step gain_scale done
+2023-11-16 13:20:37,541 - stpipe.Detector1Pipeline.gain_scale - INFO - Step gain_scale running with args (<CubeModel(19, 224, 288) from jw01386007001_04101_00009_mirimage_uncal.fits>,).
+2023-11-16 13:20:37,541 - stpipe.Detector1Pipeline.gain_scale - INFO - Step gain_scale parameters are: {'pre_hooks': [], 'post_hooks': [], 'output_file': None, 'output_dir': None, 'output_ext': '.fits', 'output_use_model': False, 'output_use_index': True, 'save_results': False, 'skip': False, 'suffix': 'gain_scaleints', 'search_output_file': True, 'input_dir': 'uncal'}
+2023-11-16 13:20:37,583 - stpipe.Detector1Pipeline.gain_scale - INFO - GAINFACT not found in gain reference file
+2023-11-16 13:20:37,583 - stpipe.Detector1Pipeline.gain_scale - INFO - Step will be skipped
+2023-11-16 13:20:37,586 - stpipe.Detector1Pipeline.gain_scale - INFO - Step gain_scale done
+2023-11-16 13:20:37,657 - stpipe.Detector1Pipeline - INFO - Saved model in stage1/output/jw01386007001_04101_00009_mirimage_rateints.fits
+2023-11-16 13:20:37,657 - stpipe.Detector1Pipeline - INFO - ... ending calwebb_detector1
+2023-11-16 13:20:37,658 - stpipe.Detector1Pipeline - INFO - Results used CRDS context: jwst_1148.pmap
+2023-11-16 13:20:37,711 - stpipe.Detector1Pipeline - INFO - Saved model in stage1/output/jw01386007001_04101_00009_mirimage_rate.fits
+2023-11-16 13:20:37,711 - stpipe.Detector1Pipeline - INFO - Step Detector1Pipeline done
+2023-11-16 13:20:39,672 - stpipe - INFO - PARS-JUMPSTEP parameters found: /Volumes/agdisk/crds/references/jwst/miri/jwst_miri_pars-jumpstep_0002.asdf
+2023-11-16 13:20:39,683 - stpipe - INFO - PARS-DETECTOR1PIPELINE parameters found: /Volumes/agdisk/crds/references/jwst/miri/jwst_miri_pars-detector1pipeline_0001.asdf
