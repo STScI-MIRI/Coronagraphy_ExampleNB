@@ -1,20 +1,20 @@
-2023-11-16 11:52:19,834 - stpipe.FlatFieldStep - INFO - FlatFieldStep instance created.
-2023-11-16 11:52:19,926 - stpipe.FlatFieldStep - INFO - Step FlatFieldStep running with args (<CubeModel(60, 224, 288) from jw01386008001_04101_00001_mirimage_assignwcsstep.fits>,).
-2023-11-16 11:52:19,927 - stpipe.FlatFieldStep - INFO - Step FlatFieldStep parameters are: {'pre_hooks': [], 'post_hooks': [], 'output_file': None, 'output_dir': 'stage2/output-steps/flat_field', 'output_ext': '.fits', 'output_use_model': False, 'output_use_index': True, 'save_results': True, 'skip': False, 'suffix': None, 'search_output_file': True, 'input_dir': '', 'save_interpolated_flat': False, 'user_supplied_flat': None, 'inverse': False}
-2023-11-16 11:52:20,207 - stpipe.FlatFieldStep - WARNING - Keyword CDP_PARTIAL_DATA does not correspond to an existing DQ mnemonic, so will be ignored
-2023-11-16 11:52:20,207 - stpipe.FlatFieldStep - WARNING - Keyword CDP_LOW_QUAL does not correspond to an existing DQ mnemonic, so will be ignored
-2023-11-16 11:52:20,208 - stpipe.FlatFieldStep - WARNING - Keyword CDP_UNRELIABLE_ERROR does not correspond to an existing DQ mnemonic, so will be ignored
-2023-11-16 11:52:20,208 - stpipe.FlatFieldStep - WARNING - Keyword DIFF_PATTERN does not correspond to an existing DQ mnemonic, so will be ignored
-2023-11-16 11:52:20,211 - stpipe.FlatFieldStep - INFO - Using FLAT reference file: /Volumes/agdisk/crds/references/jwst/miri/jwst_miri_flat_0768.fits
-2023-11-16 11:52:20,211 - stpipe.FlatFieldStep - INFO - No reference found for type FFLAT
-2023-11-16 11:52:20,211 - stpipe.FlatFieldStep - INFO - No reference found for type SFLAT
-2023-11-16 11:52:20,211 - stpipe.FlatFieldStep - INFO - No reference found for type DFLAT
-2023-11-16 11:52:20,394 - stpipe.FlatFieldStep - INFO - Results used CRDS context: jwst_1148.pmap
-2023-11-16 11:52:20,657 - stpipe.FlatFieldStep - INFO - Saved model in stage2/output-steps/flat_field/jw01386008001_04101_00001_mirimage_flatfieldstep.fits
-2023-11-16 11:52:20,657 - stpipe.FlatFieldStep - INFO - Step FlatFieldStep done
-2023-11-16 11:52:20,708 - stpipe - WARNING - /var/folders/hr/1pqv7tg94gvbhpcgq7c2fb_r0001bw/T/ipykernel_35319/4197367378.py:6: RuntimeWarning: Mean of empty slice
+2023-11-16 12:53:17,705 - stpipe.FlatFieldStep - INFO - FlatFieldStep instance created.
+2023-11-16 12:53:17,769 - stpipe.FlatFieldStep - INFO - Step FlatFieldStep running with args (<CubeModel(60, 224, 288) from jw01386008001_04101_00001_mirimage_assignwcsstep.fits>,).
+2023-11-16 12:53:17,769 - stpipe.FlatFieldStep - INFO - Step FlatFieldStep parameters are: {'pre_hooks': [], 'post_hooks': [], 'output_file': None, 'output_dir': 'stage2/output-steps/flat_field', 'output_ext': '.fits', 'output_use_model': False, 'output_use_index': True, 'save_results': True, 'skip': False, 'suffix': None, 'search_output_file': True, 'input_dir': '', 'save_interpolated_flat': False, 'user_supplied_flat': None, 'inverse': False}
+2023-11-16 12:53:18,038 - stpipe.FlatFieldStep - WARNING - Keyword CDP_PARTIAL_DATA does not correspond to an existing DQ mnemonic, so will be ignored
+2023-11-16 12:53:18,039 - stpipe.FlatFieldStep - WARNING - Keyword CDP_LOW_QUAL does not correspond to an existing DQ mnemonic, so will be ignored
+2023-11-16 12:53:18,039 - stpipe.FlatFieldStep - WARNING - Keyword CDP_UNRELIABLE_ERROR does not correspond to an existing DQ mnemonic, so will be ignored
+2023-11-16 12:53:18,039 - stpipe.FlatFieldStep - WARNING - Keyword DIFF_PATTERN does not correspond to an existing DQ mnemonic, so will be ignored
+2023-11-16 12:53:18,041 - stpipe.FlatFieldStep - INFO - Using FLAT reference file: /Volumes/agdisk/crds/references/jwst/miri/jwst_miri_flat_0768.fits
+2023-11-16 12:53:18,041 - stpipe.FlatFieldStep - INFO - No reference found for type FFLAT
+2023-11-16 12:53:18,041 - stpipe.FlatFieldStep - INFO - No reference found for type SFLAT
+2023-11-16 12:53:18,041 - stpipe.FlatFieldStep - INFO - No reference found for type DFLAT
+2023-11-16 12:53:18,175 - stpipe.FlatFieldStep - INFO - Results used CRDS context: jwst_1148.pmap
+2023-11-16 12:53:18,507 - stpipe.FlatFieldStep - INFO - Saved model in stage2/output-steps/flat_field/jw01386008001_04101_00001_mirimage_flatfieldstep.fits
+2023-11-16 12:53:18,507 - stpipe.FlatFieldStep - INFO - Step FlatFieldStep done
+2023-11-16 12:53:18,545 - stpipe - WARNING - /var/folders/hr/1pqv7tg94gvbhpcgq7c2fb_r0001bw/T/ipykernel_42750/4197367378.py:6: RuntimeWarning: Mean of empty slice
   before_img = np.nanmean(results['assign_wcs'].data, axis=0)
 
-2023-11-16 11:52:20,717 - stpipe - WARNING - /var/folders/hr/1pqv7tg94gvbhpcgq7c2fb_r0001bw/T/ipykernel_35319/4197367378.py:7: RuntimeWarning: Mean of empty slice
+2023-11-16 12:53:18,551 - stpipe - WARNING - /var/folders/hr/1pqv7tg94gvbhpcgq7c2fb_r0001bw/T/ipykernel_42750/4197367378.py:7: RuntimeWarning: Mean of empty slice
   after_img = np.nanmean(results['flat_field'].data, axis=0)
 
