@@ -5,16 +5,20 @@
 
 These tutorials guide users through running the jwst calibration pipeline on MIRI coronagraphy data, using the JWST-ERS-1386 program's observations of HIP 65426 as an example. We show how to customize the pipeline at the stage level and at the individual step level. We do not show how to override reference files.
 
-The pipeline consists of 3 stages: 
+The MIRI coronagraphy pipeline consists of 3 stages:
 
-1. Stage 1: detector-level corrections and "ramps to slopes". 
-    This stage converts the data from units of uncalibrated "DN" into the rate unit "DN/s" by performing linearity corrections and slope-fitting to the groups that comprise each integration.
+1. Stage 1: detector-level corrections and "ramps to slopes"
+   - https://jwst-pipeline.readthedocs.io/en/latest/jwst/pipeline/calwebb_detector1.html#calwebb-detector1
+   - This stage converts the data from units of uncalibrated "DN" into the rate unit "DN/s" by performing linearity corrections and slope-fitting to the groups that comprise each integration.
 2. Stage 2: photometric calibration
-    This stage converts the slopes into units of MJy/sr. Also performs background subtraction, if an association file is provided with background exposures identified.
+   - https://jwst-pipeline.readthedocs.io/en/latest/jwst/pipeline/calwebb_image2.html#calwebb-image2
+   - This stage converts the slopes into units of MJy/sr. Also performs background subtraction, if an association file is provided with background exposures identified.
 3. Stage 3: PSF subtraction
-    This stage constructs a PSF from the PSF reference targets and subtracts it from the science target(s) using the KLIP algorithm. If more than one roll is used to observe the science target, it derotates and co-adds them.
+    - https://jwst-pipeline.readthedocs.io/en/latest/jwst/pipeline/calwebb_coron3.html#calwebb-coron3
+    - This stage constructs a PSF from the PSF reference targets and subtracts it from the science target(s) using the KLIP algorithm. If more than one roll is used to observe the science target, it derotates and co-adds them.
 
-Pipeline documentation is available here: https://jwst-pipeline.readthedocs.io/en/latest/
+
+General pipeline documentation is available here: https://jwst-pipeline.readthedocs.io/en/latest/ . The different pipelines are listed on this page: https://jwst-pipeline.readthedocs.io/en/latest/jwst/pipeline/main.html#pipelines . 
 
 
 ## Requirements
@@ -58,6 +62,7 @@ The directory structure is as follows:
         - stage2/
         - stage3/
 
+Some notebooks include much more detail than others. The most detailed notebook, in terms of pipeline customization and annotation, is `calwebb_detector-single_file.ipynb` - the notebook that runs a single exposure through each step of the Detector1Pipeline class. In the interest of brevity, subsequent notebooks assume that the user is familiar with the concepts presented in "earlier" notebooks. If something isn't clear in, for example, the `full_pipeline.ipynb` notebook, we suggest that users take a look at the other notebooks to see if it is explained there.
 
 ### Stage 1
 
