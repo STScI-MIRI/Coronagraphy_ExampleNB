@@ -65,6 +65,8 @@ The directory structure is as follows:
         - stage2/
         - stage3/
 
+Notebooks that generate association files will place those files into their respective output folders.
+
 Some notebooks include much more detail than others. The most detailed notebook, in terms of pipeline customization and annotation, is `calwebb_detector-single_file.ipynb` - the notebook that runs a single exposure through each step of the Detector1Pipeline class. In the interest of brevity, subsequent notebooks assume that the user is familiar with the concepts presented in "earlier" notebooks. If something isn't clear in, for example, the `full_pipeline.ipynb` notebook, we suggest that users take a look at the other notebooks to see if it is explained there.
 
 ### Stage 1
